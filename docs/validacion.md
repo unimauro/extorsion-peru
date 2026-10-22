@@ -17,3 +17,7 @@ No se atribuye cumplimiento WCAG completo: se implementan idioma, landmarks, eti
 - Prueba HTTP local: seis hipótesis, cuatro tareas, seis hallazgos y tabla2026 de26regiones cargados; sin errores/advertencias de consola. Vista de1280px sin desbordamiento horizontal.
 - Se desplegó la tabla regional y se revisó visualmente su lectura y barras.
 - La ejecución publicada y su commit se consultan en https://github.com/unimauro/extorsion-peru/actions.
+
+## Escenarios de cierre2026
+
+Validación de fórmulas y navegador: escenario1×=20.870; escenario2×=29.565; umbral de duplicación=53.456. El selector actualiza el resultado y la barra; sin errores de consola. Se verificaron26filas regionales y los límites de extrapolación.

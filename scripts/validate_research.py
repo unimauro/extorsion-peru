@@ -33,3 +33,14 @@ for t in trace['tasks']:
  if 'trace' in t: assert (root/t['trace']).is_file()
 assert read(root/'data/actualizacion_2026.json')['verified_statistical_cutoff']=='2026-07-31'
 print('OK: 26 pares regionales, totales y variaciones, fuentes nuevas, 6 hipótesis y trazas enlazadas.')
+p=read(root/'data/proyeccion_2026.json')
+assert p['observed_complaints']==sum(r['enero_julio_2026'] for r in rows)
+assert p['observed_months']+p['unobserved_months']==12
+for s in p['scenarios']:
+ assert s['projected_annual']==round(p['observed_complaints']+p['observed_complaints']/p['observed_months']*s['multiplier']*p['unobserved_months'])
+assert next(s for s in p['scenarios'] if s['multiplier']==1)['projected_annual']==20870
+t=p['doubling_2025_reference']
+assert t['target']==53456
+assert abs(p['observed_complaints']+p['observed_monthly_average']*t['required_multiplier']*5-t['target'])<0.001
+assert len(p['regions_linear'])==26 and p['not_a_forecast'] and p['confidence_interval'] is None
+print('OK: escenarios y umbral de duplicación, unidades, redondeo y límites de proyección.')

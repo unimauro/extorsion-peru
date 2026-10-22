@@ -19,6 +19,8 @@ Edición ampliada, revisada el **22 de octubre de 2026**. La estadística princi
 
 Tres agentes investigaron en paralelo estadísticas, cobros/banca y comunicaciones. Los dosieres y las trazas están en [research/2026-10-22](research/2026-10-22/). El conteo SIDPOL verificado llega al **31/07/2026: 12.174 denuncias**, frente a **16.202** en enero–julio de 2025. La revisión llega al 22/10/2026; no existe aquí un conteo validado hasta octubre. El catálogo de septiembre quedó pendiente de acceso. El mapa de tasas mantiene su periodo anual 2025; la comparación regional 2026 usa conteos, por separado.
 
+La sección `#proyeccion` permite simular el cierre de2026 y consultar la extrapolación regional. Conserva observado y simulado separados; no es un pronóstico estadístico. Los supuestos están en `data/proyeccion_2026.json`.
+
 La web incorpora seis hipótesis con respaldo, contraevidencia y prueba pendiente. El caso adicional del dosier bancario corresponde a hechos de 2025 y no se suma al explorador de cinco casos ni a estadísticas nacionales. Las fuentes nuevas se conservan en cada dosier, además del registro original de 20 fuentes y pistas.
 
 ## Ejecutar y comprobar

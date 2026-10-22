@@ -48,3 +48,18 @@ manifest=read(root/'data/manifest.json')
 manifest.update(version='1.1.0',statistical_period='2019–2025 completos; enero–julio2026 separado',statistical_2026_updated_at='2026-07-31',research_directory='research/2026-10-22',hypotheses_file='data/hipotesis.json')
 write('manifest',manifest)
 print('Consolidados: actualización 2026, seis hipótesis, traza y manifiesto.')
+observed=stat['hallazgos'][0]['conteo']
+baseline=next(x for x in read(root/'data/serie_anual.json') if x['year']==2025)['complaints']
+monthly=observed/7
+write('proyeccion_2026',{
+ 'reviewed_at':'2026-10-22','observed_cutoff':'2026-07-31','observed_months':7,'unobserved_months':5,
+ 'observed_complaints':observed,'observed_monthly_average':monthly,
+ 'baseline_2025_annual':baseline,'baseline_source_id':'S01','observed_source_url':stat['fuentes'][0]['url'],
+ 'method':'Escenarios aritméticos: observado enero–julio + (promedio mensual enero–julio × multiplicador × 5 meses agosto–diciembre).',
+ 'formula':'12174 + (12174 / 7) * multiplier * 5',
+ 'not_a_forecast':True,'confidence_interval':None,
+ 'limitations':['Agosto–diciembre se simulan por falta de conteo verificado, incluso los meses que ya transcurrieron al revisar el sitio.','Supone ritmo mensual constante dentro del tramo simulado. No ajusta estacionalidad, subregistro, cambios legales ni revisiones de SIDPOL.','Los escenarios no tienen probabilidades asignadas ni constituyen un intervalo de confianza.','El referente anual2025 procede de otra edición. La comparación es orientativa y no acredita equivalencia de clasificación con el reporte parcial2026.','Se proyectan denuncias registradas, no el total real de extorsiones ni víctimas.'],
+ 'scenarios':[{'multiplier':m,'projected_annual':round(observed+monthly*m*5),'simulated_remaining':round(monthly*m*5)} for m in [0.5,1,1.5,2,3,5]],
+ 'doubling_2025_reference':{'target':baseline*2,'required_aug_dec_total':baseline*2-observed,'required_monthly_average':(baseline*2-observed)/5,'required_multiplier':(baseline*2-observed)/5/monthly},
+ 'regions_linear':[{'region':r['region'],'observed_2026':r['enero_julio_2026'],'observed_2025_same_period':r['enero_julio_2025'],'same_period_change_pct':r['variacion_porcentual_calculada'],'projected_2026_constant_pace':round(r['enero_julio_2026']/7*12)} for r in stat['regiones']['filas']]
+})

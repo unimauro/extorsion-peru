@@ -1,0 +1,244 @@
+{
+  "reviewed_at": "2026-10-22",
+  "observed_cutoff": "2026-07-31",
+  "observed_months": 7,
+  "unobserved_months": 5,
+  "observed_complaints": 12174,
+  "observed_monthly_average": 1739.142857142857,
+  "baseline_2025_annual": 26728,
+  "baseline_source_id": "S01",
+  "observed_source_url": "https://observatorio.mininter.gob.pe/sites/default/files/proyecto/archivos/Reporte_SIDPOL_Julio2026.pdf",
+  "method": "Escenarios aritméticos: observado enero–julio + (promedio mensual enero–julio × multiplicador × 5 meses agosto–diciembre).",
+  "formula": "12174 + (12174 / 7) * multiplier * 5",
+  "not_a_forecast": true,
+  "confidence_interval": null,
+  "limitations": [
+    "Agosto–diciembre se simulan por falta de conteo verificado, incluso los meses que ya transcurrieron al revisar el sitio.",
+    "Supone ritmo mensual constante dentro del tramo simulado. No ajusta estacionalidad, subregistro, cambios legales ni revisiones de SIDPOL.",
+    "Los escenarios no tienen probabilidades asignadas ni constituyen un intervalo de confianza.",
+    "El referente anual2025 procede de otra edición. La comparación es orientativa y no acredita equivalencia de clasificación con el reporte parcial2026.",
+    "Se proyectan denuncias registradas, no el total real de extorsiones ni víctimas."
+  ],
+  "scenarios": [
+    {
+      "multiplier": 0.5,
+      "projected_annual": 16522,
+      "simulated_remaining": 4348
+    },
+    {
+      "multiplier": 1,
+      "projected_annual": 20870,
+      "simulated_remaining": 8696
+    },
+    {
+      "multiplier": 1.5,
+      "projected_annual": 25218,
+      "simulated_remaining": 13044
+    },
+    {
+      "multiplier": 2,
+      "projected_annual": 29565,
+      "simulated_remaining": 17391
+    },
+    {
+      "multiplier": 3,
+      "projected_annual": 38261,
+      "simulated_remaining": 26087
+    },
+    {
+      "multiplier": 5,
+      "projected_annual": 55653,
+      "simulated_remaining": 43479
+    }
+  ],
+  "doubling_2025_reference": {
+    "target": 53456,
+    "required_aug_dec_total": 41282,
+    "required_monthly_average": 8256.4,
+    "required_multiplier": 4.747396090027928
+  },
+  "regions_linear": [
+    {
+      "region": "Lima Metropolitana",
+      "observed_2026": 4961,
+      "observed_2025_same_period": 6707,
+      "same_period_change_pct": -26.0325,
+      "projected_2026_constant_pace": 8505
+    },
+    {
+      "region": "La Libertad",
+      "observed_2026": 1834,
+      "observed_2025_same_period": 2750,
+      "same_period_change_pct": -33.3091,
+      "projected_2026_constant_pace": 3144
+    },
+    {
+      "region": "Región Lima",
+      "observed_2026": 956,
+      "observed_2025_same_period": 855,
+      "same_period_change_pct": 11.8129,
+      "projected_2026_constant_pace": 1639
+    },
+    {
+      "region": "Piura",
+      "observed_2026": 752,
+      "observed_2025_same_period": 1795,
+      "same_period_change_pct": -58.1058,
+      "projected_2026_constant_pace": 1289
+    },
+    {
+      "region": "Callao",
+      "observed_2026": 462,
+      "observed_2025_same_period": 543,
+      "same_period_change_pct": -14.9171,
+      "projected_2026_constant_pace": 792
+    },
+    {
+      "region": "Tumbes",
+      "observed_2026": 439,
+      "observed_2025_same_period": 291,
+      "same_period_change_pct": 50.8591,
+      "projected_2026_constant_pace": 753
+    },
+    {
+      "region": "Ica",
+      "observed_2026": 419,
+      "observed_2025_same_period": 442,
+      "same_period_change_pct": -5.2036,
+      "projected_2026_constant_pace": 718
+    },
+    {
+      "region": "Áncash",
+      "observed_2026": 415,
+      "observed_2025_same_period": 496,
+      "same_period_change_pct": -16.3306,
+      "projected_2026_constant_pace": 711
+    },
+    {
+      "region": "Lambayeque",
+      "observed_2026": 352,
+      "observed_2025_same_period": 616,
+      "same_period_change_pct": -42.8571,
+      "projected_2026_constant_pace": 603
+    },
+    {
+      "region": "Cajamarca",
+      "observed_2026": 285,
+      "observed_2025_same_period": 307,
+      "same_period_change_pct": -7.1661,
+      "projected_2026_constant_pace": 489
+    },
+    {
+      "region": "Arequipa",
+      "observed_2026": 268,
+      "observed_2025_same_period": 287,
+      "same_period_change_pct": -6.6202,
+      "projected_2026_constant_pace": 459
+    },
+    {
+      "region": "Huánuco",
+      "observed_2026": 153,
+      "observed_2025_same_period": 145,
+      "same_period_change_pct": 5.5172,
+      "projected_2026_constant_pace": 262
+    },
+    {
+      "region": "Madre de Dios",
+      "observed_2026": 118,
+      "observed_2025_same_period": 54,
+      "same_period_change_pct": 118.5185,
+      "projected_2026_constant_pace": 202
+    },
+    {
+      "region": "San Martín",
+      "observed_2026": 114,
+      "observed_2025_same_period": 108,
+      "same_period_change_pct": 5.5556,
+      "projected_2026_constant_pace": 195
+    },
+    {
+      "region": "Ucayali",
+      "observed_2026": 95,
+      "observed_2025_same_period": 98,
+      "same_period_change_pct": -3.0612,
+      "projected_2026_constant_pace": 163
+    },
+    {
+      "region": "Loreto",
+      "observed_2026": 91,
+      "observed_2025_same_period": 109,
+      "same_period_change_pct": -16.5138,
+      "projected_2026_constant_pace": 156
+    },
+    {
+      "region": "Cusco",
+      "observed_2026": 88,
+      "observed_2025_same_period": 113,
+      "same_period_change_pct": -22.1239,
+      "projected_2026_constant_pace": 151
+    },
+    {
+      "region": "Tacna",
+      "observed_2026": 74,
+      "observed_2025_same_period": 50,
+      "same_period_change_pct": 48.0,
+      "projected_2026_constant_pace": 127
+    },
+    {
+      "region": "Junín",
+      "observed_2026": 68,
+      "observed_2025_same_period": 128,
+      "same_period_change_pct": -46.875,
+      "projected_2026_constant_pace": 117
+    },
+    {
+      "region": "Amazonas",
+      "observed_2026": 50,
+      "observed_2025_same_period": 51,
+      "same_period_change_pct": -1.9608,
+      "projected_2026_constant_pace": 86
+    },
+    {
+      "region": "Puno",
+      "observed_2026": 46,
+      "observed_2025_same_period": 67,
+      "same_period_change_pct": -31.3433,
+      "projected_2026_constant_pace": 79
+    },
+    {
+      "region": "Moquegua",
+      "observed_2026": 40,
+      "observed_2025_same_period": 22,
+      "same_period_change_pct": 81.8182,
+      "projected_2026_constant_pace": 69
+    },
+    {
+      "region": "Ayacucho",
+      "observed_2026": 36,
+      "observed_2025_same_period": 88,
+      "same_period_change_pct": -59.0909,
+      "projected_2026_constant_pace": 62
+    },
+    {
+      "region": "Apurímac",
+      "observed_2026": 24,
+      "observed_2025_same_period": 32,
+      "same_period_change_pct": -25.0,
+      "projected_2026_constant_pace": 41
+    },
+    {
+      "region": "Pasco",
+      "observed_2026": 21,
+      "observed_2025_same_period": 37,
+      "same_period_change_pct": -43.2432,
+      "projected_2026_constant_pace": 36
+    },
+    {
+      "region": "Huancavelica",
+      "observed_2026": 13,
+      "observed_2025_same_period": 11,
+      "same_period_change_pct": 18.1818,
+      "projected_2026_constant_pace": 22
+    }
+  ]
+}
