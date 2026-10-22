@@ -55,3 +55,9 @@ La revisión en tres frentes paralelos se conserva en `research/2026-10-22/`, co
 ## Proyección al cierre de2026
 
 Escenarios aritméticos, sin probabilidades: `12174 + (12174 / 7) × multiplicador × 5`. El tramo agosto–diciembre incluye meses transcurridos pero no verificados. El escenario constante resulta en20.870 denuncias redondeadas. No se ajustan estacionalidad, subregistro o cambios de clasificación. No son víctimas estimadas ni intervalos de confianza. El umbral de duplicación usa26.728 como referente anual2025 de otra edición, con cautela explícita de comparabilidad. Las proyecciones regionales se redondean de forma independiente. Madre de Dios duplica en la comparación observada de iguales meses; no se presume duplicación anual.
+
+## Respuesta rápida con aprobaciones digitales
+
+`data/respuesta_rapida.json` conserva propuesta editorial, metas condicionadas, fuentes y traza. Dos agentes revisaron el marco financiero y telecom en `research/2026-10-22/propuesta_financiera.json` y `propuesta_telecom.json`. Se separan normas consultadas, proyectos no promulgados verificados y metas de gestión. No se concluyó una consolidación exhaustiva de geolocalización ni lectura íntegra de algunos anexos.
+
+Las referencias NIST/NFI son evidencia técnica extranjera, no habilitación jurídica peruana. Políticas WhatsApp/Telegram no garantizan respuesta ni datos disponibles. Una firma digital aplicable debe verificarse con certificados y requisitos del trámite; la demostración en GitHub Pages solo representa roles en memoria. La evaluación de impacto se propone como condición del piloto, sin afirmar que sea una obligación general del artículo40 del DS016-2024-JUS.

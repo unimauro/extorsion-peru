@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0",
+  "country": "Perú",
+  "research_date": "2026-10-22",
+  "purpose": "Propuestas rápidas de respuesta financiera frente a extorsión, separadas de facultades y plazos vigentes",
+  "verification_scope": "Fuentes oficiales consultadas y modificación de julio 2025 incorporada. Búsqueda de actualizaciones realizada; no constituye una certificación exhaustiva de toda la normativa sectorial.",
+  "findings": [
+    {
+      "id": "PF-F1",
+      "title": "La respuesta penal puede empezar antes del pago",
+      "text": "El artículo 200-A sanciona exigencias indebidas mediante violencia o amenaza. Si se obtiene la ventaja o se desplaza patrimonio, remite al artículo 200. No exige esperar a que la víctima pague para investigar la exigencia.",
+      "status": "Normativa verificada",
+      "sources": [
+        "PF-S4"
+      ]
+    },
+    {
+      "id": "PF-F2",
+      "title": "Congelar fondos requiere motivación y pruebas",
+      "text": "La unidad especializada PNP solicita a UIF la medida con denuncia, corroboración, vinculación de activos y necesidad por urgencia o peligro en la demora. UIF analiza y decide; puede pedir información adicional. No hay congelamiento automático por una denuncia.",
+      "status": "Normativa verificada",
+      "sources": [
+        "PF-S1",
+        "PF-S2",
+        "PF-S3"
+      ]
+    },
+    {
+      "id": "PF-F3",
+      "title": "No es obligatorio conocer previamente la identidad del denunciado para el requisito del 8-A.3",
+      "text": "La modificación de julio 2025 conserva identificación del denunciante y corroboración policial, pero retira la mención a identificar al denunciado. La medida debe individualizar los productos o activos relevantes con sustento.",
+      "status": "Modificación normativa verificada",
+      "sources": [
+        "PF-S3"
+      ]
+    },
+    {
+      "id": "PF-F4",
+      "title": "Congelamiento, cierre y consulta son medidas diferentes",
+      "text": "Congelar inmoviliza temporalmente fondos sin extinguir propiedad. Cerrar una relación comercial corresponde a otro régimen; el artículo 21.3 prevé terminarla cuando no se puede cumplir debida diligencia y evaluar ROS. Consultar titularidad solo confirma existencia de cuenta.",
+      "status": "Distinción jurídica basada en fuentes",
+      "sources": [
+        "PF-S2",
+        "PF-S5"
+      ]
+    },
+    {
+      "id": "PF-F5",
+      "title": "No se debe esperar la consulta de titularidad si ya hay sustento suficiente para otra vía legal",
+      "text": "La consulta del DL 1732 apoya investigaciones, pero su plazo no reemplaza el procedimiento de CAF. No se encontró una regla que obligue a esperar tres días antes de elevar una solicitud de congelamiento ya sustentada.",
+      "status": "Interpretación limitada: ausencia de tal requisito en normas revisadas",
+      "sources": [
+        "PF-S1",
+        "PF-S2",
+        "PF-S5",
+        "PF-S6"
+      ]
+    },
+    {
+      "id": "PF-F6",
+      "title": "DL 1731 no autoriza automáticamente congelar antes del primer pago",
+      "text": "Su tipificación temprana no modifica expresamente el artículo 3-B. La aplicación financiera en cada caso requiere justificar vínculo y presupuestos específicos de la medida; no se debe prometer congelamiento por una captura de pantalla aislada.",
+      "status": "Límite de interpretación",
+      "sources": [
+        "PF-S1",
+        "PF-S2",
+        "PF-S4"
+      ]
+    }
+  ],
+  "current_legal_deadlines": [
+    {
+      "action": "PNP informa solicitud a Fiscalía y remite cargo a UIF",
+      "deadline": "24 horas desde formulada la solicitud a UIF",
+      "source": "PF-S2",
+      "locator": "8-A.2"
+    },
+    {
+      "action": "Entidad informa ejecución a UIF",
+      "deadline": "24 horas desde recibir comunicación de la medida",
+      "source": "PF-S2",
+      "locator": "10-A.1",
+      "caution": "Plazo de informar ejecución; no se presenta como autorización para demorar deliberadamente la inmovilización."
+    },
+    {
+      "action": "UIF comunica al juez y adjunta sustento",
+      "deadline": "24 horas desde que dispone la medida",
+      "source": "PF-S2",
+      "locator": "10-A.2"
+    },
+    {
+      "action": "Juez convalida o revoca",
+      "deadline": "24 horas desde que recibe comunicación UIF",
+      "source": "PF-S2",
+      "locator": "10-A.3"
+    },
+    {
+      "action": "Liberación de fondos al revocarse o vencer",
+      "deadline": "24 horas desde recibir resolución judicial firme revocatoria; inmediata al vencer plazo judicial, salvo otra afectación competente",
+      "source": "PF-S2",
+      "locator": "10-A.7"
+    },
+    {
+      "action": "Respuesta a consulta de titularidad",
+      "deadline": "Inmediata para validación; máximo 3 días hábiles desde ingreso de consulta",
+      "source": "PF-S6",
+      "locator": "7.4",
+      "caution": "Requiere sustento y usuarios acreditados; no equivale a consulta pública ni entrega de saldos."
+    }
+  ],
+  "proposed_measures": [
+    {
+      "id": "PF-P1",
+      "title": "Mesa de respuesta financiera permanente",
+      "type": "Propuesta operativa, no plazo legal vigente",
+      "owners": [
+        "PNP especializada",
+        "Ministerio Público",
+        "UIF",
+        "Entidades financieras"
+      ],
+      "implementation_target": "Primeros 7 días: designar responsables, suplentes y canal seguro; piloto en 30 días",
+      "service_target": "Acuse de recepción y clasificación inicial en 15 minutos para casos urgentes; meta a validar en piloto",
+      "action": "Un expediente único con sellos de tiempo, evidencia de amenaza, destino del cobro, comprobantes si existen y evaluación de urgencia. Coordinar protección de víctima en paralelo.",
+      "guardrails": [
+        "El acuse no significa que se congela.",
+        "La denuncia y evidencia quedan en canales reservados.",
+        "UIF mantiene decisión motivada y control judicial."
+      ],
+      "metrics": [
+        "Tiempo denuncia–derivación",
+        "Tiempo expediente completo–decisión",
+        "Porcentaje de expedientes devueltos por insuficiencia"
+      ],
+      "legal_basis": [
+        "PF-S1",
+        "PF-S2",
+        "PF-S3"
+      ]
+    },
+    {
+      "id": "PF-P2",
+      "title": "Ejecutar y auditar órdenes de congelamiento sin demora",
+      "type": "Propuesta de mejora del cumplimiento",
+      "owners": [
+        "UIF",
+        "Entidades financieras",
+        "SBS"
+      ],
+      "implementation_target": "Primeros 30 días: medir entrega, recepción, ejecución y reporte; corregir interrupciones",
+      "service_target": "Meta de ejecución técnica en minutos tras recibir orden válida, sujeta a evaluación técnica; no se afirma que ya sea un plazo reglamentario uniforme",
+      "action": "Automatizar transmisión autenticada y confirmación; asignar guardia para incidencias; priorizar mantener fondos bajo la medida y preservar trazabilidad.",
+      "guardrails": [
+        "No cerrar ni transferir fondos por iniciativa de un observatorio.",
+        "No avisar al afectado contra prohibición aplicable.",
+        "Cumplir revocación, vencimiento y demás decisiones competentes."
+      ],
+      "metrics": [
+        "Latencia recepción–ejecución",
+        "Saldo efectivamente inmovilizado",
+        "Porcentaje de reportes dentro de 24 horas",
+        "Revocaciones y liberaciones oportunas"
+      ],
+      "legal_basis": [
+        "PF-S2"
+      ]
+    },
+    {
+      "id": "PF-P3",
+      "title": "Consulta de titularidad con trazabilidad y control de plazos",
+      "type": "Propuesta operativa bajo norma vigente",
+      "owners": [
+        "SBS",
+        "Entidades financieras",
+        "PNP acreditada",
+        "Ministerio Público"
+      ],
+      "implementation_target": "30 días para revisar accesos, cobertura y cumplimiento;60 días para mejoras del piloto",
+      "service_target": "Meta inferior al máximo legal cuando técnicamente posible; conservar máximo legal de 3 días hábiles como referencia de cumplimiento",
+      "action": "Registrar consultas válidas, tiempos y respuestas; escalar incumplimientos de suministro a supervisión SBS con evidencia.",
+      "guardrails": [
+        "No ampliar este mecanismo a saldos/movimientos.",
+        "No confundir titularidad con autoría penal.",
+        "COOPAC: verificar cronograma aplicable antes de imputar incumplimiento."
+      ],
+      "metrics": [
+        "Mediana y percentil 95 del tiempo de respuesta",
+        "Consultas pendientes fuera del plazo",
+        "Cobertura por tipo de entidad"
+      ],
+      "legal_basis": [
+        "PF-S5",
+        "PF-S6"
+      ]
+    },
+    {
+      "id": "PF-P4",
+      "title": "Evaluación pública agregada de resultados",
+      "type": "Propuesta de transparencia y evaluación",
+      "owners": [
+        "SBS/UIF",
+        "Ministerio Público",
+        "MININTER"
+      ],
+      "implementation_target": "Línea base en 30 días; primer informe a 90 días",
+      "service_target": "Publicación mensual de agregados con corte y metodología",
+      "action": "Distinguir alertas, solicitudes, órdenes, cuentas, saldo congelado, fondos devueltos y resoluciones. Evaluar si disminuyen pagos y amenazas o si migran a efectivo y otras cuentas.",
+      "guardrails": [
+        "Sin nombres, cuentas o datos de víctimas.",
+        "No sumar montos históricos circulados como fondos recuperados.",
+        "No atribuir causalidad sin comparación y control de cambios en denuncia."
+      ],
+      "metrics": [
+        "Tasa de órdenes convalidadas",
+        "Fondos restituidos con soporte",
+        "Reincidencia de cobros y amenazas",
+        "Cambios de canal posteriores"
+      ],
+      "legal_basis": [
+        "PF-S1",
+        "PF-S2",
+        "PF-S6"
+      ]
+    }
+  ],
+  "non_claims": [
+    "No se afirma que las propuestas sean ley vigente.",
+    "No se promete solución total mediante cierre de cuentas.",
+    "No se presume culpabilidad del titular, de un banco ni de sus accionistas.",
+    "No se equiparan plazos desde una orden a un plazo total garantizado desde la denuncia."
+  ],
+  "sources": [
+    {
+      "id": "PF-S1",
+      "title": "Ley 32209: artículo 3-B de la Ley 27693",
+      "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32209-TXM.pdf",
+      "published_at": "2024-12-20",
+      "locator": "Artículo único; texto del artículo 3-B",
+      "verification": "Texto primario indexado de Congreso consultado; requisitos contrastados con reglamento oficial.",
+      "limitation": "No fija un plazo total desde la denuncia hasta decidir el congelamiento.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "PF-S2",
+      "title": "DS 007-2025-JUS: procedimiento de congelamiento por extorsión",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2384225-3",
+      "published_at": "2025-03-26",
+      "locator": "Artículos 8-A, 9-A, 10-A y modificación 21.3 del reglamento",
+      "verification": "Articulado completo de El Peruano leído.",
+      "limitation": "Su texto original 8-A.3 debe leerse con la modificación posterior DS 097-2025-PCM.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "PF-S3",
+      "title": "DS 097-2025-PCM: modificación del requisito de identificación",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2423580-1",
+      "published_at": "2025-07-31",
+      "locator": "Segunda disposición complementaria modificatoria; nuevo numeral 8-A.3",
+      "verification": "Texto oficial indexado de El Peruano consultado; concordancia localizada en compilación SBS.",
+      "limitation": "La eliminación del requisito de identificar al denunciado no elimina las pruebas de corroboración.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "PF-S4",
+      "title": "DL 1731: exigencia o requerimiento extorsivo",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2486266-5",
+      "published_at": "2026-02-12",
+      "locator": "Artículos 1–3; Código Penal 200-A.1 a 200-A.3",
+      "verification": "Texto completo de El Peruano leído.",
+      "limitation": "Tipifica una conducta previa; no crea por sí solo potestad de congelar o cerrar cualquier cuenta denunciada.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "PF-S5",
+      "title": "DL 1732: Mecanismo de Identificación de Titularidades Financieras",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2486266-6",
+      "published_at": "2026-02-12",
+      "locator": "Artículos 3, 5–7 y disposiciones complementarias primera y cuarta",
+      "verification": "Texto oficial completo consultado durante esta investigación.",
+      "limitation": "Confirma existencia de cuentas; no permite obtener saldos y movimientos por este mecanismo.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "PF-S6",
+      "title": "Resolución SBS 01586-2026: reglamento de titularidades",
+      "url": "https://intranet2.sbs.gob.pe/dv_int_cn/2584/v1.0/Adjuntos/R%2001586-2026.pdf",
+      "published_at": "2026-06-10",
+      "locator": "Artículos 3, 5, 7.4, 8–10; disposiciones primera y segunda; artículo Segundo sancionador",
+      "verification": "PDF oficial leído; apartados y plazos verificados.",
+      "limitation": "Norma vigente no demuestra cumplimiento operativo de todas las entidades; COOPAC tiene integración progresiva.",
+      "accessed_at": "2026-10-22"
+    }
+  ],
+  "research_trace": [
+    {
+      "action": "Búsqueda oficial y lectura",
+      "queries": [
+        "Decreto Legislativo 1731 extorsión",
+        "097-2025-PCM 8-A extorsión",
+        "32209 3-B extorsión 24",
+        "8-A.3 2026",
+        "congelamiento extorsión 2026 modifica"
+      ],
+      "result": "Se verificaron Ley 32209, DS 007 y actualización DS 097, DL 1731, y consulta financiera DL 1732/SBS 01586."
+    },
+    {
+      "action": "Control de alcance",
+      "result": "Proyecto parlamentario 00083-2026-2031-CD localizado como en comisión; no tratado como norma vigente. PDF Congreso 1731 devolvió 403; se usó texto íntegro oficial El Peruano."
+    }
+  ]
+}

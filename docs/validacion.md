@@ -21,3 +21,7 @@ No se atribuye cumplimiento WCAG completo: se implementan idioma, landmarks, eti
 ## Escenarios de cierre2026
 
 Validación de fórmulas y navegador: escenario1×=20.870; escenario2×=29.565; umbral de duplicación=53.456. El selector actualiza el resultado y la barra; sin errores de consola. Se verificaron26filas regionales y los límites de extrapolación.
+
+## Propuesta de respuesta digital — edición 1.3
+
+Datos y referencias validados con `validate_response.py`; sintaxis de ambos scripts comprobada. Prueba en navegador a498px sin desbordamiento: un rol incorrecto no avanza; evidencia insuficiente bloquea autorización; el caso corroborado completa seis etapas y produce siete entradas incluyendo inicio. Sin errores de consola. La demo no envía datos ni produce firmas o medidas reales.

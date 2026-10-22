@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "project": "Extorsión Perú",
+  "cutoff": "2026-10-22",
+  "created_at": "2026-10-22T18:24:15+00:00",
+  "sources": [
+    {
+      "id": "PT-S01",
+      "title": "Resolución134-2025-CD/OSIPTEL y norma aprobada",
+      "url": "https://www.osiptel.gob.pe/media/v0slt31i/resol134-2025-cd.pdf",
+      "published_at": "2025-12-25",
+      "accessed_at": "2026-10-22",
+      "locator": "Artículos4.1–4.6,5,6,7,8,9 y disposiciones final/transitoria; páginas5–8",
+      "verification": "PDF oficial completo leído; publicación contrastada con portal OSIPTEL. No es texto consolidado de modificatorias."
+    },
+    {
+      "id": "PT-S02",
+      "title": "DS018-2025-IN: lineamiento de baja, suspensión y bloqueo",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2461014-2",
+      "published_at": "2025-11-21",
+      "accessed_at": "2026-10-22",
+      "locator": "Lineamiento5.1,5.2,5.3 y disposiciones transitorias",
+      "verification": "Texto legal oficial completo leído. Encabezado auxiliar del visor tiene título ajeno; cuerpo y número verificados."
+    },
+    {
+      "id": "PT-S03",
+      "title": "RM0622-2026-IN: aprobación de guía informativa",
+      "url": "https://www.gob.pe/institucion/mininter/normas-legales/8126686-0622-2026-in",
+      "published_at": "2026-05-12",
+      "accessed_at": "2026-10-22",
+      "locator": "Objeto de la resolución",
+      "verification": "Ficha oficial indexada; fecha de resolución12/05. Publicación13/05 corroborada en nota oficial; anexo no inspeccionado íntegramente."
+    },
+    {
+      "id": "PT-S04",
+      "title": "Mininter aprueba guía para agilizar baja y bloqueo",
+      "url": "https://www.gob.pe/institucion/mininter/noticias/1390853-mininter-aprueba-guia-para-agilizar-la-baja-de-lineas-y-bloqueo-de-celulares-vinculados-al-crimen",
+      "published_at": "2026-05-13",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos1–3",
+      "verification": "Nota institucional indexada con texto principal; confirma aprobación y finalidad, no resultados."
+    },
+    {
+      "id": "PT-S05",
+      "title": "DL1611: medidas especiales contra extorsión",
+      "url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/Decretos/Legislativos/2023/DL-1611.pdf",
+      "published_at": "2023-12-21",
+      "accessed_at": "2026-10-22",
+      "locator": "Artículos7.2–7.3,8 y10; página3",
+      "verification": "PDF primario completo leído. Texto de promulgación, no consolidación jurídica a octubre2026."
+    },
+    {
+      "id": "PT-S06",
+      "title": "Proyecto penal sobre omisión dolosa de baja/bloqueo",
+      "url": "https://comunicaciones.congreso.gob.pe/despacho-informa/proponen-hasta-5-anos-de-carcel-para-responsables-de-operadoras-que-no-bloqueen-lineas-vinculadas-a-delitos/",
+      "published_at": "2026-09-16",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos de presentación, requerimiento válido y responsabilidad individual",
+      "verification": "Nota primaria del despacho proponente en Congreso leída. No se obtuvo expediente de trámite ni ley promulgada."
+    },
+    {
+      "id": "PT-S07",
+      "title": "Proyecto de modificación de Res134-2025: Res036-2026-CD",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2500151-1",
+      "published_at": null,
+      "accessed_at": "2026-10-22",
+      "locator": "Considerandos y proyecto anexo",
+      "verification": "Texto indexado oficial; expresamente proyecto para comentarios, no norma sustantiva aprobada. Fecha exacta pendiente."
+    },
+    {
+      "id": "PT-S08",
+      "title": "Ficha documental DL1182",
+      "url": "https://www2.congreso.gob.pe/Sicr/CenDocBib/cat_uibd.nsf/RepositorioDocumental?Count=1000&Expand=3.3.2&OpenForm=&Seq=5&Start=1",
+      "published_at": "2015-07-27",
+      "accessed_at": "2026-10-22",
+      "locator": "Entrada titulada Decreto Legislativo1182",
+      "verification": "Catálogo oficial consultado. Texto consolidado y modificatorias no verificados: no usar para fijar requisitos/plazos actuales."
+    }
+  ],
+  "findings": [
+    {
+      "id": "PT-F01",
+      "status": "norma_aprobada_texto_verificado",
+      "title": "El plazo no comienza con cualquier denuncia del ciudadano",
+      "summary": "DS018-2025-IN,5.1.3: OSIPTEL requiere la medida como máximo al siguiente día calendario de recibir el reporte competente; la operadora tiene un día calendario desde el requerimiento. Res134,4.3, especifica un día calendario desde recepción del reporte. Son etapas distintas.",
+      "source_ids": [
+        "PT-S01",
+        "PT-S02"
+      ],
+      "limitation": "No prometer solución en24horas desde la primera denuncia. No sumar tiempos como garantía de respuesta integral."
+    },
+    {
+      "id": "PT-F02",
+      "status": "norma_aprobada_texto_verificado",
+      "title": "Hay obligación de ejecución, prueba y reporte, con corrección de errores",
+      "summary": "Res134 exige registrar ejecución, asigna a la operadora carga de probar cumplimiento y tipifica incumplimientos. Las objeciones corresponden a la entidad solicitante. Contempla reactivación por requerimiento competente: un día calendario; para recuperar servicio, solicitud dentro de90días de la baja.",
+      "source_ids": [
+        "PT-S01"
+      ],
+      "limitation": "Este régimen administrativo no demuestra culpa penal ni resultados de una operadora concreta."
+    },
+    {
+      "id": "PT-F03",
+      "status": "norma_aprobada_texto_verificado",
+      "title": "No hace falta esperar un sistema nuevo para tramitar reportes oficiales",
+      "summary": "DS018 prevé correo institucional acreditado mientras se implementa transmisión; Res134 permite comunicación escrita física/electrónica durante adecuaciones Renteseg y canal alternativo ante indisponibilidad. DS018 requiere verificar autenticidad de denuncia y constatación para la vía del usuario.",
+      "source_ids": [
+        "PT-S01",
+        "PT-S02"
+      ],
+      "limitation": "La vía alternativa corresponde a autoridades y procedimientos habilitados; no autoriza reportes arbitrarios ni publicación de datos."
+    },
+    {
+      "id": "PT-F04",
+      "status": "aprobacion_verificada_anexo_pendiente",
+      "title": "La guía PNP fue aprobada en mayo2026",
+      "summary": "RM0622-2026-IN aprobó una guía para ordenar solicitudes policiales de baja y bloqueo. Mininter comunicó que busca uniformizar el procedimiento.",
+      "source_ids": [
+        "PT-S03",
+        "PT-S04"
+      ],
+      "limitation": "No se obtuvo lectura completa del anexo; no atribuirle plazos o requisitos adicionales no verificados."
+    },
+    {
+      "id": "PT-F05",
+      "status": "texto_original_verificado_consolidacion_pendiente",
+      "title": "Geolocalización requiere vía legal específica y no equivale a interceptar contenido",
+      "summary": "DL1611,7.3, prioriza requerimientos por extorsión conforme a DL1182 y sus modificatorias. Artículo8 exige cadena de custodia y autorización judicial para examen de instrumentos/documentos, salvo autorización debida del usuario. Artículo10 contempla levantamiento judicial del secreto de comunicaciones.",
+      "source_ids": [
+        "PT-S05",
+        "PT-S08"
+      ],
+      "limitation": "Requisitos y plazos vigentes de acceso y convalidación de DL1182 no quedaron consolidados. No publicar un protocolo de geolocalización basado solo en texto2015 o dictámenes. No habilita vigilancia masiva."
+    },
+    {
+      "id": "PT-F06",
+      "status": "proyecto_no_ley_verificada",
+      "title": "La omisión dolosa de bloqueo aparece en una propuesta legislativa de septiembre2026",
+      "summary": "El despacho proponente anunció un nuevo artículo222-E con pena propuesta de3–5años. Requiere conocimiento de orden válida, competencia funcional, posibilidad real y omisión deliberada; excluye responsabilidad automática por cargo.",
+      "source_ids": [
+        "PT-S06"
+      ],
+      "limitation": "No se verificó promulgación. Registrar como proyecto descrito oficialmente, no delito nuevo vigente ni regla aplicable retrospectivamente."
+    },
+    {
+      "id": "PT-F07",
+      "status": "proyecto_regulatorio_no_tratar_como_norma_aprobada",
+      "title": "Hay una modificación2026 publicada para comentarios",
+      "summary": "Res036-2026-CD publicó proyecto sobre suspensión/bloqueo a solicitud de usuario acreditada por denuncia y constatación. No se verificó aprobación final de ese proyecto.",
+      "source_ids": [
+        "PT-S07"
+      ],
+      "limitation": "No convertir texto de consulta en obligación operativa nueva."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "PT-P01",
+      "status": "meta_propuesta_no_plazo_legal",
+      "title": "Piloto de trazabilidad de cada orden competente",
+      "owner": [
+        "PNP",
+        "Ministerio Público",
+        "OSIPTEL",
+        "Operadoras"
+      ],
+      "action": "En30días propuestos, acordar registro seguro de recepción, autenticación, derivación, ejecución, resultado y objeciones. Publicar solo métricas agregadas por entidad y operadora.",
+      "measurement": [
+        "Mediana y percentil95 por etapa",
+        "Porcentaje dentro del plazo normativo aplicable",
+        "Orden pendiente con motivo documentado"
+      ],
+      "basis": [
+        "PT-F01",
+        "PT-F02",
+        "PT-F03"
+      ],
+      "safeguards": "Acceso restringido, minimización, corrección de errores y preservación de evidencia; no lista pública de líneas ni personas."
+    },
+    {
+      "id": "PT-P02",
+      "status": "meta_propuesta_no_plazo_legal",
+      "title": "Auditar incumplimientos con evidencia de cada etapa",
+      "owner": [
+        "OSIPTEL"
+      ],
+      "action": "En30días propuestos, seleccionar muestra de órdenes de extorsión y comprobar recepción válida, hora de ejecución y reporte. Tramitar infracciones probadas conforme al régimen vigente.",
+      "measurement": [
+        "Órdenes auditadas",
+        "Demoras atribuibles por etapa",
+        "Infracciones firmes separadas de investigaciones"
+      ],
+      "basis": [
+        "PT-F01",
+        "PT-F02"
+      ],
+      "safeguards": "No atribuir al operador retrasos previos de denuncia o transmisión; separar infracción administrativa de responsabilidad penal individual."
+    },
+    {
+      "id": "PT-P03",
+      "status": "meta_propuesta_no_plazo_legal",
+      "title": "Medir si la interrupción reduce repetición del daño",
+      "owner": [
+        "PNP",
+        "Ministerio Público",
+        "OSIPTEL"
+      ],
+      "action": "Piloto evaluativo con seguimiento agregado a7 y30días de órdenes ejecutadas, bajo resguardo de víctimas: nuevos contactos, cambio de canal, continuidad de cobros y correcciones.",
+      "measurement": [
+        "Recontacto",
+        "Continuidad de amenazas",
+        "Errores corregidos",
+        "Casos con evidencia preservada"
+      ],
+      "basis": [
+        "PT-F01",
+        "PT-F02"
+      ],
+      "safeguards": "No afirmar causalidad solo por antes/después; revisar sesgos y comparación válida. Ninguna vigilancia indiscriminada."
+    },
+    {
+      "id": "PT-P04",
+      "status": "paso_previo_de_verificacion",
+      "title": "Cerrar revisión jurídica antes de publicar guía de geolocalización",
+      "owner": [
+        "Equipo jurídico competente"
+      ],
+      "action": "Obtener texto consolidado DL1182, Ley32303 y modificatorias; confirmar requisitos, actores, control judicial y jurisprudencia aplicable. Separar localización, acceso a contenido e inspección de dispositivos.",
+      "measurement": [
+        "Matriz normativa validada y fechada",
+        "Requisitos y revisión judicial comprobados"
+      ],
+      "basis": [
+        "PT-F05",
+        "PT-F06",
+        "PT-F07"
+      ],
+      "safeguards": "Hasta completar revisión, no fijar tiempos jurídicos ni asegurar acceso sin juez; el proyecto penal no es habilitación vigente."
+    }
+  ],
+  "pending": [
+    "Texto consolidado y revisión judicial DL1182 con modificatorias2025–2026.",
+    "Lectura íntegra anexoRM0622-2026; PDF directo devolvió403.",
+    "Expediente legislativo y estado formal del proyecto penal; solo anuncio primario verificado.",
+    "Aprobación final o archivo del proyecto regulatorio Res036-2026."
+  ],
+  "trace": {
+    "started_at": "2026-10-22T18:22:02Z",
+    "finished_at": "2026-10-22T18:24:15+00:00",
+    "actions": [
+      "Búsqueda y lectura norma134 original PDF y DS018 oficial.",
+      "Verificación de aprobaciónRM0622; acceso al anexo bloqueado403.",
+      "LecturaDL1611 artículos7–10 y búsqueda de DL1182 actualizado: consolidación no concluida.",
+      "Localización de anuncio primario Congreso16/09/2026 sobre omisión dolosa.",
+      "Separación de normas aprobadas, proyectos y metas de gestión propuestas."
+    ]
+  }
+}

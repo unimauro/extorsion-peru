@@ -60,3 +60,9 @@ Los casos no permiten estimar proporciones nacionales de medios de pago. La menc
 Abre un issue con el ID del registro y una fuente pública, sin teléfonos, cuentas, DNI, domicilios, amenazas ni capturas privadas. Los issues son públicos. Para añadir un caso, usar el esquema y justificar su deduplicación; para modificar cifras, documentar edición, corte y cambios metodológicos. No recibimos denuncias personales.
 
 Código original: licencia MIT. Las fuentes externas conservan sus derechos. Las transcripciones estadísticas se distribuyen con atribución de origen; la geometría es una capa pública de Provías con atributo INEI y no es apta para delimitación oficial. Véase [procedencia](docs/metodologia.md).
+
+## Respuesta rápida con aprobaciones digitales
+
+La sección `#respuesta` incorpora una propuesta de software institucional, fuentes legales y técnicas, metas de 30/90/180 días condicionadas y una demostración de permisos con expediente ficticio. No tramita denuncias ni conecta servicios reales. Datos en `data/respuesta_rapida.json`; revisión normativa paralela en `research/2026-10-22/propuesta_*.json`. Validar con `python3 scripts/validate_response.py`.
+
+Se distingue titularidad de control efectivo. No se crea un score de personas por antecedentes ni un sistema de vigilancia masiva. Los peritajes de rostro/voz y las solicitudes de datos requieren evaluación por caso, competencia y autorización aplicable.

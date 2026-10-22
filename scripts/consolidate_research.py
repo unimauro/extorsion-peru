@@ -45,7 +45,7 @@ write('traza_tareas',{'reviewed_at':'2026-10-22','requested_through':'2026-10-22
  {'id':'T04','title':'Contraste e integración editorial','status':'Integrado','result':'Seis hipótesis evaluadas, fechas y límites visibles, datos y trazas descargables. Publicación y comprobaciones técnicas registradas en GitHub Actions.','output':'data/hipotesis.json'}],
  'publication_audit_url':'https://github.com/unimauro/extorsion-peru/actions','plan':'research/2026-10-22/plan.json'})
 manifest=read(root/'data/manifest.json')
-manifest.update(version='1.1.0',statistical_period='2019–2025 completos; enero–julio2026 separado',statistical_2026_updated_at='2026-07-31',research_directory='research/2026-10-22',hypotheses_file='data/hipotesis.json')
+manifest.update(version='1.3.0',response_proposal='data/respuesta_rapida.json',statistical_period='2019–2025 completos; enero–julio2026 separado',statistical_2026_updated_at='2026-07-31',research_directory='research/2026-10-22',hypotheses_file='data/hipotesis.json')
 write('manifest',manifest)
 print('Consolidados: actualización 2026, seis hipótesis, traza y manifiesto.')
 observed=stat['hallazgos'][0]['conteo']
