@@ -145,6 +145,21 @@
       "status": "Meta propuesta con guardia 24/7; no significa bloqueo ni plazo legal"
     },
     {
+      "metric": "Validación de la denuncia y envío de pedidos",
+      "target": "30 minutos desde la denuncia (propuesta de ley)",
+      "status": "Hoy no hay plazo para validar; la PNP tiene hasta 24 h para pedir el congelamiento"
+    },
+    {
+      "metric": "Ubicación, congelamiento, videos y titularidad",
+      "target": "4 h desde la denuncia validada (propuesta de ley)",
+      "status": "Hoy cada paso tiene un máximo legal de 24 h; las decisiones que afectan derechos las toma una persona competente y el juez sigue convalidando en 24 h"
+    },
+    {
+      "metric": "Captura de responsables",
+      "target": "Meta operativa, no plazo legal",
+      "status": "Se busca actuar mientras la cuenta y el celular siguen activos; no se garantiza la detención"
+    },
+    {
       "metric": "Transmisión de una orden ya válida",
       "target": "En minutos, con confirmación",
       "status": "Meta técnica a probar; análisis y autorización son etapas separadas"

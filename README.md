@@ -67,6 +67,14 @@ La sección `#respuesta` incorpora una propuesta de software institucional, fuen
 
 Se distingue titularidad de control efectivo. No se crea un score de personas por antecedentes ni un sistema de vigilancia masiva. Los peritajes de rostro/voz y las solicitudes de datos requieren evaluación por caso, competencia y autorización aplicable.
 
+## Dashboard: desarticular la extorsión
+
+`dashboard.html` reúne en una página pública: 20 casos resueltos (5 del explorador original y 15 nuevos de 2025–2026) con técnica, plazo y resultado; un plan de 6 horas desde la denuncia que compara, etapa por etapa, la meta propuesta con el máximo legal vigente (24 h para ubicar el celular, congelar la cuenta y entregar videos); qué automatiza el sistema y qué decide siempre una persona (congelar, autorizar la entrega controlada, capturar); y lo que hace falta para cumplirlo: sin cambiar leyes, con convenios e integración técnica o con cambio normativo; una matriz de 16 roles y 11 facultades (decide, urgente con convalidación judicial, solicita, ejecuta); 28 normas vigentes y 6 proyectos separados; y seis cadenas de rastreo (llamada, WhatsApp, audio, cámaras, Yape/Plin, cripto) con confiabilidad, vía legal, tiempo y fallas.
+
+Los datos salen de tres dosieres nuevos en `research/2026-10-22/` (`mapa_legal.json`, `casos_resueltos.json`, `rastreo_tecnico.json`) y se componen con `python3 scripts/build_dashboard.py`; `python3 scripts/validate_dashboard.py` comprueba que el JSON publicado sea reproducible y que todo tenga fuente. Usa la fuente Archivo desde Google Fonts y sin otras dependencias externas.
+
+Los casos son una muestra intencional de respuestas que funcionaron: no estiman la tasa nacional de casos resueltos. Varias normas y cifras están marcadas como indexadas o no verificadas en el propio dosier; revisarlas antes de citarlas como definitivas.
+
 ## Prototipo completo por roles
 
 Abrir `prototipo.html` desde el servidor local o GitHub Pages. Incluye Policía, Fiscalía, Juzgado, UIF, Banco, OSIPTEL, Telco y Auditoría, dos casos ficticios, decisiones motivadas, rutas independientes, incidencias, rechazo, revocación/liberación y reactivación. Exporta la traza JSON del caso. Conserva el recorrido en el navegador cuando el almacenamiento está disponible.

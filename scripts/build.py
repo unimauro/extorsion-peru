@@ -5,7 +5,7 @@ root=Path(__file__).resolve().parents[1]
 out=root/'_site'
 if out.exists(): shutil.rmtree(out)
 out.mkdir()
-for name in ('index.html','prototipo.html'):
+for name in ('index.html','prototipo.html','dashboard.html'):
     shutil.copy2(root/name,out/name)
 for folder in ('assets','data','docs','research'):
     shutil.copytree(root/folder,out/folder)

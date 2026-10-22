@@ -1,0 +1,158 @@
+{
+  "reviewed_at": "2026-10-22",
+  "scope": "Verificación de las bases legales de la propuesta de ley de 4 horas (geolocalización, congelamiento de la cuenta receptora, entrega de CCTV e identificación del titular). Complementa research/2026-10-22/mapa_legal.json.",
+  "summary": {
+    "titularidades_3_dias": "Res. SBS 01586-2026, Reglamento art. 7.4; la SBS puede acortarlo por resolución.",
+    "congelamiento_uif": "La ley no fija plazos; el reglamento sí (24 h para informar la ejecución, 24 h + 24 h de control judicial), pero no fija plazo para que la UIF decida.",
+    "geolocalizacion": "DL 1182 art. 4.3: 'inmediata', con un máximo de 24 h (rango de ley). El CPP art. 230.4 ya prevé tiempo real, pero con orden judicial.",
+    "cctv": "DS 007-2020-IN art. 17.1.b: 24 h (reglamento); el DL 1218 art. 14 ya dice 'de manera inmediata'.",
+    "retencion_automatica": "No existe; requiere ley y control posterior.",
+    "delegacion_2026": "Autógrafa firmada el 21-10-2026, sin publicar ni numerar; 90 días; incluye identificación, localización y geolocalización de celulares."
+  },
+  "items": [
+    {
+      "id": "q1-mitf-plazo",
+      "question": "DL 1732 y Res. SBS 01586-2026: ¿qué instrumento fija los '3 días hábiles' y en qué artículo?",
+      "answer": "El plazo NO está en el DL 1732. Lo fija el Reglamento aprobado por la Resolución SBS N.° 01586-2026 (El Peruano 10-06-2026), art. 7.4: 'El suministro de información debe ser realizado de forma inmediata, es decir, en un plazo que permita a las empresas validar la información y sustento de la solicitud, el cual en ningún caso debe exceder de tres (3) días hábiles desde que se ingresa la consulta [...]'. El DL 1732 solo ordena priorizar mecanismos que faciliten la atención 'en tiempo real (o con mayor inmediatez), de acuerdo con lo que la SBS determine por vía reglamentaria' (art. 6.2). Otros plazos del reglamento: credenciales a usuarios acreditados en 1 día hábil (art. 6.4). Vigencia: la resolución rige desde el 11-06-2026 y el DL 1732 entra en vigor al día siguiente de publicado su reglamento (Cuarta DCF). Los bancos tenían 120 días calendario para adecuarse (Primera DCF), es decir hasta el 09-10-2026 aprox. A las COOPAC se les aplican plazos progresivos.",
+      "instrument": "Resolución SBS N.° 01586-2026 (Reglamento del Mecanismo de Identificación de Titularidades Financieras); DL 1732",
+      "article": "Reglamento art. 7.4 (3 días hábiles); art. 6.4 (1 día hábil para credenciales); DL 1732 art. 6.2 y Cuarta DCF",
+      "can_change": "SBS (resolución)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2523718-1",
+      "locator": "Res. SBS 01586-2026, Artículo Primero, Reglamento art. 7.4; DL 1732: https://img.lpderecho.pe/wp-content/uploads/2026/02/Decreto-Legislativo-1732-LPDerecho.pdf (El Peruano 12-02-2026, pp. 15-16)",
+      "verification": "leído",
+      "limitations": "La fecha del 09-10-2026 es un cálculo propio. No se verificó si los bancos ya operan el mecanismo ni si la SBS fijó plazos para las COOPAC."
+    },
+    {
+      "id": "q1-mitf-autoridades",
+      "question": "¿Quién puede consultar el Mecanismo de Identificación de Titularidades Financieras?",
+      "answer": "Hay dos grupos. (a) 'Entidades autorizadas' (DL 1732 art. 5.1; Reglamento art. 2.c): el Ministerio Público, mediante fiscales designados por resolución del Fiscal de la Nación, y la PNP, mediante los órganos especializados de la DIRNIC. Cada órgano especializado tiene un usuario principal y uno alterno designados por el director de la DIRNIC (art. 6.2). (b) 'Entidades legitimadas' para levantar el secreto bancario (DL 1732 Primera DCF; Reglamento art. 2.i): Fiscal de la Nación, jueces, comisiones investigadoras del Congreso, Contralor y Superintendente (UIF), entre otras. El uso es exclusivo para investigaciones de lavado de activos, sus delitos precedentes o financiamiento del terrorismo (DL 1732 art. 5.1). La consulta debe adjuntar la denuncia, la disposición fiscal u otro documento que acredite una investigación en trámite; sin ese sustento no procede (Reglamento art. 5.1). Si los datos no coinciden con el sustento, la empresa no atiende la consulta (art. 5.2).",
+      "instrument": "DL 1732; Res. SBS 01586-2026",
+      "article": "DL 1732 arts. 5.1, 5.2 y Primera DCF; Reglamento arts. 2.c, 2.i, 5, 6.2",
+      "can_change": "Congreso o Poder Ejecutivo con delegación (decreto legislativo) para ampliar las entidades autorizadas; SBS (resolución) para los aspectos operativos",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/02/Decreto-Legislativo-1732-LPDerecho.pdf",
+      "locator": "DL 1732 art. 5.1 (El Peruano 12-02-2026, p. 15); Reglamento art. 2 lit. c e i",
+      "verification": "leído",
+      "limitations": "Para usarlo en extorsión hay que encuadrarla como delito precedente del lavado de activos (DL 1106, art. 10). Esta lectura no se verificó en esta sesión."
+    },
+    {
+      "id": "q1-mitf-billeteras",
+      "question": "¿El mecanismo cubre billeteras digitales (Yape/Plin)? ¿Identifica al titular de una cuenta?",
+      "answer": "Solo de forma parcial e indirecta. El ámbito comprende las empresas del literal a) del art. 16 de la Ley 26702 que captan recursos del público (bancos, financieras, cajas, etc.), el Banco de la Nación y las COOPAC (Reglamento art. 1). 'Cuentas' son 'cuentas pasivas [...] tales como cuentas de ahorros, cuentas de depósitos a plazo, depósitos CTS, cuentas corrientes' (art. 2.h). No menciona billeteras ni dinero electrónico. Las empresas emisoras de dinero electrónico (EEDE) figuran en el art. 17 num. 6 de la Ley 26702, no en el art. 16 lit. a), y la Ley 29985 declara que el dinero electrónico no es depósito. Por eso una EEDE pura queda fuera. Yape (BCP) y Plin (interoperabilidad entre bancos) sí podrían alcanzarse cuando la billetera está asociada a una cuenta de ahorro del banco. Hay además un límite clave: la consulta solo admite DNI, carné de extranjería o pasaporte, número de cuenta o CCI, o RUC (art. 4.1). NO admite número de celular, que es el identificador que usan Yape y Plin. La respuesta es solo 'cliente / no cliente', sin saldos ni movimientos (arts. 3.2 y 7.3). La identificación del titular de una cuenta receptora tiene otra base: el DL 1611 art. 9.1 obliga a las entidades, en flagrancia, a cooperar para la 'pronta identificación de titulares de cuentas bancarias receptoras transitorias o finales'. Esa cooperación sigue el 'procedimiento [...] establecido en el Código Procesal Penal' y no tiene plazo propio.",
+      "instrument": "Res. SBS 01586-2026; Ley 26702; Ley 29985; DL 1611",
+      "article": "Reglamento arts. 1, 2.h, 3.2, 4.1, 7.3; Ley 26702 arts. 16.A y 17.6; DL 1611 art. 9.1",
+      "can_change": "SBS (resolución) para ampliar los campos de consulta (DL 1732 art. 4.2 y Quinta DCF) y para precisar qué es 'cuenta'. Incluir a las EEDE exige modificar el DL 1732 art. 6.1: Congreso o decreto legislativo",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2523718-1",
+      "locator": "Reglamento arts. 1, 2.h, 4.1; DL 1611: https://img.lpderecho.pe/wp-content/uploads/2023/12/Descreto-Legislativo-1611-LPDerecho.pdf (art. 9.1); Ley 29985: https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_29985.pdf",
+      "verification": "leído",
+      "limitations": "No se verificó si las cuentas Yape de usuarios sin cuenta BCP son depósito o dinero electrónico. La ubicación de las EEDE en el art. 17.6 de la Ley 26702 está indexada (resumen de la Ley 29985), sin leer el texto consolidado. El reglamento del DL 1611 (DS 009-2025-IN) no fue revisado."
+    },
+    {
+      "id": "q1-mitf-modificacion",
+      "question": "¿Puede la SBS acortar el plazo de 3 días hábiles por resolución, o hace falta una ley?",
+      "answer": "Sí, la SBS puede hacerlo por resolución. El plazo es reglamentario: lo creó la propia SBS (art. 7.4). El DL 1732 le encarga reglamentar el mecanismo (Segunda DCF), definir los mecanismos electrónicos 'priorizando' la atención 'en tiempo real (o con mayor inmediatez)' (art. 6.2) y desarrollar o ampliar sus campos (Quinta DCF). Reducir el plazo a horas, o exigir una API en tiempo real, cabe dentro de esa habilitación. En cambio, requieren una norma con rango de ley: (i) ampliar su uso fuera de lavado, delitos precedentes y FT; (ii) incorporar a entidades no previstas, como las EEDE; (iii) entregar datos protegidos por el secreto bancario (saldos, movimientos). La Sexta DCF del DL 1732 aclara que no crea obligaciones nuevas ni sustituye el levantamiento del secreto bancario.",
+      "instrument": "DL 1732; Res. SBS 01586-2026",
+      "article": "DL 1732 art. 6.2, Segunda, Quinta y Sexta DCF; Reglamento art. 7.4",
+      "can_change": "SBS (resolución)",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/02/Decreto-Legislativo-1732-LPDerecho.pdf",
+      "locator": "DL 1732 art. 6.2; DCF Segunda, Quinta y Sexta",
+      "verification": "leído",
+      "limitations": "Es un análisis de jerarquía normativa, no un pronunciamiento de la SBS."
+    },
+    {
+      "id": "q2-caf-plazos",
+      "question": "DS 007-2025-JUS (modificado por DS 097-2025-PCM) y la guía de la RM 1636-2025-IN: plazos de (a) pedido de la PNP a la UIF, (b) decisión de la UIF, (c) ejecución por la entidad y (d) convalidación judicial",
+      "answer": "(a) Pedido de la PNP: ni la ley ni el reglamento fijan un plazo desde la denuncia. El reglamento solo obliga a la PNP a comunicar la solicitud a la fiscalía 'dentro del plazo de 24 horas de formulada ante la UIF-Perú' y a remitir el cargo a la UIF en el mismo plazo (Reglamento DS 020-2017-JUS, art. 8-A.2). La guía de la RM 1636-2025-IN (19-08-2025) añade un plazo interno: el oficial de enlace acreditado presenta la solicitud 'dentro del plazo de 24 horas de recibida la información y documentación' (Paso 5), y la comunicación a la fiscalía se hace en 24 h (Paso 6). (b) Decisión de la UIF: NO HAY PLAZO en ninguna norma. El art. 9-A solo permite a la UIF pedir documentos adicionales, y la guía (Pasos 7-8) tampoco fija tiempo. (c) Ejecución: la UIF comunica 'inmediatamente' la medida a los sujetos obligados, que 'deben informar a la UIF-Perú sobre su ejecución, dentro del plazo de veinticuatro (24) horas de recibida la comunicación' (art. 10-A.1). La norma no exige ejecutar en menos tiempo; las 24 h son para informar la ejecución. (d) Control judicial: la UIF comunica la medida al juez en 24 h desde que la dispuso (art. 10-A.2) y el juez convalida o revoca en 24 h desde que recibe la comunicación (art. 10-A.3). Si el juez revoca, la entidad libera los fondos en 24 h (art. 10-A.7). El DS 097-2025-PCM (31-07-2025), Segunda DCM, solo modificó el art. 8-A.3: eliminó el requisito de identificar al 'denunciado', y ahora basta la denuncia con los datos del denunciante y los documentos de corroboración. No cambió plazos.",
+      "instrument": "Reglamento de la Ley 27693 (DS 020-2017-JUS), incorporado por DS 007-2025-JUS y modificado por DS 097-2025-PCM; guía RM 1636-2025-IN",
+      "article": "Reglamento arts. 8-A.2, 8-A.3, 9-A.2, 10-A.1, 10-A.2, 10-A.3, 10-A.7; guía RM 1636-2025-IN Pasos 5, 6, 7, 8",
+      "can_change": "Poder Ejecutivo (decreto supremo) para los plazos del reglamento; Mininter (RM) para la guía",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Decreto-Supremo-007-2025-JUS-LPDerecho.pdf",
+      "locator": "El Peruano 26-03-2025, pp. 21-22 (arts. 8-A, 9-A, 10-A). DS 097-2025-PCM: https://busquedas.elperuano.pe/dispositivo/NL/2423580-1 (Segunda DCM). Guía: https://img.lpderecho.pe/wp-content/uploads/2025/08/Anexo-Resolucion-Ministerial-1636-2025-IN-LPDerecho.pdf",
+      "verification": "leído",
+      "limitations": "La guía se leyó en la copia de LP Derecho del anexo, no en El Peruano. No se halló ninguna modificación de 2026 a los arts. 8-A a 10-A. El DL 1735 (Tercera DCM, que modifica el CPP) solo añade la devolución a la víctima de los fondos congelados. No se verificó si la UIF tiene un plazo interno o protocolo de atención 24x7."
+    },
+    {
+      "id": "q2-caf-rango",
+      "question": "¿Qué plazos están en la ley (Ley 27693/Ley 32209) y cuáles en el reglamento?",
+      "answer": "La ley (art. 3-B de la Ley 27693, incorporado por la Ley 32209, El Peruano 20-12-2024) NO fija ningún plazo. Solo establece los requisitos: una o más denuncias por extorsión, urgencia o peligro en la demora, necesidad por la dimensión y naturaleza de la investigación, comunicación al Ministerio Público y pruebas que sustenten el pedido. Todos los plazos (24 h de comunicación a la fiscalía, 24 h para informar la ejecución, 24 h + 24 h de control judicial, 24 h de liberación) están en el reglamento, que el Ejecutivo puede modificar por decreto supremo. La guía (RM) puede modificarla el Mininter. Matiz: fijar un plazo a un juez mediante decreto supremo es discutible por la reserva de ley procesal y la autonomía del Poder Judicial. Para que un plazo máximo de 4 h vincule al juez y a la UIF con solidez, conviene fijarlo en ley.",
+      "instrument": "Ley 27693 art. 3-B (Ley 32209); DS 020-2017-JUS",
+      "article": "Ley 27693 art. 3-B; Ley 32209 Única DCF; Reglamento arts. 8-A a 10-A",
+      "can_change": "Congreso (art. 3-B); Poder Ejecutivo (decreto supremo) para los plazos del reglamento",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2355979-2/",
+      "locator": "Ley 32209, Artículo único (art. 3-B) y Única DCF",
+      "verification": "leído",
+      "limitations": "La observación sobre los plazos judiciales fijados por reglamento es un análisis propio. No hay pronunciamiento del TC sobre el art. 10-A."
+    },
+    {
+      "id": "q3-dl1182",
+      "question": "DL 1182 art. 4.3 (modificado por la Ley 31284 y la Ley 32303): redacción del plazo de 24 h y si alguna norma permite plazos menores o 'tiempo real'",
+      "answer": "Redacción vigente según la Ley 31284 (16-07-2021): los concesionarios 'están obligados a brindar los datos de localización, geolocalización o rastreo de manera inmediata y oportuna, dentro de un plazo máximo de veinticuatro (24) horas de solicitada la información por la unidad especializada de la Policía Nacional del Perú, cuya atención del requerimiento será las veinticuatro (24) horas del día de los trescientos sesenta y cinco (365) días del año [...]'. La Ley 32303 (16-04-2025) NO tocó el art. 4.3: modificó el art. 3 lit. c (acceso 'inmediato', solo cuando sea 'medio indispensable') y el DL 1338. Es decir, la regla de ley ya es 'inmediata', con un tope de 24 h. Ya existe un estándar de 'tiempo real' en el CPP art. 230.4: las operadoras deben brindar 'en forma inmediata' las facilidades para la intervención, 'que incluye la geolocalización, dispuesta mediante resolución judicial, en tiempo real y en forma ininterrumpida, las 24 horas de los 365 días del año', con conectividad automatizada con el sistema de la PNP. Pero exige resolución judicial previa. No se halló ninguna norma que fije para el DL 1182 un plazo menor a 24 h.",
+      "instrument": "DL 1182 (texto según Ley 31284; art. 3 según Ley 32303); CPP art. 230.4",
+      "article": "DL 1182 arts. 3.c y 4.3; CPP art. 230.4",
+      "can_change": "Congreso, o Poder Ejecutivo mediante decreto legislativo si la delegación 2026 lo cubre (ver q7). El tope de 24 h tiene rango de ley; un reglamento puede precisar el 'de manera inmediata' pero no ampliar el plazo",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2021/07/Ley-31284-LP.pdf",
+      "locator": "Ley 31284, Artículo único, art. 4.3 (El Peruano 16-07-2021). Ley 32303: https://img.lpderecho.pe/wp-content/uploads/2025/04/Ley-32303-LPDerecho.pdf (art. 1). CPP: https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/ (art. 230.4)",
+      "verification": "leído",
+      "limitations": "No se revisó el reglamento del DL 1182 (pudo haber plazos internos o protocolos de la División de Geolocalización). Hay proyectos 2024-2025 (PL 10632/2024-CR, PL 11065/2024-CR) en estado no verificado."
+    },
+    {
+      "id": "q4-videovigilancia",
+      "question": "DS 007-2020-IN art. 17: redacción de la entrega de imágenes en 24 h y si el Ejecutivo puede cambiarla",
+      "answer": "El art. 17.1.b del Reglamento (DS 007-2020-IN, El Peruano 24-04-2020) dice: 'Cuando luego de la captación, se toma conocimiento de hechos que presentan indicios razonables de la comisión de un delito o falta [...], se informa y hace entrega de tal información en un plazo máximo de veinticuatro (24) horas a la Policía Nacional del Perú o Ministerio Público [...], bajo responsabilidad administrativa o penal'. Para hechos en tiempo real, el art. 17.1.a ordena informar y 'habilita[r] la visualización inmediata del personal policial especializado'. El 17.2.b fija una conservación mínima de 45 días calendario. Es un reglamento del DL 1218 y de la Ley 30120, aprobado con base en el art. 118.8 de la Constitución, así que el Ejecutivo puede modificarlo por decreto supremo. Además, el propio DL 1218 art. 14 ordena entregar la información 'de manera inmediata'. Con ello, el tope reglamentario de 24 h puede reducirse por decreto supremo sin cambiar la ley. Precisión al mapa legal: el art. 16 del reglamento (acceso de la PNP a 'cualquier cámara' en flagrancia) está limitado a 'puertos, aeropuertos, terminales terrestres, almacenes aduaneros y depósitos temporales'.",
+      "instrument": "DS 007-2020-IN (Reglamento del DL 1218 y de la Ley 30120); DL 1218",
+      "article": "Reglamento arts. 16, 17.1.a, 17.1.b, 17.2.b; DL 1218 art. 14",
+      "can_change": "Poder Ejecutivo (decreto supremo)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/1865739-5",
+      "locator": "Reglamento art. 17 (Título III). DL 1218 (El Peruano 24-09-2015, p. 562077, art. 14): https://leyes.congreso.gob.pe/Documentos/DecretosLegislativos/01218.pdf",
+      "verification": "leído",
+      "limitations": "Solo obliga a cámaras en bienes de dominio público, transporte público y locales abiertos al público con aforo de 50 o más (DL 1218 art. 3). No se verificó si el DL 1218 o su reglamento fueron modificados después de 2020."
+    },
+    {
+      "id": "q5-denuncia-calumniosa",
+      "question": "Código Penal art. 402 (denuncia calumniosa): texto vigente, pena y otras normas que sancionan denuncias falsas",
+      "answer": "Art. 402 (modificado por la Ley 27225 y el DL 1237): 'El que denuncia a la autoridad un hecho punible, a sabiendas de que no se ha cometido o que ha sido cometido por persona distinta a la denunciada, o el que simula o adultera pruebas o indicios de su comisión que puedan servir de motivo para un proceso penal o el que falsamente se atribuye delito no cometido o que ha sido cometido por otro, será reprimido con pena privativa de libertad no mayor de tres años y con ciento ochenta a trescientos sesenta y cinco días-multa'. Hay una agravante (3 a 6 años) si un policía o funcionario simula pruebas en casos de TID. Otras normas: CP art. 131 (calumnia, 90-120 días-multa); art. 411 (falsa declaración en procedimiento administrativo, 1 a 4 años); art. 438 (falsedad genérica, 2 a 4 años, con perjuicio de terceros); art. 452.2 (falta: perturbar la paz pública 'usando medios que puedan producir alarma'). En lo administrativo, el MTC sanciona las llamadas falsas o malintencionadas a centrales de emergencia (105, 911, etc.) con multas de hasta 3-4 UIT y la suspensión o cancelación de la línea (DS 020-2020-MTC, según prensa). Nota para la propuesta: una denuncia falsa que provoque un congelamiento encaja en el art. 402, cuya pena (máx. 3 años) no impide la suspensión de la pena.",
+      "instrument": "Código Penal (DL 635); DS 020-2020-MTC",
+      "article": "CP arts. 402, 131, 411, 438, 452.2",
+      "can_change": "Congreso (o decreto legislativo con delegación en materia penal)",
+      "url": "https://jurispol.pe/actualizado-2026-codigo-penal-peruano-decreto-legislativo-635/",
+      "locator": "CP art. 402 (texto consolidado de Jurispol, anotado a 2026); MTC: https://elperuano.pe/noticia/121769-mtc-multaria-con-mas-de-4-millones-de-soles-por-hacer-llamadas-falsas-a-centrales-de-emergencia",
+      "verification": "leído",
+      "limitations": "El CP se leyó en un texto consolidado privado (Jurispol), no en SPIJ. El régimen del MTC (DS 020-2020-MTC y sus montos actuales) solo está indexado por prensa."
+    },
+    {
+      "id": "q6-retencion-normas",
+      "question": "¿Hay alguna norma que permita a un banco o billetera retener fondos temporalmente por iniciativa propia?",
+      "answer": "No existe una 'retención preventiva' de fondos en la cuenta receptora por iniciativa de la entidad ante una denuncia de extorsión. Lo más cercano: (1) Código de Protección y Defensa del Consumidor (Ley 29571) art. 85 y Reglamento de Gestión de Conducta de Mercado (Res. SBS 3274-2017) art. 41: la entidad puede no contratar, modificar o resolver contratos sin aviso previo por aplicación de normas prudenciales de la SBS (perfil SPLAFT, falta de transparencia del usuario), siempre que esté previsto en el contrato (41.3), y debe comunicarlo en los 7 días siguientes (41.4). El Anexo de cláusulas abusivas prohíbe suspender o resolver contratos sin aviso 'salvo [...] disposición legal distinta o la aplicación de normas prudenciales'. Esa vía permite restringir o cerrar la relación con un cliente, pero no 'congelar' fondos a favor de una víctima ni de una autoridad. (2) Reglamento de Tarjetas (Res. SBS 6523-2013), art. 17 modificado por la Res. SBS 03289-2025: exige monitoreo de operaciones atípicas, alertas, límites y autenticación adicional. Mira al ordenante (tarjetas) y no a la cuenta destino. (3) La Ley 31143 regula topes de tasas (usura) y no trata retenciones. (4) Sujetos obligados SPLAFT: deben reportar operaciones sospechosas (ROS) y no pueden informar de ello al cliente, pero el congelamiento lo dispone la UIF (art. 3-B y Reglamento art. 8-A), no el banco. (5) Ley 32490 (transporte): encarga a la SBS y a la UIF monitorear pagos de 'cupos' o 'vacunas', sin facultad de retención propia (según resumen).",
+      "instrument": "Ley 29571 art. 85; Res. SBS 3274-2017; Res. SBS 6523-2013 (mod. Res. SBS 03289-2025); Ley 31143; Ley 27693",
+      "article": "CPDC art. 85; RGCM art. 41 y anexo de cláusulas abusivas (num. 9); Reglamento de Tarjetas art. 17",
+      "can_change": "SBS (resolución) solo para medidas prudenciales o de gestión de riesgo, con base contractual; una retención de fondos ligada a la denuncia requiere ley (Congreso)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2440050-1",
+      "locator": "Res. SBS 03289-2025 (El Peruano 19-09-2025), art. 17. RGCM art. 41: https://www.bn.com.pe/transparenciabn/transparencia-financiera/Res-SBS-3274-2017-Reglamento-Gestion-Conducta-Mercado.pdf. Ley 32490: https://prcp-r2-prd.postedin.com/Publican-ley-para-fortalecer-la-lucha-contra-los-delitos-de-extorsi%C3%B3n-y-sicariato-en-las-empresas-de-transporte-p%C3%BAblicos-y-de-mercanc%C3%ADas_-1.pdf",
+      "verification": "indexado",
+      "limitations": "El art. 41 del RGCM se leyó en una copia del Banco de la Nación que puede no incluir modificaciones posteriores (p. ej., Res. SBS 02286-2024). No se revisó el Reglamento de Operaciones con Dinero Electrónico (Res. SBS 6283-2013) ni las condiciones contractuales de Yape y Plin. El contenido de la Ley 31143 viene de conocimiento previo, no se leyó en esta sesión. El portal de la SBS bloqueó la descarga de su Oficio 05425-2026-SBS sobre un proyecto de ley."
+    },
+    {
+      "id": "q6-retencion-constitucion",
+      "question": "Límites constitucionales a una 'retención preventiva automática' sin decisión de autoridad: ¿requiere ley?",
+      "answer": "Sí, requiere ley, y aun así necesita una autoridad responsable y control judicial rápido. Razones: (i) Const. art. 70: la propiedad es inviolable y 'se ejerce [...] dentro de los límites de ley'. Restringir la disposición de fondos limita un derecho fundamental (art. 2 inc. 16), y eso exige reserva de ley y proporcionalidad. Un reglamento de la SBS o un contrato de adhesión no bastan para imponerla por un hecho de terceros (la denuncia). (ii) Const. art. 2 inc. 24.a: nadie está impedido de hacer lo que la ley no prohíbe. (iii) Const. art. 2 inc. 5 (secreto bancario, texto de la Ley 31507): la retención no obliga en sí misma a revelar datos, pero sí comunicarlos a la PNP. (iv) La Corte Suprema (Casación 33-2018/Nacional, f. j. 7) calificó el congelamiento administrativo de la UIF como 'restricción de derechos realizada por la Administración', una medida 'provisionalísima' sujeta a confirmación judicial inmediata, que exige urgencia o peligro en la demora, necesidad y fundamento suficiente. El reglamento del 3-B sigue ese modelo: la UIF decide y el juez convalida en 24 h. No se halló jurisprudencia del TC específica sobre el congelamiento administrativo. Conclusión para la propuesta: una 'retención automática' activada por la denuncia debería (a) crearse por ley, (b) tener muy corta duración (p. ej., hasta 4 h o hasta la decisión de la UIF), (c) caducar sola si la UIF no dicta el congelamiento, (d) limitarse al monto denunciado y a la cuenta receptora identificada, y (e) prever responsabilidad por denuncia falsa (CP art. 402) e indemnización al tercero de buena fe.",
+      "instrument": "Constitución arts. 2 inc. 5, 2 inc. 16, 2 inc. 24.a, 70; Casación 33-2018/Nacional",
+      "article": "Const. art. 70; Casación 33-2018/Nacional f. j. 7",
+      "can_change": "Congreso",
+      "url": "https://lpderecho.pe/naturaleza-juridica-congelamiento-administrativo-nacional-fondo-activo-derecho-impuesta-peru-investigaciones-lavado-activos-financiamiento-terrorismo-medida-provisional-casacion-33-2018-nacional-f-7/",
+      "locator": "Casación 33-2018/Nacional, fundamento jurídico 7 (sumilla de LP Derecho); Const. art. 2 inc. 5 en https://busquedas.elperuano.pe/dispositivo/NL/2082628-2",
+      "verification": "indexado",
+      "limitations": "La casación solo se conoce por su sumilla; no se leyó la resolución completa. Los textos de los arts. 70 y 2 inc. 16/24 no se releyeron en esta sesión. No se buscó a fondo jurisprudencia del TC sobre medidas cautelares administrativas sobre fondos. La conclusión sobre la reserva de ley es un análisis propio."
+    },
+    {
+      "id": "q7-delegacion-2026",
+      "question": "Delegación de facultades 2026: ¿se aprobó la ley autoritativa? Número, fecha, alcance, plazo y si cubre modificar el DL 1182",
+      "answer": "Al 22-10-2026 está aprobada por ambas cámaras, pero NO hay constancia de que esté publicada ni de que tenga número de ley. El trámite: la Cámara de Diputados aprobó el 06-10-2026 la Proposición Legislativa 00098-2026-2031-CD (66 a favor, 34 en contra, 24 abstenciones; 20 materias, 6 de seguridad ciudadana). El Senado la aprobó el 21-10-2026 como PL 0013-2026-2031-S (35 a favor, 18 en contra, 6 abstenciones), con 27 materias (añadió 7). El presidente del Congreso, Miguel Torres, firmó la autógrafa el 21-10-2026 y la remitió para su promulgación. El plazo es de 90 días calendario (el Ejecutivo había pedido 120 días y 66 materias). Además, los ministros deben informar a la Comisión de Constitución del Senado en 60 días. Sobre la geolocalización: en Diputados (09-09-2026), el ministro del Interior dijo que se plantea 'modificar el Decreto Legislativo 1182' y el DL 1338 para que la PNP use 'herramientas de rastreo, localización, geolocalización y bloqueo de equipos'. Según Andina/Notiperú, el dictamen faculta a 'fortalecer los mecanismos de identificación, localización y geolocalización de los equipos celulares', así como 'el registro, la trazabilidad, identificación y suspensión, baja y bloqueo de líneas empleadas ilícitamente', con garantías sobre el secreto de las comunicaciones y los datos personales. Esa redacción, en principio, permitiría modificar el DL 1182 por decreto legislativo (incluido el tope de 24 h del art. 4.3). Ninguna fuente menciona que cubra la UIF, el congelamiento, el sistema financiero ni la videovigilancia.",
+      "instrument": "Autógrafa de ley de delegación de facultades (PL 00098-2026-2031-CD / PL 0013-2026-2031-S)",
+      "article": "Texto oficial no disponible (numeración del inciso no verificada)",
+      "can_change": "Congreso (ley autoritativa); luego, Poder Ejecutivo (decretos legislativos) dentro de las materias delegadas",
+      "url": "https://comunicaciones.congreso.gob.pe/noticias/senado-otorga-facultades-al-ejecutivo-para-que-legisle-contra-la-inseguridad-ciudadana-y-el-nino/",
+      "locator": "Nota del Congreso del 21-10-2026; Diputados 06-10-2026: https://comunicaciones.congreso.gob.pe/noticias/camara-de-diputados-aprueba-delegar-facultades-legislativas-al-poder-ejecutivo/; El Peruano 09-09-2026: https://elperuano.pe/noticia/304396-delegacion-de-facultades-permitira-implementar-tecnologia-para-rastrear-y-capturar-a-extorsionadores; El Peruano 22-10-2026: https://elperuano.pe/noticia/307382-extorsion-sicariato-y-ciberdelincuencia-que-medidas-podra-dictar-el-ejecutivo-tras-la-delegacion; Andina/Notiperú 12-10-2026: https://www.notiperu.com.pe/peru/noticia-peru-guerra-contra-delincuencia-conoce-medidas-podrian-aplicarse-facultades-20261012215040.html",
+      "verification": "indexado",
+      "limitations": "No se leyó el texto de la autógrafa ni del dictamen. Tampoco se confirmó si las 7 materias añadidas por el Senado alteran la de geolocalización. La ley puede publicarse en cualquier momento: verificar en El Peruano su número, la fecha de inicio del plazo de 90 días y la redacción exacta del inciso sobre geolocalización antes de afirmar que cubre el DL 1182. La ley anterior de delegación (Ley 32527, dic-2025, 60 días) ya venció; de ella provienen los DL 1731 a 1741."
+    }
+  ]
+}

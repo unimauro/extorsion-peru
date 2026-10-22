@@ -23,16 +23,16 @@ for name in ['cobros_banca','comunicaciones_telco']:
 for name in ['traza_estadisticas','traza_banca','traza_telecom','plan']:
  assert read(folder/f'{name}.json')
 h=read(root/'data/hipotesis.json')['items']
-assert len(h)==len({x['id'] for x in h})==6
+assert len(h)==len({x['id'] for x in h})==8
 for x in h:
- assert all(x[k] for k in ['support','counterevidence','required_evidence','sources'])
- assert x['status_code'] in ['supported','partial','unknown']
+ assert all(x[k] for k in ['support','counterevidence','required_evidence','sources','answer'])
+ assert x['status_code'] in ['supported','partial','unknown','refuted']
 trace=read(root/'data/traza_tareas.json')
 for t in trace['tasks']:
  assert (root/t['output']).is_file()
  if 'trace' in t: assert (root/t['trace']).is_file()
 assert read(root/'data/actualizacion_2026.json')['verified_statistical_cutoff']=='2026-07-31'
-print('OK: 26 pares regionales, totales y variaciones, fuentes nuevas, 6 hipótesis y trazas enlazadas.')
+print('OK: 26 pares regionales, totales y variaciones, fuentes nuevas, 8 hipótesis con respuesta directa y trazas enlazadas.')
 p=read(root/'data/proyeccion_2026.json')
 assert p['observed_complaints']==sum(r['enero_julio_2026'] for r in rows)
 assert p['observed_months']+p['unobserved_months']==12

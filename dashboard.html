@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Desarticular la extorsión · Extorsión Perú</title>
+  <meta name="description" content="Dashboard público: propuesta de un máximo legal de 4 horas para ubicar el celular, congelar la cuenta, asegurar videos e identificar al titular en casos de extorsión en Perú. Datos, casos resueltos, roles, leyes, hipótesis y límites tecnológicos.">
+  <meta name="theme-color" content="#0c1a2b"><meta property="og:title" content="De la denuncia a la intervención en 4 horas · Extorsión Perú"><meta property="og:description" content="Propuesta de plazo legal máximo de 4 horas, con datos, casos resueltos, roles, leyes y límites tecnológicos verificables.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Schibsted+Grotesk:wght@400..800&display=swap">
+  <link rel="stylesheet" href="assets/dashboard.css?v=3.2">
+  <script defer src="assets/dashboard.js?v=3.2"></script>
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<div class="shell">
+<aside class="sidebar" id="sidebar" aria-label="Navegación del dashboard">
+  <a class="db-brand" href="index.html"><span class="seal" aria-hidden="true"></span>Extorsión Perú</a>
+  <p class="side-claim">Propuesta: máximo legal de <b>4 horas</b> desde la denuncia.</p>
+  <nav class="side-nav" id="side-nav">
+    <p class="side-group">La propuesta</p>
+    <a href="#inicio">Inicio</a>
+    <a href="#graficos">Datos y gráficos</a>
+    <a href="#reloj">Plan de 4 horas</a>
+    <a href="#reformas">Qué norma cambiar</a>
+    <a href="#automatizar">Automatización</a>
+    <p class="side-group">La evidencia</p>
+    <a href="#hipotesis">Hipótesis</a>
+    <a href="#casos">Casos resueltos</a>
+    <a href="#roles">Quién actúa</a>
+    <a href="#leyes">Leyes</a>
+    <a href="#tecnologia">Rastreo</a>
+    <a href="#limites">Límites</a>
+  </nav>
+  <div class="side-foot">
+    <a class="side-help" href="#ayuda">¿Te extorsionan? <b>Línea 111</b></a>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Cambiar entre tema claro y oscuro">Cambiar tema</button>
+    <p class="micro"><a href="docs/propuesta_ley_4_horas.md">Borrador de ley</a> · <a href="data/dashboard.json">Datos</a> · <a href="https://github.com/unimauro/extorsion-peru">GitHub</a></p>
+  </div>
+</aside>
+<header class="topbar"><a class="db-brand" href="index.html"><span class="seal" aria-hidden="true"></span>Extorsión Perú</a><button class="menu-btn" id="menu-btn" type="button" aria-controls="sidebar" aria-expanded="false">Menú</button></header>
+
+<main id="contenido">
+<section class="hero" id="inicio" aria-labelledby="hero-title">
+  <p class="hero-kicker">Observatorio ciudadano con fuentes oficiales · revisado el <b id="reviewed">22/10/2026</b></p>
+  <h1 id="hero-title">De la denuncia a la intervención en 4 horas.</h1>
+  <p class="lede">Proponemos que sea ley: en 4 horas como máximo, celular ubicado, dinero congelado, videos asegurados y titular de la cuenta identificado. Hoy cada paso puede tardar hasta 24 horas. Un sistema automatiza el papeleo y los envíos; las personas competentes deciden.</p>
+  <div class="figures" id="hero-figures"><p class="loading">Cargando datos…</p></div>
+  <div class="cta"><a class="btn primary" href="#reloj">Ver el plan de 4 horas</a><a class="btn ghost" href="#reformas">Ver qué norma cambiar</a></div>
+</section>
+
+<div class="tape" role="note" aria-label="Plazos propuestos frente a plazos vigentes"><ul id="tape"></ul></div>
+
+<section class="section" id="graficos" aria-labelledby="h-graf">
+  <div class="section-head"><h2 id="h-graf">Los datos</h2>
+  <p>Denuncias policiales (SIDPOL / INDAGA) y casos resueltos publicados por fuentes oficiales. Las denuncias no son el total de víctimas, y los casos son una muestra intencional.</p></div>
+  <div class="charts">
+    <figure class="panel map-panel"><h3>Dónde se resolvieron los casos</h3><p class="sub">Círculos: casos documentados por región. Color: denuncias por 100.000 habitantes en 2025. Toca un círculo para ver sus casos.</p><div class="map-box" id="map"></div></figure>
+    <article class="panel"><h3>Denuncias por año</h3><p class="sub">Extorsión y extorsión agravada, 2019–2025</p><div class="chart" id="chart-annual"></div></article>
+    <article class="panel"><h3>Enero a julio, 2025 frente a 2026</h3><p class="sub">Mismo reporte SIDPOL; cifras provisionales</p><div class="chart" id="chart-ytd"></div></article>
+    <article class="panel wide"><h3>Cuánto tardó la respuesta</h3><p class="sub">Días hasta la captura o la primera medida judicial, según lo que permite calcular cada fuente</p><div class="chart" id="chart-speed"></div></article>
+    <article class="panel"><h3>Dónde se denuncia más</h3><p class="sub">Denuncias por 100.000 habitantes, 2025; la línea marca la tasa nacional</p><div class="chart" id="chart-regions"></div></article>
+    <article class="panel"><h3>Qué técnicas funcionaron</h3><p class="sub">Casos que mencionan cada técnica; un caso puede tener varias</p><div class="chart" id="chart-techniques"></div></article>
+    <article class="panel"><h3>Por dónde pasó el dinero</h3><p class="sub">Medios de pago en los casos documentados; no mide la distribución nacional</p><div class="chart" id="chart-payments"></div></article>
+  </div>
+  <h3 class="sub-head">Lo que muestran las cifras oficiales</h3>
+  <div class="agg" id="aggregates"></div>
+</section>
+
+<section class="section" id="reloj" aria-labelledby="h-reloj">
+  <div class="section-head"><h2 id="h-reloj">El plan de 4 horas</h2>
+  <p>Cada fila compara el plazo máximo que proponemos con el que permite la norma hoy. Ubicar, congelar, asegurar videos e identificar al titular corren en paralelo; el control judicial llega después sin frenar la intervención. Toca una etapa para ver quién actúa y con qué ley.</p></div>
+  <div class="clock">
+    <div class="gantt" id="gantt"></div>
+    <div class="stage-detail" id="stage-detail" aria-live="polite"></div>
+  </div>
+</section>
+
+<section class="section" id="reformas" aria-labelledby="h-ref">
+  <div class="section-head"><h2 id="h-ref">Qué norma hay que cambiar</h2>
+  <p>Para que 4 horas sea obligatorio y no solo una meta. Las filas marcadas "Requiere ley" pasan por el Congreso o por facultades delegadas; el resto lo puede aprobar el Ejecutivo, la SBS o el Mininter. <a href="docs/propuesta_ley_4_horas.md">Leer el borrador de ley</a>.</p></div>
+  <div class="table-wrap"><table class="reforms" id="reforms"></table></div>
+  <h3 class="sub-head">Sin estas condiciones, el plazo se incumpliría desde el primer día</h3>
+  <div class="req" id="requirements"></div>
+</section>
+
+<section class="section" id="automatizar" aria-labelledby="h-auto">
+  <div class="section-head"><h2 id="h-auto">Qué hace el sistema y qué decide una persona</h2>
+  <p>Automatizar quita horas de papeleo, traslados y esperas. Las decisiones que afectan derechos siguen en manos de quien tiene la competencia legal, y quedan registradas. <a href="prototipo.html">Ver el prototipo por roles</a>.</p></div>
+  <div class="auto-grid" id="automation"></div>
+</section>
+
+<section class="section" id="hipotesis" aria-labelledby="h-hip">
+  <div class="section-head"><h2 id="h-hip">Las hipótesis, respondidas</h2>
+  <p>Cada hipótesis con una respuesta directa, la evidencia nueva y lo que falta para confirmarla. No equivale a un fallo judicial.</p></div>
+  <div class="hyp-grid" id="hypotheses"></div>
+</section>
+
+<section class="section" id="casos" aria-labelledby="h-casos">
+  <div class="section-head"><h2 id="h-casos">Cómo se resolvieron</h2>
+  <p>Casos publicados en 2025–2026 por Fiscalía, Policía, Poder Judicial y medios estatales, ordenados por rapidez. Una prisión preventiva no es condena.</p></div>
+  <div class="filters" id="case-filters" role="group" aria-label="Filtrar casos por técnica"></div>
+  <div class="case-list" id="case-list"></div>
+</section>
+
+<section class="section" id="roles" aria-labelledby="h-roles">
+  <div class="section-head"><h2 id="h-roles">Quién puede hacer qué</h2>
+  <p>Cada fila es un tipo de profesional o institución. La matriz separa lo que decide por sí mismo, lo que hace de urgencia con control judicial después, lo que solo puede pedir y lo que ejecuta por obligación.</p></div>
+  <div class="key" id="matrix-key"></div>
+  <div class="matrix-wrap"><table class="matrix" id="matrix"></table></div>
+  <div class="role-list" id="role-list"></div>
+</section>
+
+<section class="section" id="leyes" aria-labelledby="h-leyes">
+  <div class="section-head"><h2 id="h-leyes">Las leyes que respaldan actuar</h2>
+  <p>Normas vigentes verificadas en fuentes oficiales, agrupadas por lo que permiten. Los proyectos van aparte: un proyecto no es ley.</p></div>
+  <div class="law-cols" id="laws"></div>
+</section>
+
+<section class="section" id="tecnologia" aria-labelledby="h-tec">
+  <div class="section-head"><h2 id="h-tec">¿Se puede rastrear desde una llamada o una cámara?</h2>
+  <p>Elige la evidencia de partida. Cada paso muestra qué dato existe, quién lo tiene, la vía legal y qué tan cerca deja del autor. Un número o una cuenta son pistas: el autor se prueba con corroboración.</p></div>
+  <div class="seg" id="tech-tabs" role="tablist" aria-label="Evidencia de partida"></div>
+  <article class="panel" id="tech-panel" role="tabpanel"></article>
+</section>
+
+<section class="section" id="limites" aria-labelledby="h-lim">
+  <div class="section-head"><h2 id="h-lim">Rápido, sin castigar al equivocado</h2>
+  <p>La velocidad solo sirve si la evidencia se sostiene en juicio y protege a quien fue suplantado.</p></div>
+  <div class="limits" id="limits"></div>
+</section>
+
+<footer class="db-footer" id="ayuda">
+  <p class="help">¿Te están extorsionando? Llama a la <b>Línea 111</b> (gratuita) o al <b>105</b> si hay peligro inmediato. También la Central de Denuncias <b>1818</b>.</p>
+  <p>Extorsión Perú es una investigación ciudadana de Carlos Mauro Cárdenas Fernández. No recibe denuncias ni es un registro de personas acusadas. La propuesta de 4 horas y el <a href="docs/propuesta_ley_4_horas.md">borrador de ley</a> no han sido presentados y requieren revisión jurídica. Datos abiertos en <a href="data/dashboard.json">dashboard.json</a> y dosieres en <a href="https://github.com/unimauro/extorsion-peru/tree/main/research/2026-10-22">research/2026-10-22</a>. <a href="index.html">Investigación completa</a> · <a href="prototipo.html">Prototipo por roles</a>.</p>
+</footer>
+</main>
+</div>
+</body>
+</html>

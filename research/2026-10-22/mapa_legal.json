@@ -1,0 +1,758 @@
+{
+  "meta": {
+    "fecha_corte": "2026-10-22",
+    "nota": "Textos consolidados de CPP y CP leídos en Jurispol (actualizado a enero 2026, con anotaciones hasta jul-2026 en CP). Modificaciones posteriores (p.ej. Ley 32735, jul-2026, al CPP) podrían no estar reflejadas: contrastar con SPIJ/El Peruano antes de publicar.",
+    "escala_verificacion": {
+      "leído": "texto normativo leído (El Peruano, Congreso o texto consolidado)",
+      "indexado": "confirmado por resumen/índice oficial o secundario fiable, sin leer el articulado",
+      "no verificado": "no confirmado en esta sesión"
+    }
+  },
+  "laws": [
+    {
+      "id": "const-2-5",
+      "name": "Constitución Política, art. 2 inc. 5 (texto según Ley 31507, El Peruano 03-07-2022)",
+      "short": "Secreto bancario y reserva tributaria",
+      "what_it_enables": "Levantamiento del secreto bancario y reserva tributaria a pedido de: 1) juez; 2) Fiscal de la Nación; 3) comisión investigadora del Congreso; 4) Contralor General (funcionarios que manejan fondos públicos, en acción de control); 5) Superintendente de Banca, Seguros y AFP 'para los fines específicos de la inteligencia financiera'.",
+      "who_requests": "Juez, Fiscal de la Nación, comisión investigadora, Contralor, Superintendente SBS (UIF)",
+      "who_decides": "La propia autoridad habilitada, 'de acuerdo a ley', con decisión motivada y bajo responsabilidad",
+      "deadline": "No fija plazo",
+      "needs_judge": false,
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2082628-2",
+      "locator": "Art. 2 inc. 5, párrafo 2 (Ley 31507)",
+      "verification": "leído",
+      "limitations": "El fiscal provincial no figura: debe pedirlo al juez (CPP art. 235). La vía SBS/UIF es solo para inteligencia financiera, no para prueba penal directa."
+    },
+    {
+      "id": "const-2-10",
+      "name": "Constitución Política, art. 2 inc. 10",
+      "short": "Secreto e inviolabilidad de comunicaciones",
+      "what_it_enables": "Las comunicaciones y documentos privados solo pueden abrirse, incautarse, interceptarse o intervenirse por mandamiento motivado del juez, con las garantías de ley.",
+      "who_requests": "Fiscal (vía CPP art. 230)",
+      "who_decides": "Juez",
+      "deadline": "No fija plazo",
+      "needs_judge": true,
+      "url": "no verificado",
+      "locator": "Art. 2 inc. 10",
+      "verification": "no verificado",
+      "limitations": "Texto no leído en esta sesión. Los datos de geolocalización tienen régimen especial (DL 1182) con convalidación judicial posterior."
+    },
+    {
+      "id": "dl-1182",
+      "name": "Decreto Legislativo 1182 (2015), modificado por Ley 31284 (16-07-2021) y Ley 32303 (16-04-2025)",
+      "short": "Acceso policial inmediato a geolocalización de móviles",
+      "what_it_enables": "La unidad policial a cargo de la investigación solicita a la unidad especializada PNP el acceso inmediato a datos de localización, geolocalización o rastreo de teléfonos móviles u otros dispositivos, sin orden judicial previa.",
+      "who_requests": "Unidad PNP a cargo de la investigación, vía la unidad especializada PNP (verifica al solicitante y requiere a la operadora por correo institucional u otro medio convenido); pone en conocimiento del Ministerio Público",
+      "who_decides": "Unidad especializada PNP (acceso); Juez (convalidación posterior)",
+      "deadline": "Operadora: máximo 24 horas, servicio 24x7x365 (art. 4.3). Convalidación: informe policial al fiscal en 24 h; fiscal pide convalidación en 24 h; juez resuelve en 24 h (art. 5.1-5.3). Juez fija plazo de la medida no mayor de 60 días, prorrogable excepcionalmente (art. 5.4).",
+      "needs_judge": "convalidación posterior",
+      "url": "https://jurispol.pe/dl-1182-regula-el-uso-de-los-datos-derivados-de-las-telecomunicaciones-para-la-identificacion-localizacion-y-geolocalizacion-de-equipos-de-comunicacion-en-la-lucha-contra-la-delincuencia-y-el-crime/",
+      "locator": "Arts. 2, 3 (a, b, c), 4, 5; Segunda DCF (conservación). Ley 31284: https://img.lpderecho.pe/wp-content/uploads/2021/07/Ley-31284-LP.pdf ; Ley 32303: https://img.lpderecho.pe/wp-content/uploads/2025/04/Ley-32303-LPDerecho.pdf",
+      "verification": "leído",
+      "limitations": "Presupuestos concurrentes (art. 3): a) flagrancia (CPP art. 259) o investigación preliminar por delitos contra la vida, libertad, patrimonio (incluye extorsión), adm. pública, lavado, trata, TID, minería ilegal o Ley 30077; b) pena superior a 4 años; c) medio indispensable, con 'debidas garantías' (texto Ley 32303). Solo datos de ubicación: no da acceso al contenido de comunicaciones. Conservación (Segunda DCF): 12 meses en línea/tiempo real + 24 meses adicionales en almacenamiento (36 en total); datos de más de 12 meses se entregan dentro de 7 días de la autorización judicial. No se halló modificación de DL 1611 al DL 1182 (DL 1611 modificó CPP art. 341 y CP art. 200). La Quinta DCF fue derogada por DL 1688 (02-10-2024)."
+    },
+    {
+      "id": "cpp-230",
+      "name": "Código Procesal Penal (DL 957), art. 230 (mod. DL 1605, Ley 32130, DL 1708 de 30-01-2026)",
+      "short": "Intervención de comunicaciones y geolocalización con orden judicial",
+      "what_it_enables": "Intervención, monitoreo o grabación de comunicaciones telefónicas, radiales, internet u otras, y registros de datos derivados de las comunicaciones. Contra el investigado o terceros que tramitan sus comunicaciones. Vía de emergencia: si hay amenaza inminente a vida, integridad o libertad, o en supuestos del art. 200 CP (extorsión, incorporado por DL 1708), el fiscal requiere al juez en 24 h desde el informe policial preliminar; el juez resuelve en 24 h, pide directamente la información a las operadoras y ordena remitirla al fiscal y a la unidad policial en no más de 24 h.",
+      "who_requests": "Fiscal, de oficio o a requerimiento de la PNP",
+      "who_decides": "Juez de la Investigación Preparatoria",
+      "deadline": "Emergencia/extorsión: 24 h fiscal + 24 h juez + 24 h entrega. Operadoras: facilidades inmediatas, tiempo real, 24x7x365. Duración: hasta 60 días, prorrogable una sola vez por igual plazo (Ley 32130, 10-10-2024).",
+      "needs_judge": true,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 230 nums. 1-6 (párrafo de emergencia en num. 3)",
+      "verification": "leído",
+      "limitations": "Requiere pena superior a 4 años, suficientes elementos de convicción y necesidad absoluta. Hay un proyecto 2026 para permitir prórrogas sucesivas en crimen organizado (ver bills)."
+    },
+    {
+      "id": "cpp-230a",
+      "name": "CPP art. 230-A (incorporado por DL 1698, 20-01-2026)",
+      "short": "Revisión del celular del detenido en flagrancia por extorsión",
+      "what_it_enables": "En detención en flagrancia por extorsión, sicariato o secuestro, el policía puede revisar la información de los equipos informáticos del detenido, con autorización previa del Ministerio Público. También aplica a equipos hallados en operativos inopinados en penales.",
+      "who_requests": "PNP",
+      "who_decides": "Fiscal (autorización previa); Juez (resolución confirmatoria al término)",
+      "deadline": "No fija plazo para la confirmatoria ('al término del acto de investigación')",
+      "needs_judge": "convalidación posterior",
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 230-A",
+      "verification": "leído",
+      "limitations": "Solo en flagrancia y para esos tres delitos; debe ser indispensable para esclarecer el hecho. Ley 32684 (jul-2026) establece que en penales se incauta sin revisar contenido salvo autorización judicial (según resumen, no leído)."
+    },
+    {
+      "id": "cpp-231",
+      "name": "CPP art. 231 (mod. DL 1605)",
+      "short": "Registro de la intervención y extensión urgente a números nuevos",
+      "what_it_enables": "Grabaciones de voz, texto, data y metadata se entregan al fiscal con Acta de Recolección y Control. Si durante una intervención judicial en curso aparecen nuevos números con riesgo inminente a vida, integridad grave o libertad, el fiscal puede disponer la intervención inmediata del nuevo número por hasta 72 h, solo si el mandato judicial lo previó, y pedir convalidación al juez.",
+      "who_requests": "Fiscal",
+      "who_decides": "Fiscal (excepcional, 72 h); Juez (convalidación)",
+      "deadline": "Intervención fiscal urgente máx. 72 h; reexamen del afectado: 3 días desde la notificación",
+      "needs_judge": "convalidación posterior",
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 231 nums. 1-5 (num. 5: 72 h)",
+      "verification": "leído",
+      "limitations": "La extensión urgente solo cabe si el mandato judicial original la previó."
+    },
+    {
+      "id": "cpp-232-234",
+      "name": "CPP arts. 232, 233 y 234",
+      "short": "Aseguramiento e incautación de documentos privados y contables",
+      "what_it_enables": "Art. 232: PNP o fiscal que halla un documento privado sin orden lo asegura sin examinar su contenido; el fiscal lo pone a disposición judicial antes de 24 h; el juez resuelve en 1 día. Art. 233: el fiscal pide orden de incautación al juez, que la expide de inmediato y sin trámite. Art. 234: fiscal (o PNP por orden fiscal) puede inspeccionar libros y documentos contables; si los asegura sin orden, pide intervención judicial antes de 24 h.",
+      "who_requests": "Fiscal; PNP para el aseguramiento",
+      "who_decides": "Juez de la Investigación Preparatoria",
+      "deadline": "24 h para llevar al juez; juez: 1 día (art. 232) o inmediato (art. 233)",
+      "needs_judge": true,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Arts. 232, 233, 234; ver también art. 68.1.i (PNP asegura documentos e instrumentos de telecomunicaciones)",
+      "verification": "leído",
+      "limitations": "El aseguramiento no permite examinar el contenido sin orden judicial, salvo el régimen especial del art. 230-A."
+    },
+    {
+      "id": "cpp-235",
+      "name": "CPP art. 235 (mod. Ley 30096, DL 1605)",
+      "short": "Levantamiento judicial del secreto bancario",
+      "what_it_enables": "El juez, a pedido del fiscal, ordena reservadamente y sin trámite el levantamiento del secreto bancario. Puede incautar fondos o bloquear e inmovilizar cuentas vinculadas aunque no estén a nombre del imputado. Puede autorizar registros en entidades financieras. Vía de emergencia (amenaza inminente a vida, integridad o libertad): fiscal requiere al juez en 24 h desde el informe policial; el juez resuelve en 24 h, pide directamente a las entidades y ordena remitir al fiscal y a la PNP en no más de 24 h. Las operaciones no cubiertas por el secreto bancario se entregan directamente al fiscal a su requerimiento.",
+      "who_requests": "Fiscal (de oficio o a solicitud de la PNP en emergencia)",
+      "who_decides": "Juez de la Investigación Preparatoria",
+      "deadline": "Emergencia: 24 h + 24 h + 24 h. Régimen ordinario: hasta 30 días hábiles para la entidad, o el plazo que fije el juez.",
+      "needs_judge": true,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 235 nums. 1-6 (párrafo de emergencia en num. 3; plazo en num. 5); art. 236 para reserva tributaria",
+      "verification": "leído",
+      "limitations": "El párrafo de emergencia del art. 235 no menciona expresamente el art. 200 CP (a diferencia del art. 230 tras DL 1708). En extorsión aplica si hay amenaza inminente a la víctima."
+    },
+    {
+      "id": "cpp-209-259-266",
+      "name": "CPP arts. 209, 259 y 266 (mod. DL 1735, 12-02-2026)",
+      "short": "Retención, flagrancia ampliada y detención judicial en extorsión",
+      "what_it_enables": "Art. 209: retención de personas por 4 h, ampliable por igual plazo en extorsión, sicariato, secuestro y criminalidad sistemática. Art. 259: la flagrancia por identificación (incluida la de video o dispositivos) o por hallazgo con efectos del delito se extiende de 24 a 72 h en extorsión, homicidio, sicariato, secuestro y criminalidad sistemática. Art. 266: el fiscal puede pedir en 24 h detención judicial por flagrancia de hasta 7 días, y hasta 15 días en extorsión, sicariato, secuestro y crimen organizado; audiencia antes de 48 h.",
+      "who_requests": "PNP (retención, detención en flagrancia); Fiscal (detención judicial)",
+      "who_decides": "PNP o Fiscal; Juez para la detención judicial y para extender la retención",
+      "deadline": "Retención 4+4 h; flagrancia 72 h en extorsión; fiscal 24 h para pedir detención judicial; audiencia antes de 48 h",
+      "needs_judge": "convalidación posterior",
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Arts. 209.2, 259 (último párrafo), 266.1-2",
+      "verification": "leído",
+      "limitations": "DL 1735 también modificó los arts. 222, 360, 446, 447, 472, 474 y 475 (según anotaciones del texto consolidado); no revisados."
+    },
+    {
+      "id": "cpp-340",
+      "name": "CPP art. 340 (mod. Ley 30077)",
+      "short": "Circulación y entrega vigilada de bienes delictivos",
+      "what_it_enables": "El fiscal autoriza por Disposición que bienes delictivos circulen o se entreguen bajo vigilancia para identificar a los involucrados. Copia de la Disposición al registro reservado de la Fiscalía de la Nación.",
+      "who_requests": "PNP / Fiscal",
+      "who_decides": "Fiscal",
+      "deadline": "No fija",
+      "needs_judge": false,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 340 nums. 1-4",
+      "verification": "leído",
+      "limitations": "La lista cerrada de bienes (num. 4) incluye drogas, insumos, dinero/ganancias del DL 1106 (lavado), bienes aduaneros y otros. No menciona expresamente el pago extorsivo. No se halló norma legal específica sobre 'pago o entrega controlada' en extorsión: en la práctica se rige por la guía operativa PNP (RGC 580-2024-CG PNP/EMG, contenido no verificado) bajo conducción fiscal. La apertura de envíos postales requiere juez (art. 226)."
+    },
+    {
+      "id": "cpp-341",
+      "name": "CPP arts. 341 y 341-A (mod. DL 1307, DL 1611)",
+      "short": "Agente encubierto, especial, revelador, virtual, informante y operaciones encubiertas",
+      "what_it_enables": "La PNP, con autorización del Ministerio Público por Disposición, usa agente encubierto, especial, revelador o virtual, e informantes, cuando las técnicas convencionales no bastan. Art. 341-A: el fiscal autoriza operaciones encubiertas en diligencias preliminares, incluso personas jurídicas ficticias; luego requiere confirmatoria judicial.",
+      "who_requests": "PNP",
+      "who_decides": "Fiscal; Juez si se afectan derechos fundamentales (341) y confirmatoria posterior (341-A)",
+      "deadline": "No fija",
+      "needs_judge": "convalidación posterior",
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 341 nums. 1.1-1.4; art. 341-A nums. 1-3",
+      "verification": "leído",
+      "limitations": "Procede solo para banda u organización criminal (Ley 30077), trata o delitos contra la adm. pública (arts. 382-401 CP). Una extorsión individual no entra, salvo que se cometa por TIC: la Ley 30096, Segunda DCF, permite al fiscal autorizar agentes encubiertos en todo delito cometido mediante TIC, sin vínculo con organización."
+    },
+    {
+      "id": "cpp-247-248",
+      "name": "CPP arts. 247-249",
+      "short": "Medidas de protección de víctimas y testigos",
+      "what_it_enables": "Protección policial, cambio de residencia, ocultación de paradero, reserva de identidad con clave, domicilio procesal en la Fiscalía, videoconferencia y salida del país en riesgo grave.",
+      "who_requests": "De oficio o a instancia de parte",
+      "who_decides": "Fiscal o Juez, según la etapa",
+      "deadline": "No fija",
+      "needs_judge": false,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-procesal-penal-decreto-legislativo-957/",
+      "locator": "Art. 248.2 a)-h)",
+      "verification": "leído",
+      "limitations": "La ejecución depende de los recursos de la PNP y del Programa de Protección y Asistencia a Víctimas y Testigos del MP (UDAVIT)."
+    },
+    {
+      "id": "ley-27697",
+      "name": "Ley 27697 (mod. DL 991, Ley 30077, Ley 30096)",
+      "short": "Facultad fiscal de intervención de comunicaciones en caso excepcional",
+      "what_it_enables": "Marco legal de la facultad del fiscal para solicitar intervención y control de comunicaciones y documentos privados en casos excepcionales, con lista de delitos.",
+      "who_requests": "Fiscal",
+      "who_decides": "Juez",
+      "deadline": "no verificado",
+      "needs_judge": true,
+      "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30096-TXM.pdf",
+      "locator": "Art. 1 (modificado por la Primera DCM de la Ley 30096)",
+      "verification": "indexado",
+      "limitations": "No se leyó la lista vigente de delitos ni el procedimiento."
+    },
+    {
+      "id": "dl-1218",
+      "name": "Decreto Legislativo 1218 y su Reglamento, DS 007-2020-IN (El Peruano 24-04-2020)",
+      "short": "Cámaras de videovigilancia: deber de entrega y acceso PNP",
+      "what_it_enables": "Si los hechos se captan en tiempo real, el titular de la cámara informa de inmediato a la PNP o al MP y se habilita la visualización inmediata por personal policial especializado (art. 17.1.a). Si se descubren después, el titular informa y entrega las imágenes en máximo 24 h (art. 17.1.b). En flagrancia, la PNP puede acceder a las cámaras para seguir la ruta de fuga en puertos, aeropuertos, terminales terrestres y almacenes aduaneros (art. 16, según verificación posterior). Acceso inmediato de unidades PNP en aeropuertos y terminales (art. 14.2) y en puertos (art. 14.1.b). La PNP o el MP guarda en reserva la identidad de quien entrega y levanta acta (art. 18.1).",
+      "who_requests": "PNP o Ministerio Público (o entrega espontánea del titular)",
+      "who_decides": "Obligación legal del titular; no requiere decisión judicial",
+      "deadline": "Inmediato (tiempo real) / máximo 24 h (hechos descubiertos luego). Conservación mínima: 45 días calendario, ampliable si hay indicios de delito (art. 17.2.b-c). Transporte público: 24 h y 45 días (Tercera DCF).",
+      "needs_judge": false,
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/1865739-5",
+      "locator": "Reglamento arts. 14, 15, 16, 17, 18; Tercera DCF",
+      "verification": "leído; art. 16 corregido con research/2026-10-22/verificacion_4_horas.json",
+      "limitations": "Ámbito: bienes de dominio público, vehículos de transporte público y establecimientos abiertos al público con aforo de 50 o más. Cámaras domésticas o de negocios pequeños: no hay deber específico; aplica el deber general de colaboración del DL 1735 (Séptima DCF). Debe respetarse la protección de datos personales (DS 016-2024-JUS) y la jurisprudencia TC 04140-2024-HD. Texto del DL 1218 mismo no leído."
+    },
+    {
+      "id": "dl-1338",
+      "name": "Decreto Legislativo 1338 (RENTESEG), Reglamento DS 007-2019-IN; mod. DL 1596, Ley 32303 y DL 1738 (13-02-2026, tope de líneas)",
+      "short": "Registro IMEI–abonado, bloqueo de equipos y baja de líneas",
+      "what_it_enables": "OSIPTEL administra el RENTESEG (listas blanca y negra; solo operan equipos en lista blanca). Art. 6.1.d (Ley 32303): OSIPTEL requiere a las operadoras, de oficio o a solicitud de MININTER, PNP, INPE, Ministerio Público o Poder Judicial, la suspensión temporal de líneas, mensajes de advertencia, bloqueo de IMEI alterados, clonados o fuera de lista blanca, y/o baja del servicio móvil de equipos usados o vinculados a delitos. A pedido del usuario afectado, con denuncia y constatación policial, pide bloqueo de IMEI o suspensión.",
+      "who_requests": "MININTER, PNP, INPE, MP, PJ o el usuario afectado con denuncia",
+      "who_decides": "OSIPTEL (administrativo)",
+      "deadline": "Pedido del usuario: OSIPTEL requiere en 12 h; operadora ejecuta en máximo 3 h. Para pedidos de autoridades rige el procedimiento reglamentario (baja en 1 día calendario, según la norma ya conocida por el equipo).",
+      "needs_judge": false,
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2025/04/Ley-32303-LPDerecho.pdf",
+      "locator": "DL 1338 art. 6.1.d (texto Ley 32303, El Peruano 16-04-2025); Única DCF: adecuación del reglamento en 60 días hábiles",
+      "verification": "leído",
+      "limitations": "Solo el art. 6.1.d fue leído; el resto (vinculación IMEI-abonado en el reglamento) está indexado. No permite acceder a contenido ni a ubicación; para eso rigen el DL 1182 y el CPP art. 230."
+    },
+    {
+      "id": "dl-1723",
+      "name": "Decreto Legislativo 1723 (07-02-2026)",
+      "short": "Uso de numeración y trazabilidad de llamadas y SMS",
+      "what_it_enables": "Reglas para el uso adecuado de la numeración en llamadas y SMS y su trazabilidad, para evitar el anonimato y las comunicaciones ilícitas.",
+      "who_requests": "no verificado",
+      "who_decides": "no verificado (presumiblemente MTC/OSIPTEL)",
+      "deadline": "no verificado",
+      "needs_judge": "no verificado",
+      "url": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-25/decretos-legislativos-2006-2026%5Br%5D.pdf",
+      "locator": "Fila 19 de la relación de DL del Congreso",
+      "verification": "indexado",
+      "limitations": "Solo la sumilla fue confirmada."
+    },
+    {
+      "id": "ley-30077",
+      "name": "Ley 30077, Ley contra el Crimen Organizado",
+      "short": "Régimen de organización criminal",
+      "what_it_enables": "Aplica a organizaciones criminales que cometen los delitos de su art. 3, entre ellos extorsión y delitos informáticos (num. 9, según la Ley 30096). Habilita técnicas especiales (agente encubierto, operaciones encubiertas), el proceso complejo y fiscalías especializadas.",
+      "who_requests": "Fiscal especializado (FECOR)",
+      "who_decides": "Fiscal o Juez, según la medida",
+      "deadline": "Plazos de proceso complejo (no detallados)",
+      "needs_judge": "según la medida",
+      "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30096-TXM.pdf",
+      "locator": "Art. 3 (delitos comprendidos); ver CP arts. 317, 317-A y 317-B",
+      "verification": "indexado",
+      "limitations": "No se leyó el texto consolidado de la Ley 30077. La inclusión de la extorsión en el art. 3 no se confirmó con el texto leído."
+    },
+    {
+      "id": "ley-30096",
+      "name": "Ley 30096, Ley de Delitos Informáticos (mod. Ley 30171; DL 1700 de 24-01-2026; DL 1741 de 13-02-2026)",
+      "short": "Delitos informáticos y agente encubierto TIC",
+      "what_it_enables": "Tipos penales: acceso ilícito (art. 2: 1-4 años), fraude informático (art. 8: 3-8 años), suplantación de identidad (art. 9: 3-5 años), abuso de dispositivos (art. 10: 1-4 años). Nuevo art. 12-A (DL 1700): adquisición, posesión y tráfico ilícito de datos informáticos y bases de datos personales (5-8 años según resumen), con excepción para el sector financiero, bursátil, previsional y de seguros (DL 1741). Segunda DCF: el fiscal puede autorizar agentes encubiertos en cualquier delito cometido mediante TIC. Cuarta DCF: protocolos de cooperación con el sector privado.",
+      "who_requests": "Fiscal / PNP (DIVINDAT)",
+      "who_decides": "Fiscal (agente encubierto TIC); Juez (afectación de derechos)",
+      "deadline": "No fija",
+      "needs_judge": false,
+      "url": "https://leyes.congreso.gob.pe/Documentos/ExpVirPal/Texto_Consolidado/30096-TXM.pdf",
+      "locator": "Arts. 2, 8, 9, 10, 11; Segunda y Cuarta DCF; art. 12-A (DL 1700)",
+      "verification": "leído",
+      "limitations": "El texto consolidado del Congreso no incluye el art. 12-A: la pena y la excepción del DL 1741 están solo indexadas (LP Derecho)."
+    },
+    {
+      "id": "cp-200",
+      "name": "Código Penal art. 200 (mod. DL 1611 de 21-12-2023, Ley 32183 de 11-12-2024 y Ley 32684 de 02-07-2026)",
+      "short": "Delito de extorsión: penas vigentes",
+      "what_it_enables": "Tipo base (200.1): 10 a 15 años. Préstamos extorsivos 'gota a gota' (200.2, Ley 32183) e informante (200.3): la misma pena. Toma de locales o bloqueo de vías (200.4): 5 a 10 años. Agravantes (200.6): 15 a 25 años, entre ellas a mano armada, dos o más personas, obras de construcción, uso de imágenes del entorno, víctima comerciante o empresaria, colegios y condominios, y uso de teléfonos autorizados de penales (lit. i, Ley 32684). Rehén (200.7): 20 a 30 años, o 30 o más con agravantes. Armas de fuego, explosivos o policía integrante (200.8): no menor de 30 años. Cadena perpetua (200.9): rehén menor o mayor de 70, persona con discapacidad, lesiones graves o muerte, uso de menores, carácter transnacional.",
+      "who_requests": "Fiscal (acción penal)",
+      "who_decides": "Juez",
+      "deadline": "n/a",
+      "needs_judge": true,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-penal-peruano-decreto-legislativo-635/",
+      "locator": "Art. 200.1-200.9",
+      "verification": "leído",
+      "limitations": "Texto consolidado de Jurispol (declara actualización al 26-01-2026, pero anota la Ley 32684 de jul-2026). Varios proyectos para elevar penas no son ley."
+    },
+    {
+      "id": "cp-200a",
+      "name": "Código Penal art. 200-A (DL 1731, 12-02-2026)",
+      "short": "Exigencia o requerimiento extorsivo (antes del pago)",
+      "what_it_enables": "Sanciona la sola exigencia con violencia o amenaza explícita o implícita: 9 a 12 años. Agravada (invocar organización criminal, usar datos de la víctima, objetos perturbadores, víctima funcionaria, uso de menores, armas o explosivos): 12 a 15 años. Si se obtiene la ventaja, aplica el art. 200.",
+      "who_requests": "Fiscal",
+      "who_decides": "Juez",
+      "deadline": "n/a",
+      "needs_judge": true,
+      "url": "https://jurispol.pe/actualizado-2026-codigo-penal-peruano-decreto-legislativo-635/",
+      "locator": "Art. 200-A.1-200-A.3",
+      "verification": "leído",
+      "limitations": "Habilita intervenir y detener en flagrancia sin esperar el pago, y como la pena supera 4 años se activan el DL 1182 y el CPP art. 230."
+    },
+    {
+      "id": "dl-1735",
+      "name": "Decreto Legislativo 1735 (12-02-2026)",
+      "short": "Subsistema Especializado contra la Extorsión y sus Delitos Conexos (SEEDC)",
+      "what_it_enables": "Crea el SEEDC: juzgados y salas especializadas del PJ, fiscalías provinciales y superiores especializadas contra la extorsión, unidades competentes PNP, Defensa Pública, medicina legal y criminalística, y UDAVIT. Competencia exclusiva sobre la extorsión (art. 200) y delitos conexos (art. 9.1: homicidio, sicariato, coacción, secuestro, daños, armas, organización criminal, marcaje, entre otros), con posible competencia supraprovincial. Séptima DCF: las entidades públicas y privadas con información útil sobre un delito deben remitirla a la PNP y al MP 'de forma inmediata', salvo prohibición legal o constitucional. Octava DCF: banco de datos PNP reservado de teléfonos, IMEI, cuentas y billeteras vinculados a extorsión (90 días). Sexta DCF: línea gratuita de Defensa Pública para víctimas (90 días). Cuarta DCF: protocolo PNP-MP (120 días). Modifica los arts. 209, 259 y 266 del CPP, entre otros.",
+      "who_requests": "n/a (norma organizativa)",
+      "who_decides": "MINJUSDH, mediante la Comisión Especial de Implementación del CPP (calendario en 60 días)",
+      "deadline": "Implementación progresiva, sujeta a presupuesto; criterios de redistribución de carga en 30 días; indicadores en 90 días",
+      "needs_judge": false,
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/02/Decreto-Legislativo-1735-LPDerecho.pdf",
+      "locator": "Arts. I-III, 1-10; DCF Primera a Décima Segunda",
+      "verification": "leído",
+      "limitations": "Su funcionamiento operativo 'inicia siempre que se cuente con la disponibilidad presupuestal'. No se verificó si el calendario, el protocolo ni el banco de datos ya fueron aprobados."
+    },
+    {
+      "id": "ley-32490",
+      "name": "Ley 32490 (03-11-2025)",
+      "short": "Medidas extraordinarias contra extorsión y sicariato en transporte",
+      "what_it_enables": "Crea el Grupo Interinstitucional contra la Extorsión y el Sicariato (GIES: PNP, MP, PJ). Prevención financiera: la SBS monitorea pagos tipo 'cupo' o 'vacuna', la UIF detecta operaciones inusuales y la PNP da a la UIF acceso a su base de denunciados. Los gobiernos locales y regionales deben dar al GIES acceso en tiempo real a sus cámaras. El MP crea fiscalías especializadas en extorsión y sicariato (art. 4.3.c, operativizado por el DL 1735). Rutas provisionales en 72 h.",
+      "who_requests": "MININTER, PNP, MP, PJ, SBS, UIF, MTC",
+      "who_decides": "Cada entidad en su competencia",
+      "deadline": "Mapas de riesgo PNP cada 30 días; restablecer rutas en máximo 72 h",
+      "needs_judge": false,
+      "url": "https://prcp-r2-prd.postedin.com/Publican-ley-para-fortalecer-la-lucha-contra-los-delitos-de-extorsi%C3%B3n-y-sicariato-en-las-empresas-de-transporte-p%C3%BAblicos-y-de-mercanc%C3%ADas_-1.pdf",
+      "locator": "Arts. 3, 4 (4.3.c), 5",
+      "verification": "indexado",
+      "limitations": "Resumen de estudio de abogados, no texto oficial. La afirmación de prensa de que permite 'congelar preventivamente' operaciones sin proceso judicial no se verificó."
+    },
+    {
+      "id": "ley-32348",
+      "name": "Ley 32348 (23-05-2025) y Protocolo DS 026-2025-JUS",
+      "short": "Sistema Nacional de Justicia Especializado en Flagrancia Delictiva",
+      "what_it_enables": "Unidades de flagrancia donde jueces, fiscales, policías, peritos, defensores e INPE trabajan en un mismo espacio, para el proceso inmediato y la prisión preventiva en flagrancia. Consejo Nacional presidido por el PJ.",
+      "who_requests": "PNP / Fiscal de flagrancia",
+      "who_decides": "Juez de la unidad de flagrancia",
+      "deadline": "Plazos del proceso inmediato (CPP arts. 446-447)",
+      "needs_judge": true,
+      "url": "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_32348.pdf",
+      "locator": "Ley 32348; DS 026-2025-JUS; Res. 2075-2026-MP-FN (competencia de las fiscalías de flagrancia)",
+      "verification": "indexado",
+      "limitations": "El protocolo excluiría delitos de competencia de fiscalías especializadas, y esa exclusión está discutida en jurisprudencia. Hay que verificar cómo convive con el SEEDC en extorsión."
+    },
+    {
+      "id": "psav",
+      "name": "DS 006-2023-JUS y Resolución SBS N.° 02648-2024 (publicada 01-08-2024)",
+      "short": "Proveedores de servicios de activos virtuales (PSAV) como sujetos obligados",
+      "what_it_enables": "El DS 006-2023-JUS incorpora a los PSAV como sujetos obligados a informar a la UIF-Perú. La Res. SBS 02648-2024 aprueba su norma de prevención LA/FT (conocimiento del cliente, oficial de cumplimiento, reportes de operaciones sospechosas). La 'Regla de Viaje' (Cap. VIII) rige desde el 02-08-2026. La SBS supervisa conforme al art. 9-A de la Ley 27693.",
+      "who_requests": "UIF-Perú (requerimientos de información); el PSAV reporta",
+      "who_decides": "UIF/SBS (supervisión)",
+      "deadline": "Vigencia 02-08-2024; adecuación al 30-11-2024; Regla de Viaje 02-08-2026",
+      "needs_judge": false,
+      "url": "https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3754",
+      "locator": "Res. SBS 02648-2024 (texto: https://img.lpderecho.pe/wp-content/uploads/2024/08/Resolucion-SBS-02648-2024-LPDerecho.pdf)",
+      "verification": "indexado",
+      "limitations": "No se verificó si el congelamiento administrativo de la UIF (Ley 32209 / DS 007-2025-JUS) alcanza expresamente a los activos virtuales en PSAV."
+    },
+    {
+      "id": "ley-32209",
+      "name": "Ley 32209 (art. 3-B Ley 27693) y DS 007-2025-JUS, mod. DS 097-2025-PCM",
+      "short": "Congelamiento administrativo UIF de fondos por extorsión",
+      "what_it_enables": "La UIF congela fondos a pedido de la PNP en casos de extorsión, con control judicial posterior.",
+      "who_requests": "PNP",
+      "who_decides": "UIF-Perú; juez (control posterior)",
+      "deadline": "Según DS 007-2025-JUS",
+      "needs_judge": "convalidación posterior",
+      "url": "no verificado",
+      "locator": "Art. 3-B Ley 27693",
+      "verification": "no verificado",
+      "limitations": "Ya conocido por el equipo; no re-verificado en esta búsqueda."
+    },
+    {
+      "id": "dl-1732",
+      "name": "DL 1732 (12-02-2026) y Resolución SBS 01586-2026",
+      "short": "Mecanismo de Identificación de Titularidades Financieras",
+      "what_it_enables": "Identificación de la titularidad de cuentas en 3 días hábiles, sin saldos.",
+      "who_requests": "Autoridad habilitada (según norma)",
+      "who_decides": "SBS (mecanismo)",
+      "deadline": "3 días hábiles",
+      "needs_judge": false,
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/02/Decreto-Legislativo-1732-LPDerecho.pdf",
+      "locator": "DL 1732 (sumilla confirmada en la relación del Congreso)",
+      "verification": "no verificado",
+      "limitations": "Ya conocido por el equipo; solo la sumilla fue confirmada en esta búsqueda."
+    },
+    {
+      "id": "osiptel-lineas",
+      "name": "DL 1738 (13-02-2026) y normas OSIPTEL",
+      "short": "Tope de líneas móviles por persona natural y baja de líneas",
+      "what_it_enables": "Límite razonable de servicios móviles por persona natural (7 líneas desde jul-2026) y baja de líneas en 1 día calendario.",
+      "who_requests": "OSIPTEL / autoridades",
+      "who_decides": "OSIPTEL",
+      "deadline": "1 día calendario (baja)",
+      "needs_judge": false,
+      "url": "https://www3.congreso.gob.pe/Docs/DGP/GestionInformacionEstadistica/files/publicaciones-25/decretos-legislativos-2006-2026%5Br%5D.pdf",
+      "locator": "DL 1738 (modifica DL 1338)",
+      "verification": "no verificado",
+      "limitations": "Ya conocido por el equipo; solo la sumilla del DL 1738 fue confirmada."
+    },
+    {
+      "id": "ds-016-2024-jus",
+      "name": "DS 016-2024-JUS (Reglamento de la Ley de Protección de Datos Personales)",
+      "short": "Límites de tratamiento de datos",
+      "what_it_enables": "Marco de licitud para compartir datos personales (videos, titularidades) con las autoridades.",
+      "who_requests": "n/a",
+      "who_decides": "ANPD (MINJUSDH)",
+      "deadline": "n/a",
+      "needs_judge": false,
+      "url": "no verificado",
+      "locator": "no verificado",
+      "verification": "no verificado",
+      "limitations": "Ya conocido por el equipo; no re-verificado."
+    }
+  ],
+  "roles": [
+    {
+      "id": "pnp-investigador",
+      "role": "Policía investigador (unidad a cargo: DIVISE/DIRINCRI, departamentos de investigación criminal, unidades del SEEDC)",
+      "institution": "Policía Nacional del Perú",
+      "can_do": [
+        "Recibir la denuncia, aislar la escena, recoger evidencias, identificar testigos, tomar fotos y video (CPP art. 68)",
+        "Detener sin orden en flagrancia; en extorsión, el plazo de flagrancia por identificación o por hallazgo de efectos es de 72 h (CPP art. 259, DL 1735)",
+        "Retener personas 4 h, ampliables 4 h más en extorsión (CPP art. 209)",
+        "Asegurar documentos privados e instrumentos de telecomunicaciones sin examinarlos (CPP arts. 68.1.i y 232)",
+        "Solicitar a la unidad especializada la geolocalización inmediata del móvil (DL 1182 art. 3)",
+        "Visualizar de inmediato hechos captados en tiempo real y, en flagrancia, acceder a cámaras de puertos, aeropuertos y terminales para seguir la ruta de fuga (DS 007-2020-IN arts. 16-17)",
+        "Pedir a OSIPTEL la suspensión o baja de líneas y el bloqueo de IMEI vinculados a delitos (DL 1338 art. 6.1.d)",
+        "Pedir a la UIF el congelamiento administrativo de fondos por extorsión (Ley 32209 / DS 007-2025-JUS)",
+        "Requerir información a entidades públicas y privadas, que deben remitirla de inmediato (DL 1735, Séptima DCF)",
+        "Solicitar al fiscal la intervención de comunicaciones o el levantamiento del secreto bancario de emergencia (CPP arts. 230 y 235)"
+      ],
+      "needs_authorization_for": [
+        "Revisar el contenido del celular del detenido en flagrancia: autorización previa del fiscal y confirmatoria judicial (CPP art. 230-A)",
+        "Intervenir comunicaciones: orden judicial (CPP art. 230)",
+        "Usar técnicas especiales (agente encubierto o virtual): Disposición fiscal (CPP art. 341)",
+        "Entrega vigilada: Disposición fiscal (CPP art. 340)",
+        "Allanar domicilios o incautar documentos privados: orden judicial (CPP art. 233)",
+        "Prolongar la retención o la detención: fiscal y juez (CPP arts. 209 y 266)"
+      ],
+      "legal_basis_ids": [
+        "cpp-209-259-266",
+        "cpp-232-234",
+        "dl-1182",
+        "cpp-230a",
+        "dl-1218",
+        "dl-1338",
+        "ley-32209",
+        "dl-1735",
+        "cpp-341",
+        "cpp-340"
+      ]
+    },
+    {
+      "id": "pnp-unidad-especializada-telecom",
+      "role": "Unidad especializada PNP de geolocalización e intervención de comunicaciones (Sistema de Intervención y Control de las Comunicaciones)",
+      "institution": "Policía Nacional del Perú",
+      "can_do": [
+        "Verificar al solicitante y requerir a las operadoras los datos de localización o rastreo, con respuesta en 24 h y servicio 24x7 (DL 1182 art. 4)",
+        "Ejecutar intervenciones de comunicaciones ordenadas por el juez, con conectividad automatizada con las operadoras (CPP art. 230.4)",
+        "Entregar grabaciones, data y metadata al fiscal con el acta de recolección (CPP art. 231)"
+      ],
+      "needs_authorization_for": [
+        "Convalidación judicial de la geolocalización: informe en 24 h, fiscal 24 h, juez 24 h (DL 1182 art. 5)",
+        "Contenido de comunicaciones: mandato judicial (CPP art. 230)"
+      ],
+      "legal_basis_ids": [
+        "dl-1182",
+        "cpp-230",
+        "cpp-231"
+      ]
+    },
+    {
+      "id": "pnp-divindat",
+      "role": "Investigador de delitos de alta tecnología (DIVINDAT) / agente virtual",
+      "institution": "Policía Nacional del Perú",
+      "can_do": [
+        "Investigar fraude informático, suplantación de identidad y tráfico de datos (Ley 30096)",
+        "Actuar como agente encubierto o virtual en delitos cometidos mediante TIC, con autorización fiscal (Ley 30096, Segunda DCF; CPP art. 341.1.4)"
+      ],
+      "needs_authorization_for": [
+        "Disposición fiscal para actuar encubierto",
+        "Juez si la actuación afecta derechos fundamentales (CPP art. 341)"
+      ],
+      "legal_basis_ids": [
+        "ley-30096",
+        "cpp-341"
+      ]
+    },
+    {
+      "id": "fiscal-flagrancia-turno",
+      "role": "Fiscal de turno / fiscal de flagrancia / fiscal especializado contra la extorsión (SEEDC) / FECOR si es organización criminal",
+      "institution": "Ministerio Público",
+      "can_do": [
+        "Conducir la investigación y dirigir a la PNP",
+        "Autorizar la revisión del celular del detenido en flagrancia por extorsión (CPP art. 230-A)",
+        "Autorizar entrega vigilada (CPP art. 340) y técnicas especiales, como agente encubierto, virtual u operaciones encubiertas (CPP arts. 341 y 341-A; Ley 30096)",
+        "Intervenir por hasta 72 h un número nuevo detectado en una intervención en curso, si el mandato lo previó (CPP art. 231.5)",
+        "Requerir al juez, en 24 h, el levantamiento del secreto de comunicaciones (casos art. 200 CP) y del secreto bancario (emergencia) (CPP arts. 230 y 235)",
+        "Obtener directamente las operaciones no cubiertas por el secreto bancario (CPP art. 235.6)",
+        "Pedir detención judicial por flagrancia de hasta 15 días en extorsión (CPP art. 266)",
+        "Dictar medidas de protección a víctimas y testigos (CPP art. 248)",
+        "Requerir información a entidades públicas y privadas (DL 1735, Séptima DCF) y recibir videos en 24 h (DS 007-2020-IN art. 17)"
+      ],
+      "needs_authorization_for": [
+        "Intervención de comunicaciones, secreto bancario, reserva tributaria, incautación de documentos privados, allanamiento, detención judicial y prisión preventiva: Juez de Investigación Preparatoria",
+        "Confirmatoria judicial de la revisión de equipos (art. 230-A) y de las operaciones encubiertas (art. 341-A)"
+      ],
+      "legal_basis_ids": [
+        "cpp-230",
+        "cpp-230a",
+        "cpp-231",
+        "cpp-235",
+        "cpp-340",
+        "cpp-341",
+        "cpp-209-259-266",
+        "cpp-247-248",
+        "dl-1735",
+        "ley-32348",
+        "ley-30077"
+      ]
+    },
+    {
+      "id": "juez-ip",
+      "role": "Juez de Investigación Preparatoria (incluye juzgados del SEEDC y de unidades de flagrancia)",
+      "institution": "Poder Judicial",
+      "can_do": [
+        "Convalidar la geolocalización en 24 h y fijar su plazo, de hasta 60 días (DL 1182 art. 5)",
+        "Ordenar la intervención de comunicaciones; en extorsión, resolver en 24 h y pedir directamente a las operadoras la entrega en 24 h (CPP art. 230)",
+        "Levantar el secreto bancario reservadamente y sin trámite; bloquear o inmovilizar cuentas aunque no estén a nombre del imputado (CPP art. 235)",
+        "Ordenar la incautación de documentos privados de inmediato (CPP art. 233)",
+        "Dictar detención judicial por flagrancia (hasta 15 días en extorsión) y prisión preventiva (CPP art. 266)",
+        "Hacer el control judicial posterior del congelamiento UIF (Ley 32209)"
+      ],
+      "needs_authorization_for": [
+        "No aplica: es la autoridad que autoriza. Actúa a requerimiento del fiscal."
+      ],
+      "legal_basis_ids": [
+        "dl-1182",
+        "cpp-230",
+        "cpp-235",
+        "cpp-232-234",
+        "cpp-209-259-266",
+        "ley-32209",
+        "const-2-10"
+      ]
+    },
+    {
+      "id": "perito",
+      "role": "Perito informático, acústico (voz) o de imagen (criminalística PNP / Instituto de Medicina Legal y Ciencias Forenses del MP)",
+      "institution": "PNP (Dirección de Criminalística) / Ministerio Público",
+      "can_do": [
+        "Extraer y analizar el contenido de dispositivos ya autorizados o incautados",
+        "Hacer cotejo de voz de audios extorsivos y análisis de video",
+        "Integrar el SEEDC como servicio forense y de criminalística (DL 1735 art. 2.1.f)"
+      ],
+      "needs_authorization_for": [
+        "Acceder al contenido de dispositivos o comunicaciones: requiere la autorización fiscal o judicial que habilitó la obtención (CPP arts. 230, 230-A y 233)"
+      ],
+      "legal_basis_ids": [
+        "dl-1735",
+        "cpp-230a"
+      ]
+    },
+    {
+      "id": "operadora-requerimientos",
+      "role": "Área de requerimientos legales de la empresa operadora móvil",
+      "institution": "Concesionarias de telecomunicaciones (sector privado)",
+      "can_do": [
+        "Entregar a la unidad especializada PNP datos de localización en máximo 24 h, 24x7 (DL 1182 art. 4.3)",
+        "Dar facilidades inmediatas y en tiempo real para intervenciones con orden judicial (CPP art. 230.4)",
+        "Ejecutar en máximo 3 h los bloqueos o suspensiones que requiera OSIPTEL a pedido del usuario (DL 1338 art. 6.1.d)",
+        "Conservar los datos de tráfico 12 meses en línea más 24 meses (DL 1182, Segunda DCF)"
+      ],
+      "needs_authorization_for": [
+        "Entregar el contenido de comunicaciones: solo con mandato judicial, comunicado por oficio",
+        "Entregar datos de más de 12 meses: dentro de 7 días desde la autorización judicial"
+      ],
+      "legal_basis_ids": [
+        "dl-1182",
+        "cpp-230",
+        "dl-1338"
+      ]
+    },
+    {
+      "id": "osiptel",
+      "role": "OSIPTEL (administrador del RENTESEG)",
+      "institution": "Organismo Supervisor de Inversión Privada en Telecomunicaciones",
+      "can_do": [
+        "Requerir a las operadoras, de oficio o a pedido de MININTER, PNP, INPE, MP o PJ, la suspensión de líneas, mensajes de advertencia, bloqueo de IMEI y baja del servicio de equipos vinculados a delitos (DL 1338 art. 6.1.d)",
+        "Atender en 12 h el pedido del usuario afectado, con denuncia y constatación policial",
+        "Administrar las listas blanca y negra de IMEI y el tope de líneas por persona"
+      ],
+      "needs_authorization_for": [
+        "No accede a ubicación ni a contenido: eso corresponde al DL 1182 y al CPP"
+      ],
+      "legal_basis_ids": [
+        "dl-1338",
+        "osiptel-lineas"
+      ]
+    },
+    {
+      "id": "analista-uif",
+      "role": "Analista de la UIF-Perú",
+      "institution": "Superintendencia de Banca, Seguros y AFP (UIF-Perú)",
+      "can_do": [
+        "Recibir reportes de operaciones sospechosas de bancos, billeteras y PSAV (DS 006-2023-JUS; Res. SBS 02648-2024)",
+        "Congelar administrativamente fondos vinculados a extorsión a pedido de la PNP (Ley 32209; DS 007-2025-JUS)",
+        "El Superintendente puede pedir el levantamiento del secreto bancario para fines de inteligencia financiera (Const. art. 2.5)",
+        "Detectar pagos tipo 'cupo' y recibir acceso a la base PNP de denunciados (Ley 32490, indexado)"
+      ],
+      "needs_authorization_for": [
+        "Control judicial posterior del congelamiento",
+        "Los informes de inteligencia financiera no son prueba: el uso penal de datos bancarios requiere orden judicial (CPP art. 235)"
+      ],
+      "legal_basis_ids": [
+        "const-2-5",
+        "ley-32209",
+        "psav",
+        "ley-32490"
+      ]
+    },
+    {
+      "id": "oficial-cumplimiento",
+      "role": "Oficial de cumplimiento de banco, billetera digital o PSAV",
+      "institution": "Sujetos obligados (sector privado)",
+      "can_do": [
+        "Reportar operaciones sospechosas a la UIF",
+        "Ejecutar los congelamientos dispuestos por la UIF",
+        "Responder al mecanismo de titularidades financieras en 3 días hábiles, sin saldos (DL 1732)",
+        "Entregar al fiscal, a su requerimiento, operaciones no cubiertas por el secreto bancario (CPP art. 235.6)"
+      ],
+      "needs_authorization_for": [
+        "Entregar movimientos y saldos (secreto bancario): orden judicial, con plazo de 24 h en emergencia o hasta 30 días hábiles en el régimen ordinario (CPP art. 235)"
+      ],
+      "legal_basis_ids": [
+        "cpp-235",
+        "ley-32209",
+        "dl-1732",
+        "psav"
+      ]
+    },
+    {
+      "id": "udavit",
+      "role": "Unidad de Asistencia a Víctimas y Testigos (UDAVIT)",
+      "institution": "Ministerio Público",
+      "can_do": [
+        "Dar asistencia legal, psicológica y social a víctimas y testigos de extorsión; integra el SEEDC (DL 1735 art. 2.1.g)",
+        "Apoyar la ejecución de las medidas de protección dictadas por el fiscal o el juez (CPP art. 248)"
+      ],
+      "needs_authorization_for": [
+        "Las medidas de protección las dicta el fiscal o el juez"
+      ],
+      "legal_basis_ids": [
+        "dl-1735",
+        "cpp-247-248"
+      ]
+    },
+    {
+      "id": "defensa-publica",
+      "role": "Defensor público de víctimas",
+      "institution": "MINJUSDH – Dirección General de Defensa Pública y Acceso a la Justicia",
+      "can_do": [
+        "Patrocinar gratuitamente a víctimas de extorsión dentro del SEEDC",
+        "Atender la línea telefónica gratuita para víctimas (DL 1735, Sexta DCF; vigencia operativa no verificada)"
+      ],
+      "needs_authorization_for": [],
+      "legal_basis_ids": [
+        "dl-1735"
+      ]
+    },
+    {
+      "id": "municipal-cctv",
+      "role": "Central de videovigilancia municipal / serenazgo",
+      "institution": "Gobiernos locales",
+      "can_do": [
+        "Avisar de inmediato a la PNP o al MP los hechos captados en tiempo real y habilitar su visualización (DS 007-2020-IN art. 17.1.a)",
+        "Entregar las grabaciones en máximo 24 h y conservarlas al menos 45 días, o más si hay delito (art. 17)",
+        "Dar acceso en tiempo real a sus cámaras al GIES en casos de transporte (Ley 32490, indexado)"
+      ],
+      "needs_authorization_for": [
+        "No detiene ni investiga. Puede hacer arresto ciudadano en flagrancia, con entrega inmediata a la PNP (CPP art. 260)"
+      ],
+      "legal_basis_ids": [
+        "dl-1218",
+        "ley-32490"
+      ]
+    },
+    {
+      "id": "titular-camara-privada",
+      "role": "Titular privado de cámaras (comercios con aforo de 50 o más, transporte público)",
+      "institution": "Sector privado",
+      "can_do": [
+        "Entregar grabaciones a la PNP o al MP en 24 h, con reserva de su identidad (DS 007-2020-IN arts. 17-18)",
+        "Conservar las imágenes al menos 45 días"
+      ],
+      "needs_authorization_for": [
+        "Ninguna para entregar: es un deber legal. Debe respetar la normativa de datos personales."
+      ],
+      "legal_basis_ids": [
+        "dl-1218",
+        "dl-1735",
+        "ds-016-2024-jus"
+      ]
+    },
+    {
+      "id": "reniec",
+      "role": "RENIEC",
+      "institution": "Registro Nacional de Identificación y Estado Civil",
+      "can_do": [
+        "Identificar a la persona (DNI, biometría) a requerimiento de la PNP o el MP"
+      ],
+      "needs_authorization_for": [
+        "Base legal específica para extorsión: no verificada"
+      ],
+      "legal_basis_ids": []
+    },
+    {
+      "id": "sunarp",
+      "role": "SUNARP",
+      "institution": "Superintendencia Nacional de los Registros Públicos",
+      "can_do": [
+        "Informar sobre bienes, vehículos y personas jurídicas (registro público) para rastrear el patrimonio"
+      ],
+      "needs_authorization_for": [
+        "Anotaciones o inscripciones de incautación: orden judicial (base específica no verificada)"
+      ],
+      "legal_basis_ids": []
+    }
+  ],
+  "bills": [
+    {
+      "name": "Proyecto para modificar el art. 230.6 del CPP: prórrogas sucesivas de 60 días de la intervención de comunicaciones en crimen organizado",
+      "status": "proyecto (presentado en la Cámara de Diputados, ago-2026, según prensa jurídica)",
+      "url": "https://lpderecho.pe/harvey-colchado-propone-ampliar-hasta-36-meses-intervencion-comunicaciones-casos-crimen-organizado/",
+      "note": "Revertiría el límite de una sola prórroga de la Ley 32130. Número y estado no verificados."
+    },
+    {
+      "name": "Proyecto de Ley 00097/2026-2031-CD: modifica el art. 7 del DL 1735 para precisar la competencia del SEEDC",
+      "status": "proyecto (Cámara de Diputados, 2026)",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2026/08/PL-00097-2026-2031-CD-LP-derecho.pdf",
+      "note": "Restringe la competencia a los delitos conexos del art. 9.1 cuando estén vinculados a una actividad extorsiva."
+    },
+    {
+      "name": "Proyecto de Ley 09877/2024-CR: modifica el DL 1182 (18 meses en línea + 18 meses de conservación; autorización judicial para la entrega)",
+      "status": "proyecto (periodo 2021-2026; estado actual no verificado, podría estar archivado)",
+      "url": "https://lpderecho.pe/lucha-contra-el-crimen-plantean-acceso-conservacion-datos-telecomunicaciones-menores/",
+      "note": "Iría en sentido opuesto a la rapidez: exigiría autorización judicial previa."
+    },
+    {
+      "name": "Proyecto de Ley 13240/2025-CR: aceptar o rechazar transferencias entrantes en billeteras digitales (Yape/Plin)",
+      "status": "proyecto (periodo 2021-2026; estado no verificado)",
+      "url": "https://www.peru-retail.com/proyecto-de-ley-del-congreso-busca-que-usuarios-acepten-o-rechacen-transferencias-en-yape-y-plin/",
+      "note": "Busca evitar 'yapeos' trampa usados para involucrar a víctimas. Supervisión de la SBS."
+    },
+    {
+      "name": "Proyecto de Ley 12755/2025-CR: 'extorsión sistemática' (15 a 25 años)",
+      "status": "proyecto (periodo 2021-2026; estado no verificado)",
+      "url": "https://img.lpderecho.pe/wp-content/uploads/2025/10/PL-12755-2025-CR-LPDerecho.pdf",
+      "note": "Endurecimiento de penas; no amplía facultades de investigación."
+    },
+    {
+      "name": "Iniciativa anunciada para 'seguir la ruta del dinero' de la extorsión (refuerzo de la Ley 32209)",
+      "status": "anunciada (ago-2026); presentación formal no verificada",
+      "url": "https://comunicaciones.congreso.gob.pe/despacho-informa/diputado-yalta-plantea-seguir-ruta-del-dinero-de-los-extorsionadores/",
+      "note": "Busca evitar que los fondos se muevan antes del congelamiento."
+    }
+  ]
+}
