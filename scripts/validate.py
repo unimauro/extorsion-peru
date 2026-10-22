@@ -49,6 +49,6 @@ class Links(HTMLParser):
     def handle_starttag(self,tag,attrs):
         for k,v in attrs:
             if k in ('href','src') and v and not v.startswith(('https:','http:','#','data:')):
-                assert (root/v.split('#')[0]).is_file(),f'Archivo no encontrado: {v}'
+                assert (root/v.split('#')[0].split('?')[0]).is_file(),f'Archivo no encontrado: {v}'
 Links().feed((root/'index.html').read_text())
 print('OK: fuentes, fechas, 5 casos, montos, 26 regiones/25 geometrías, series separadas, suma telecom, CSV y enlaces locales.')
