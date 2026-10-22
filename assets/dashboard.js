@@ -48,7 +48,7 @@ const niceMax = v => { const p = Math.pow(10, Math.floor(Math.log10(v))); return
 const compact = v => v >= 1000 ? (v/1000).toFixed(v % 1000 ? 1 : 0).replace('.', ',') + ' mil' : String(v);
 
 function columns(box, rows, {highlight, note} = {}){
-  const W = 440, H = 250, L = 46, B = 28, T = 22, max = niceMax(Math.max(...rows.map(r=>r.v)));
+  const W = Math.max(300, box.clientWidth || 440), H = 250, L = 46, B = 28, T = 22, max = niceMax(Math.max(...rows.map(r=>r.v)));
   const band = (W - L) / rows.length, bw = Math.min(38, band * .55), y = v => T + (H - T - B) * (1 - v / max);
   let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(box.dataset.label)}">`;
   s += [0, max/2, max].map(t => `<line class="gridline" x1="${L}" x2="${W}" y1="${y(t)}" y2="${y(t)}"/><text x="${L-8}" y="${y(t)+4}" text-anchor="end">${compact(t)}</text>`).join('');
@@ -61,7 +61,7 @@ function columns(box, rows, {highlight, note} = {}){
 }
 
 function bars(box, rows, {ref, refLabel, fmt = num, color, labelW = 170} = {}){
-  const rowH = 28, L = labelW, R = 74, W = 560, T = 4, H = T + rows.length*rowH + (ref ? 22 : 4);
+  const W = Math.max(300, box.clientWidth || 560), rowH = 28, L = Math.min(labelW, W * .42), R = 74, T = 4, H = T + rows.length*rowH + (ref ? 22 : 4);
   const max = niceMax(Math.max(...rows.map(r=>r.v), ref || 0)), x = v => L + (W - L - R) * v / max;
   let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(box.dataset.label)}">`;
   if(ref) s += `<line x1="${x(ref)}" x2="${x(ref)}" y1="${T-2}" y2="${T+rows.length*rowH}" stroke="${css('--ink-2')}" stroke-width="1.5"/><text x="${x(ref)}" y="${H-4}" text-anchor="middle">${esc(refLabel)}</text>`;
@@ -86,6 +86,10 @@ async function main(){
       {v:num(sameDay), l:`de ${cases.length} casos documentados ya tuvieron captura el mismo día`},
       {v:'24', u:'h', l:'lo que hoy puede tardar cada paso por ley'}
     ].map(f => `<div class="figure${f.key?' accent':''}"><div class="v">${f.v}${f.u?`<small>${f.u}</small>`:''}</div><div class="l">${esc(f.l)}</div></div>`).join('');
+    const steps = d.route.filter(r => r.reform && r.legal_max_h);
+    const scale = 24, px = h => Math.min(h, scale) / scale * 100;
+    const dur = h => h < 1 ? `${Math.round(h * 60)} min` : Number.isInteger(h) ? `${h} h` : `${Math.floor(h)} h ${Math.round(h % 1 * 60)}`;
+    $('#hero-compare').innerHTML = `<h2>Hoy frente a la propuesta</h2><p class="hc-sub">Plazo máximo de cada paso desde que se recibe el pedido, en una escala de 24 h. Todo cabe en 4 h desde la denuncia.</p>${steps.map(r => `<div class="hc-row"><span class="hc-name">${esc(r.title)}</span><span class="hc-track" role="img" aria-label="${esc(r.title)}: hoy ${esc(r.current)}, propuesta ${dur(r.end_h - r.start_h)}"><span class="hc-today" style="width:${px(r.legal_max_h)}%"></span><span class="hc-prop" style="width:${px(r.end_h - r.start_h)}%"></span></span><span class="hc-vals"><b>${dur(r.end_h - r.start_h)}</b><s>${esc(r.current)}</s></span></div>`).join('')}<div class="hc-axis" aria-hidden="true"><span style="left:0">0</span><span style="left:${px(4)}%">4 h</span><span style="left:50%">12 h</span><span style="left:100%">24 h</span></div><div class="hc-key"><span><i class="k-prop"></i>Propuesta</span><span><i class="k-today"></i>Hoy</span></div>`;
     $('#tape').innerHTML = d.tape.map(t => `<li><b>${esc(t.v)}</b>${esc(t.t)}${t.max !== '—' ? `<span class="max">hoy: ${esc(t.max)}</span>` : ''}</li>`).join('');
     const autoLabel = {auto:'Lo hace el sistema y queda registrado', asistido:'El sistema prepara, una persona aprueba', humano:'Decide y actúa una persona'};
     $('#automation').innerHTML = ['auto','asistido','humano'].map(k => `<div class="auto-col"><h3><span class="auto-pill ${k}">${k === 'auto' ? 'Automático' : k === 'asistido' ? 'Asistido' : 'Humano'}</span>${esc(autoLabel[k])}</h3>${d.automation.filter(a => a.level === k).map(a => `<article><h4>${esc(a.title)}</h4><p>${esc(a.text)}</p></article>`).join('')}</div>`).join('');
@@ -156,7 +160,7 @@ async function main(){
     bars(tech, Object.entries(tc).sort((a,b)=>b[1]-a[1]).map(([k,v]) => ({k, v, tip:`${k}: ${v} de ${cases.length} casos`})), {color:css('--tape'), labelW:200});
 
     const annual = $('#chart-annual'); annual.dataset.label = 'Denuncias anuales 2019 a 2025';
-    columns(annual, series.map(r => ({k:String(r.year), v:r.complaints, label: r.year===2019 || r.year>=2023 ? compact(r.complaints) : '', tip:`${r.year}: ${num(r.complaints)} denuncias, ${dec(r.rate_per_100k)} por 100.000${r.methodology_break?'; cambio metodológico':''}`})), {highlight: r => r.k === '2025', note:'2025 incorpora un cambio metodológico; compararlo con años previos es orientativo.'});
+    columns(annual, series.map(r => ({k:String(r.year), v:r.complaints, label: [2019, 2023, 2025].includes(r.year) ? compact(r.complaints) : '', tip:`${r.year}: ${num(r.complaints)} denuncias, ${dec(r.rate_per_100k)} por 100.000${r.methodology_break?'; cambio metodológico':''}`})), {highlight: r => r.k === '2025', note:'2025 incorpora un cambio metodológico; compararlo con años previos es orientativo.'});
     annual.insertAdjacentHTML('beforeend', tableFor(['Año','Denuncias','Tasa'], series.map(r => [r.year, num(r.complaints), dec(r.rate_per_100k)])));
     const ytd = $('#chart-ytd'); ytd.dataset.label = 'Enero a julio 2025 y 2026';
     const pct = dec((d.ytd.current/d.ytd.previous - 1) * 100);
@@ -231,6 +235,8 @@ async function main(){
   }
 
   const paint = () => { map(); gantt(); charts(); tech(); };
+  let lastW = innerWidth, timer;
+  addEventListener('resize', () => { if(Math.abs(innerWidth - lastW) < 40) return; lastW = innerWidth; clearTimeout(timer); timer = setTimeout(charts, 150); });
   sidebar();
   setupTheme(paint);
   hero(); paint(); caseList(); roles(); laws(); limits();
