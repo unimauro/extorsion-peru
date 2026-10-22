@@ -66,3 +66,9 @@ Código original: licencia MIT. Las fuentes externas conservan sus derechos. Las
 La sección `#respuesta` incorpora una propuesta de software institucional, fuentes legales y técnicas, metas de 30/90/180 días condicionadas y una demostración de permisos con expediente ficticio. No tramita denuncias ni conecta servicios reales. Datos en `data/respuesta_rapida.json`; revisión normativa paralela en `research/2026-10-22/propuesta_*.json`. Validar con `python3 scripts/validate_response.py`.
 
 Se distingue titularidad de control efectivo. No se crea un score de personas por antecedentes ni un sistema de vigilancia masiva. Los peritajes de rostro/voz y las solicitudes de datos requieren evaluación por caso, competencia y autorización aplicable.
+
+## Prototipo completo por roles
+
+Abrir `prototipo.html` desde el servidor local o GitHub Pages. Incluye Policía, Fiscalía, Juzgado, UIF, Banco, OSIPTEL, Telco y Auditoría, dos casos ficticios, decisiones motivadas, rutas independientes, incidencias, rechazo, revocación/liberación y reactivación. Exporta la traza JSON del caso. Conserva el recorrido en el navegador cuando el almacenamiento está disponible.
+
+Probar el motor con `node scripts/test_prototype.mjs`. La especificación está en `data/prototipo_flujos.json`. El selector representa roles pero no autentica personas; la traza no tiene firma ni protección institucional. No hay conectores reales ni datos privados.

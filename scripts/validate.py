@@ -51,4 +51,5 @@ class Links(HTMLParser):
             if k in ('href','src') and v and not v.startswith(('https:','http:','#','data:')):
                 assert (root/v.split('#')[0].split('?')[0]).is_file(),f'Archivo no encontrado: {v}'
 Links().feed((root/'index.html').read_text())
+Links().feed((root/'prototipo.html').read_text())
 print('OK: fuentes, fechas, 5 casos, montos, 26 regiones/25 geometrías, series separadas, suma telecom, CSV y enlaces locales.')

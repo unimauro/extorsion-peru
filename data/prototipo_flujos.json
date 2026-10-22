@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "reviewed_at": "2026-10-22",
+  "type": "educational_prototype",
+  "real_integrations": false,
+  "real_authentication": false,
+  "real_digital_signatures": false,
+  "data_policy": "Solo casos sintéticos; sin entrada libre, archivos ni identificadores personales. Persistencia local opcional.",
+  "roles": [
+    "Policía",
+    "Fiscalía",
+    "Juzgado",
+    "UIF",
+    "Banco",
+    "OSIPTEL",
+    "Telco",
+    "Auditoría"
+  ],
+  "financial_route": [
+    "Policía preserva y corrobora",
+    "Solicitud financiera a UIF; coordinación fiscal en paralelo",
+    "UIF decide y deriva a control judicial",
+    "Banco ejecuta o registra incidencia",
+    "Juzgado convalida o revoca",
+    "Banco libera si la revocación ocurre después de inmovilizar"
+  ],
+  "telecom_route": [
+    "Policía solicita",
+    "OSIPTEL valida y transmite",
+    "Telco ejecuta o informa incidencia",
+    "Corrección: Policía solicita, OSIPTEL transmite, Telco reactiva"
+  ],
+  "case_ids": [
+    "DEMO-001",
+    "DEMO-002"
+  ],
+  "trace_fields": [
+    "sequence",
+    "at",
+    "caseId",
+    "role",
+    "actor",
+    "actionId",
+    "action",
+    "scope",
+    "outcome",
+    "reason",
+    "before",
+    "after",
+    "signature"
+  ],
+  "acceptance_criteria": [
+    "Un rol equivocado no puede ejecutar una transición.",
+    "Evidencia insuficiente impide enviar solicitudes hasta corroboración ficticia.",
+    "Las dos rutas avanzan independientemente.",
+    "El banco puede ejecutar una medida administrativa emitida por UIF antes de convalidación judicial en el modelo.",
+    "Una revocación previa impide ejecutar; posterior exige liberar.",
+    "Una incidencia no se marca como éxito.",
+    "Las ejecuciones duplicadas son rechazadas.",
+    "El reinicio conserva la historia y afecta solo al caso elegido.",
+    "Recargar conserva el recorrido si el navegador permite almacenamiento.",
+    "La exportación contiene exclusivamente el caso ficticio seleccionado."
+  ],
+  "limitations": [
+    "Es una demostración de diseño, no un procedimiento legal exhaustivo.",
+    "El selector no verifica identidad; permisos se comprueban solo en el motor local.",
+    "La traza se puede alterar fuera del prototipo y no tiene autenticidad institucional.",
+    "La repetición de eventos al restaurar comprueba coherencia, no autenticidad.",
+    "No simula búsqueda de personas ni vigilancia biométrica.",
+    "Producción requiere revisión jurídica, infraestructura segura e integraciones oficiales."
+  ],
+  "source_dossiers": [
+    "data/respuesta_rapida.json",
+    "research/2026-10-22/propuesta_financiera.json",
+    "research/2026-10-22/propuesta_telecom.json"
+  ]
+}

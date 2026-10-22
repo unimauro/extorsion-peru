@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "reviewed_at": "2026-10-22",
   "statistical_period": "2019–2025 completos; enero–julio2026 separado",
   "statistical_updated_at": "2026-06-30",
@@ -12,5 +12,6 @@
   "statistical_2026_updated_at": "2026-07-31",
   "research_directory": "research/2026-10-22",
   "hypotheses_file": "data/hipotesis.json",
-  "response_proposal": "data/respuesta_rapida.json"
+  "response_proposal": "data/respuesta_rapida.json",
+  "prototype": "prototipo.html"
 }

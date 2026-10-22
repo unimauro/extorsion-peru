@@ -25,3 +25,9 @@ Validación de fórmulas y navegador: escenario1×=20.870; escenario2×=29.565; 
 ## Propuesta de respuesta digital — edición 1.3
 
 Datos y referencias validados con `validate_response.py`; sintaxis de ambos scripts comprobada. Prueba en navegador a498px sin desbordamiento: un rol incorrecto no avanza; evidencia insuficiente bloquea autorización; el caso corroborado completa seis etapas y produce siete entradas incluyendo inicio. Sin errores de consola. La demo no envía datos ni produce firmas o medidas reales.
+
+## Prototipo completo — edición 1.4
+
+Pruebas del motor (`node scripts/test_prototype.mjs`): permisos por rol, insuficiencia, rutas independientes, duplicados, incidencias, rechazo, revocación antes/después de ejecución, liberación, reactivación, restauración coherente y reinicio conservando eventos.
+
+Navegador: recorrido de ocho decisiones con Policía, Fiscalía, UIF, Banco, Juzgado, OSIPTEL y Telco; revocación/liberación y reactivación hasta13eventos conservados al recargar. Segundo caso bloqueado antes de corroborar, luego rechazado por ambas rutas. Descarga JSON activada. Sin errores de consola ni desbordamiento horizontal en vista de498px. Los controles solo representan permisos; no autentican autoridades ni generan firmas reales.
