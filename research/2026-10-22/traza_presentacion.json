@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-22",
+  "release": "1.5",
+  "request": "Gráfico y deck para introducir el prototipo, con objetivo visible de intervención en horas",
+  "tasks": [
+    {"actor": "agente principal", "action": "Revisar la especificación de los ocho roles y las dos rutas del prototipo"},
+    {"actor": "agente principal", "action": "Crear y revisar visualmente un deck editable de cinco diapositivas"},
+    {"actor": "agente estadisticas_2026", "action": "Crear introducción y diagrama HTML responsive antes del simulador"},
+    {"actor": "agente principal", "action": "Añadir descarga PNG del gráfico y aclarar que Auditoría revisa la traza"},
+    {"actor": "agente principal", "action": "Validar datos, propuesta, motor del prototipo, construcción y visualización móvil"}
+  ],
+  "claim_status": {
+    "intervenir_en_horas": "Objetivo de diseño; no es un resultado medido ni una garantía de detención",
+    "data": "Solo casos ficticios",
+    "integrations": "No hay integraciones institucionales reales"
+  },
+  "outputs": {
+    "prototype": "prototipo.html",
+    "graphic": "assets/flujo-respuesta.png",
+    "deck_page": "https://chatgpt.com/space/page_5cc6976fe2c881918b5dc6bdb2cf89b1"
+  }
+}
