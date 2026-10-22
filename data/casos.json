@@ -1,0 +1,218 @@
+[
+  {
+    "id": "C001",
+    "title": "Un pago por Yape permitió rastrear la operación",
+    "event_date": null,
+    "event_date_precision": "Fecha del cobro no informada; intervención 2025-07-25",
+    "published_at": "2025-07-30",
+    "region": "Piura",
+    "location": "Piura",
+    "geographic_precision": "Regional",
+    "modality": "Extorsión bajo amenazas",
+    "communication_channels": [
+      "Desconocido"
+    ],
+    "sim_type": null,
+    "telecom_operator": null,
+    "esim_provider": null,
+    "payment_methods": [
+      "Yape"
+    ],
+    "entities_mentioned": [
+      "Yape"
+    ],
+    "demanded_pen": 70000,
+    "paid_pen": 800,
+    "recovered_pen": null,
+    "frozen_pen": null,
+    "seized_pen": null,
+    "controlled_payment_pen": null,
+    "currency": "PEN",
+    "amount_note": "Exigencia y transferencia distintas. Dinero recuperado no informado.",
+    "procedural_stage": "Prisión preventiva",
+    "final_judgment_confirmed": false,
+    "summary": "La Fiscalía informó una transferencia de S/ 800 y una medida de 18 meses de prisión preventiva.",
+    "account_control": "Presunta participación de la receptora; control final no establecido en la nota.",
+    "source_ids": [
+      "S12"
+    ],
+    "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1218436-fecor-piura-obtiene-18-meses-de-prision-preventiva-para-presunta-extorsionadora",
+    "evidence_locator": "Párrafos 3–5",
+    "accessed_at": "2026-10-22",
+    "limitations": "No se informa el canal exacto de la amenaza ni el banco subyacente. La prisión preventiva no es condena."
+  },
+  {
+    "id": "C002",
+    "title": "Titular de la cuenta y persona que la controla",
+    "event_date": "2026-02-09",
+    "event_date_precision": "Inicio de amenazas",
+    "published_at": "2026-02-27",
+    "region": "Huánuco / Pasco",
+    "location": "Puerto Inca / Constitución",
+    "geographic_precision": "Jurisdicción judicial y lugar del retiro; no domicilio de la víctima",
+    "modality": "Extorsión bajo amenazas",
+    "communication_channels": [
+      "WhatsApp"
+    ],
+    "sim_type": null,
+    "telecom_operator": null,
+    "esim_provider": null,
+    "payment_methods": [
+      "Transferencia bancaria",
+      "Yape",
+      "Retiro en efectivo"
+    ],
+    "entities_mentioned": [
+      "BCP",
+      "Yape"
+    ],
+    "demanded_pen": 5000,
+    "paid_pen": 500,
+    "recovered_pen": null,
+    "frozen_pen": null,
+    "seized_pen": null,
+    "controlled_payment_pen": null,
+    "currency": "PEN",
+    "amount_note": "Exigencia inicial S/ 5000 y S/ 500 semanales. El retiro posterior no es un segundo pago de la víctima.",
+    "procedural_stage": "Prisión preventiva y comparecencia",
+    "final_judgment_confirmed": false,
+    "summary": "El PJ describió un pago a BCP, retiro y transferencia posterior por Yape. Impuso prisión preventiva a un investigado y comparecencia a otra persona.",
+    "account_control": "Según el juzgado, una persona distinta de la titular controlaba la cuenta Yape.",
+    "source_ids": [
+      "S13"
+    ],
+    "source_url": "https://www.gob.pe/institucion/csjucayali/noticias/1359673-puerto-inca-dictan-9-meses-de-prision-preventiva-a-investigado-por-presunta-extorsion",
+    "evidence_locator": "Decisión judicial y Hechos investigados",
+    "accessed_at": "2026-10-22",
+    "limitations": "La fuente no acredita participación directa de la titular. No se atribuye el hecho geográficamente al domicilio de la víctima ni se confunde Huánuco con la sede judicial de Ucayali."
+  },
+  {
+    "id": "C003",
+    "title": "Una condena comunicada por la Fiscalía",
+    "event_date": null,
+    "event_date_precision": "Fecha del hecho no informada",
+    "published_at": "2026-04-22",
+    "region": "Piura",
+    "location": "La Unión, Piura",
+    "geographic_precision": "Distrito de intervención",
+    "modality": "Extorsión bajo amenazas",
+    "communication_channels": [
+      "Mensajes; plataforma no informada"
+    ],
+    "sim_type": null,
+    "telecom_operator": null,
+    "esim_provider": null,
+    "payment_methods": [
+      "Yape"
+    ],
+    "entities_mentioned": [
+      "Yape"
+    ],
+    "demanded_pen": 20000,
+    "paid_pen": null,
+    "recovered_pen": null,
+    "frozen_pen": null,
+    "seized_pen": null,
+    "controlled_payment_pen": 5,
+    "currency": "PEN",
+    "amount_note": "La exigencia bajó a S/ 2000. S/ 5 fue un depósito coordinado con PNP, registrado aparte.",
+    "procedural_stage": "Sentencia informada",
+    "final_judgment_confirmed": false,
+    "summary": "La Fiscalía informó condenas de 20 y 18 años y un depósito controlado que contribuyó a la intervención.",
+    "account_control": "La nota describe una cuenta utilizada por otra persona para recibir y transferir dinero.",
+    "source_ids": [
+      "S14"
+    ],
+    "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1382689-fiscalia-penal-de-piura-obtuvo-condena-de-20-y-18-anos-de-prision-para-una-pareja-de-extorsionadores",
+    "evidence_locator": "Párrafos 1–5",
+    "accessed_at": "2026-10-22",
+    "limitations": "No se conoce la firmeza de la sentencia ni la fecha del hecho. No sumar el depósito controlado como cobro ordinario."
+  },
+  {
+    "id": "C004",
+    "title": "Un mismo caso combina efectivo y Plin",
+    "event_date": "2026-03-18",
+    "event_date_precision": "Inicio de comunicaciones extorsivas",
+    "published_at": "2026-07-09",
+    "region": "Piura",
+    "location": "Sullana",
+    "geographic_precision": "Provincia",
+    "modality": "Extorsión bajo amenazas",
+    "communication_channels": [
+      "Llamadas",
+      "Mensajes; plataforma no informada"
+    ],
+    "sim_type": null,
+    "telecom_operator": null,
+    "esim_provider": null,
+    "payment_methods": [
+      "Efectivo",
+      "Plin"
+    ],
+    "entities_mentioned": [
+      "Plin"
+    ],
+    "demanded_pen": 1100,
+    "paid_pen": 900,
+    "recovered_pen": null,
+    "frozen_pen": null,
+    "seized_pen": null,
+    "controlled_payment_pen": null,
+    "currency": "PEN",
+    "amount_note": "S/ 900 total combinado. No existe desglose entre efectivo y Plin. Nueva exigencia de S/ 200 no equivale a pago.",
+    "procedural_stage": "Sentencia informada (adelanto de fallo)",
+    "final_judgment_confirmed": false,
+    "summary": "La Fiscalía informó una condena de 10 años y entregas por dos vías para la supuesta devolución de un vehículo.",
+    "account_control": "La nota vincula el número receptor y el equipo intervenido con el condenado.",
+    "source_ids": [
+      "S15"
+    ],
+    "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1416884-fiscalia-de-sullana-logra-condena-de-10-anos-de-prision-para-extorsionador",
+    "evidence_locator": "Párrafos 3–6",
+    "accessed_at": "2026-10-22",
+    "limitations": "No se identifica el banco asociado a Plin. No se verificó firmeza; reparación civil ordenada no significa dinero recuperado."
+  },
+  {
+    "id": "C005",
+    "title": "Pagos repetidos y cambio de cuenta receptora",
+    "event_date": "2026-03-13",
+    "event_date_precision": "Inicio de amenazas",
+    "published_at": "2026-07-21",
+    "region": "Lima",
+    "location": "Lima Sur",
+    "geographic_precision": "Jurisdicción fiscal; distrito exacto de victimización desconocido",
+    "modality": "Extorsión bajo amenazas",
+    "communication_channels": [
+      "WhatsApp"
+    ],
+    "sim_type": null,
+    "telecom_operator": null,
+    "esim_provider": null,
+    "payment_methods": [
+      "Depósito bancario",
+      "Yape"
+    ],
+    "entities_mentioned": [
+      "Yape"
+    ],
+    "demanded_pen": 30000,
+    "paid_pen": null,
+    "recovered_pen": null,
+    "frozen_pen": null,
+    "seized_pen": null,
+    "controlled_payment_pen": null,
+    "currency": "PEN",
+    "amount_note": "Dos pagos de S/ 1500 y depósitos semanales de S/ 500; total no calculable porque falta número de semanas.",
+    "procedural_stage": "Prisión preventiva",
+    "final_judgment_confirmed": false,
+    "summary": "La Fiscalía describió cambios de número de WhatsApp y de receptor, y comunicó seis meses de prisión preventiva.",
+    "account_control": "Se imputa préstamo doloso de Yape; no hay sentencia en la fuente.",
+    "source_ids": [
+      "S16"
+    ],
+    "source_url": "https://www.gob.pe/institucion/mpfn/noticias/1421819-unidad-de-flagrancia-de-lurin-obtuvo-6-meses-de-prision-preventiva-para-mujer-que-habria-prestado-su-yape-para-pago-de-extorsion",
+    "evidence_locator": "Párrafos 2–5",
+    "accessed_at": "2026-10-22",
+    "limitations": "Banco no identificado. No extrapolar el total pagado ni equiparar la acusación fiscal con culpabilidad."
+  }
+]

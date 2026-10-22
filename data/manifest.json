@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "reviewed_at": "2026-10-22",
+  "statistical_period": "2019–2025",
+  "statistical_updated_at": "2026-06-30",
+  "source_id": "S01",
+  "case_selection": "Muestra intencional de cinco casos, no representativa; publicaciones 2025–2026",
+  "national_payment_distribution": null,
+  "privacy": "Sin teléfonos, cuentas, nombres o domicilios de víctimas o investigados",
+  "author": "Carlos Mauro Cárdenas Fernández",
+  "repository": "https://github.com/unimauro/observatorio-extorsion-peru"
+}

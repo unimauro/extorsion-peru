@@ -1,0 +1,236 @@
+[
+  {
+    "code": "24",
+    "region": "Tumbes",
+    "rate_per_100k": 229.9,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "13",
+    "region": "La Libertad",
+    "rate_per_100k": 201.0,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "15R",
+    "region": "Región Lima",
+    "rate_per_100k": 139.9,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Nueve provincias del departamento de Lima, sin provincia de Lima"
+  },
+  {
+    "code": "20",
+    "region": "Piura",
+    "rate_per_100k": 128.5,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "15M",
+    "region": "Lima Metropolitana",
+    "rate_per_100k": 106.8,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Provincia de Lima: 43 distritos"
+  },
+  {
+    "code": "07",
+    "region": "Callao",
+    "rate_per_100k": 74.9,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "11",
+    "region": "Ica",
+    "rate_per_100k": 71.2,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "02",
+    "region": "Áncash",
+    "rate_per_100k": 71.2,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "14",
+    "region": "Lambayeque",
+    "rate_per_100k": 66.7,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "17",
+    "region": "Madre de Dios",
+    "rate_per_100k": 53.7,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "06",
+    "region": "Cajamarca",
+    "rate_per_100k": 37.4,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "10",
+    "region": "Huánuco",
+    "rate_per_100k": 33.8,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "04",
+    "region": "Arequipa",
+    "rate_per_100k": 31.3,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "19",
+    "region": "Pasco",
+    "rate_per_100k": 23.9,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "25",
+    "region": "Ucayali",
+    "rate_per_100k": 23.9,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "22",
+    "region": "San Martín",
+    "rate_per_100k": 21.6,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "01",
+    "region": "Amazonas",
+    "rate_per_100k": 21.4,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "23",
+    "region": "Tacna",
+    "rate_per_100k": 20.4,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "18",
+    "region": "Moquegua",
+    "rate_per_100k": 20.2,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "05",
+    "region": "Ayacucho",
+    "rate_per_100k": 19.6,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "16",
+    "region": "Loreto",
+    "rate_per_100k": 18.5,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "08",
+    "region": "Cusco",
+    "rate_per_100k": 14.0,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "12",
+    "region": "Junín",
+    "rate_per_100k": 13.5,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "03",
+    "region": "Apurímac",
+    "rate_per_100k": 12.5,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "21",
+    "region": "Puno",
+    "rate_per_100k": 8.7,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  },
+  {
+    "code": "09",
+    "region": "Huancavelica",
+    "rate_per_100k": 6.1,
+    "year": 2025,
+    "source_id": "S01",
+    "denominator": "Población INEI proyectada para 2025; tasa publicada, no recalculada",
+    "geography_note": "Departamento / Provincia Constitucional del Callao"
+  }
+]

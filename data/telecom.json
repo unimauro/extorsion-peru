@@ -1,0 +1,37 @@
+[
+  {
+    "operator": "Bitel",
+    "inconsistent_lines": 172034,
+    "source_id": "S07",
+    "published_at": "2026-02-27",
+    "scope": "Saldo informado de líneas contratadas durante 2025; no casos de extorsión"
+  },
+  {
+    "operator": "Entel",
+    "inconsistent_lines": 18204,
+    "source_id": "S07",
+    "published_at": "2026-02-27",
+    "scope": "Saldo informado de líneas contratadas durante 2025; no casos de extorsión"
+  },
+  {
+    "operator": "Integratel",
+    "inconsistent_lines": 11682,
+    "source_id": "S07",
+    "published_at": "2026-02-27",
+    "scope": "Saldo informado de líneas contratadas durante 2025; no casos de extorsión"
+  },
+  {
+    "operator": "Claro",
+    "inconsistent_lines": 9770,
+    "source_id": "S07",
+    "published_at": "2026-02-27",
+    "scope": "Saldo informado de líneas contratadas durante 2025; no casos de extorsión"
+  },
+  {
+    "operator": "Guinea",
+    "inconsistent_lines": 5355,
+    "source_id": "S07",
+    "published_at": "2026-02-27",
+    "scope": "Saldo informado de líneas contratadas durante 2025; no casos de extorsión"
+  }
+]

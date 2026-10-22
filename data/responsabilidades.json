@@ -1,0 +1,74 @@
+[
+  {
+    "actor": "Directorio bancario",
+    "category": "Obligación normativa",
+    "action": "Aprobar políticas, revisar el sistema de prevención LA/FT y dotar de recursos al oficial de cumplimiento.",
+    "source_id": "S04",
+    "locator": "Art. 5",
+    "metric": "Actas, presupuesto, auditorías y correcciones.",
+    "evidence_limit": "No se documentó aquí un incumplimiento individual del directorio."
+  },
+  {
+    "actor": "Entidad financiera",
+    "category": "Obligación normativa",
+    "action": "Identificar al beneficiario final y verificar su identidad con medidas razonables de debida diligencia.",
+    "source_id": "S04",
+    "locator": "Art. 28",
+    "metric": "Controles de identidad y de control efectivo; alertas investigadas.",
+    "evidence_limit": "Una cuenta utilizada en un delito no prueba por sí sola complicidad institucional."
+  },
+  {
+    "actor": "PNP especializada → UIF → entidad → juez",
+    "category": "Procedimiento legal",
+    "action": "La PNP solicita; la UIF evalúa y ordena el congelamiento; la entidad informa su ejecución en 24 horas de recibida la comunicación. Hay control judicial.",
+    "source_id": "S05",
+    "locator": "Arts. 8-A a 10-A",
+    "metric": "Tiempos por etapa, montos inmovilizados y fondos restituidos.",
+    "evidence_limit": "No se dispone en esta edición de una serie comparable de resultados específicos de extorsión."
+  },
+  {
+    "actor": "Entidades financieras y SBS",
+    "category": "Obligación normativa de 2026",
+    "action": "Responder consultas de titularidad de autoridades acreditadas; el plazo no puede superar tres días hábiles desde el ingreso por el mecanismo.",
+    "source_id": "S11",
+    "locator": "Arts. 3, 5, 7.4, 9 y disposiciones finales",
+    "metric": "Disponibilidad, solicitudes válidas y tiempos; calendario de adecuación.",
+    "evidence_limit": "No incluye saldos ni movimientos; implementación efectiva no auditada y COOPAC tiene integración progresiva."
+  },
+  {
+    "actor": "Operadoras y OSIPTEL",
+    "category": "Procedimiento regulado",
+    "action": "Ejecutar baja de línea o bloqueo de equipo en un día calendario tras traslado de la orden por OSIPTEL.",
+    "source_id": "S06",
+    "locator": "Procedimientos; Res. 134-2025-CD/OSIPTEL",
+    "metric": "Órdenes recibidas, fecha de ejecución, objeciones y sanciones.",
+    "evidence_limit": "No es un plazo automático desde cualquier reporte ciudadano ni demuestra que el delito haya cesado."
+  },
+  {
+    "actor": "Operadoras y distribuidores",
+    "category": "Problema de control documentado",
+    "action": "OSIPTEL reportó 217 045 líneas contratadas en 2025 con inconsistencias de identidad aún existentes al comunicar el resultado.",
+    "source_id": "S07",
+    "locator": "Por empresas",
+    "metric": "Regularización, bajas, auditorías a puntos de venta y reincidencia.",
+    "evidence_limit": "Inconsistencia no equivale a extorsión; estos datos no son una resolución sancionadora por caso."
+  },
+  {
+    "actor": "Yape",
+    "category": "Medida empresarial anunciada",
+    "action": "Función de reporte de extorsión anunciada en noviembre de 2025.",
+    "source_id": "S08",
+    "locator": "Declaración empresarial y pasos de reporte",
+    "metric": "Reportes admitidos, tiempos, fondos conservados y falsos positivos.",
+    "evidence_limit": "La existencia anunciada no demuestra eficacia; no se auditó el producto."
+  },
+  {
+    "actor": "WhatsApp / Meta",
+    "category": "Herramienta y política de producto",
+    "action": "Dispone de funciones de reporte y orienta sobre conservación de evidencia y contacto con autoridades.",
+    "source_id": "S09",
+    "locator": "Ayuda: Involve law enforcement",
+    "metric": "Respuesta a requerimientos válidos y medidas sobre cuentas reportadas.",
+    "evidence_limit": "No hay datos de resultados específicos para estos casos peruanos."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "year": 2021,
+    "semester": 1,
+    "complaints": 1640,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2021,
+    "semester": 2,
+    "complaints": 2479,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2022,
+    "semester": 1,
+    "complaints": 4216,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2022,
+    "semester": 2,
+    "complaints": 7426,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2023,
+    "semester": 1,
+    "complaints": 8866,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2023,
+    "semester": 2,
+    "complaints": 12381,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2024,
+    "semester": 1,
+    "complaints": 11004,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2024,
+    "semester": 2,
+    "complaints": 10742,
+    "source_id": "S02",
+    "preliminary": false
+  },
+  {
+    "year": 2025,
+    "semester": 1,
+    "complaints": 14206,
+    "source_id": "S02",
+    "preliminary": true
+  }
+]

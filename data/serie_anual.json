@@ -1,0 +1,72 @@
+[
+  {
+    "year": 2019,
+    "complaints": 3705,
+    "rate_per_100k": 11.5,
+    "source_id": "S01",
+    "period_start": "2019-01-01",
+    "period_end": "2019-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": false
+  },
+  {
+    "year": 2020,
+    "complaints": 2689,
+    "rate_per_100k": 8.2,
+    "source_id": "S01",
+    "period_start": "2020-01-01",
+    "period_end": "2020-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": false
+  },
+  {
+    "year": 2021,
+    "complaints": 4539,
+    "rate_per_100k": 13.7,
+    "source_id": "S01",
+    "period_start": "2021-01-01",
+    "period_end": "2021-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": false
+  },
+  {
+    "year": 2022,
+    "complaints": 16066,
+    "rate_per_100k": 48.1,
+    "source_id": "S01",
+    "period_start": "2022-01-01",
+    "period_end": "2022-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": false
+  },
+  {
+    "year": 2023,
+    "complaints": 22320,
+    "rate_per_100k": 66.2,
+    "source_id": "S01",
+    "period_start": "2023-01-01",
+    "period_end": "2023-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": false
+  },
+  {
+    "year": 2024,
+    "complaints": 21915,
+    "rate_per_100k": 64.4,
+    "source_id": "S01",
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": false
+  },
+  {
+    "year": 2025,
+    "complaints": 26728,
+    "rate_per_100k": 77.8,
+    "source_id": "S01",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "updated_at": "2026-06-30",
+    "methodology_break": true
+  }
+]
