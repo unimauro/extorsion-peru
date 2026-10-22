@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-22",
+  "country": "Perú",
+  "topic": "Cobros de extorsión, banca y billeteras digitales",
+  "coverage": {
+    "requested_through": "2026-10-22",
+    "latest_verified_new_substantive_publication": "2026-08-27",
+    "note": "Fecha de investigación no equivale a corte estadístico. La búsqueda incluyó 2026; el caso nuevo tiene publicación 2026 y hechos 2025."
+  },
+  "privacy": {
+    "contains_person_names": false,
+    "contains_account_numbers": false,
+    "contains_phone_numbers": false,
+    "contains_victim_addresses": false,
+    "raw_source_documents_saved_in_repository": false
+  },
+  "findings": [
+    {
+      "id": "BF01",
+      "title": "Canales formales sí aparecen en cobros, pero no se conoce aquí su proporción nacional",
+      "finding": "La nueva nota judicial documenta cuentas bancarias y Plin como canales solicitados, además de retiro en cajero según la declaración de una investigada. Se suma a los cinco casos ya existentes sin duplicarlos.",
+      "source_ids": [
+        "B04"
+      ],
+      "evidence_class": "Nota judicial sobre investigación",
+      "supports": "Existencia de canales financieros formales en algunos hechos.",
+      "does_not_establish": "Cuota nacional por banco, predominio frente al efectivo o conocimiento del banco."
+    },
+    {
+      "id": "BF02",
+      "title": "Acción conjunta del sector financiero y Mininter en mayo 2026",
+      "finding": "Mininter lanzó el 12 de mayo una campaña con Asbanc, Fepcmac y Asomif para prevenir el préstamo de cuentas y billeteras. La institución describe captación de terceros y fraccionamiento de cobros.",
+      "source_ids": [
+        "B01"
+      ],
+      "evidence_class": "Acción anunciada por institución",
+      "supports": "Hay actividad preventiva pública y de gremios financieros.",
+      "does_not_establish": "Que las metas de alcance se cumplieran o que disminuyeran extorsiones."
+    },
+    {
+      "id": "BF03",
+      "title": "Se reporta una actividad de capacitación, no una medida de impacto",
+      "finding": "Mininter reportó 814 participantes en un webinar con PNP, UIF y Asbanc.",
+      "metrics": [
+        {
+          "value": 814,
+          "unit": "participantes",
+          "period": "Webinar informado el 05/06/2026",
+          "metric_type": "actividad institucional"
+        }
+      ],
+      "source_ids": [
+        "B02"
+      ],
+      "evidence_class": "Resultado de actividad autoinformado",
+      "does_not_establish": "Reducción de víctimas, de montos extorsivos o de cuentas usadas."
+    },
+    {
+      "id": "BF04",
+      "title": "En agosto 2026 se anunció un convenio para apoyar investigaciones",
+      "finding": "SBS y Ministerio Público suscribieron un convenio de cooperación que incluye extorsión, consulta de herramientas de SBS, intercambio analítico y capacitación; vigencia anunciada de tres años.",
+      "source_ids": [
+        "B03"
+      ],
+      "evidence_class": "Convenio anunciado",
+      "does_not_establish": "Acceso irrestricto a movimientos bancarios ni resultados concretos de casos."
+    },
+    {
+      "id": "BF05",
+      "title": "Desde abril 2026 hay un canal adicional de alertas a la UIF",
+      "finding": "La Resolución 01219-2026 obliga a sujetos comprendidos a reportar información útil aunque no alcance la categoría de operación sospechosa. Los oficiales de cumplimiento usan ROSEL. La guía está en un portal restringido.",
+      "source_ids": [
+        "B05"
+      ],
+      "evidence_class": "Norma primaria",
+      "does_not_establish": "Que todo pago extorsivo sea identificable automáticamente o que se haya sancionado a una entidad concreta."
+    },
+    {
+      "id": "BF06",
+      "title": "Faltan resultados públicos comparables para evaluar eficacia",
+      "finding": "Esta búsqueda no recuperó una serie 2026 verificable de cuentas congeladas exclusivamente por extorsión, tiempos de respuesta por entidad o victimización posterior al bloqueo.",
+      "source_ids": [
+        "B06"
+      ],
+      "evidence_class": "Límite de esta investigación",
+      "does_not_establish": "Inexistencia de acciones, de datos internos o de resultados; tampoco exonera incumplimientos."
+    }
+  ],
+  "new_cases": [
+    {
+      "id": "BCASE01",
+      "title": "Ucayali: cuenta receptora, retiro en cajero y medida cautelar",
+      "published_at": "2026-02-24",
+      "event_date": "2025-06",
+      "event_date_precision": "Ampliación de denuncia 12/06/2025; inicio referido al3 de junio sin año explícito",
+      "include_in_2026_incident_count": false,
+      "region": "Ucayali",
+      "geographic_precision": "Regional",
+      "communication_channels": [
+        "Llamadas",
+        "Mensajes",
+        "WhatsApp",
+        "Nota física"
+      ],
+      "payment_methods": [
+        "Depósito bancario",
+        "Plin"
+      ],
+      "entities_mentioned": [
+        "BCP",
+        "Plin"
+      ],
+      "bank_of_investigated_recipient": null,
+      "demanded_pen": 20000,
+      "paid_pen": null,
+      "received_pen_according_to_investigated_person": 1200,
+      "received_components_pen": [
+        1000,
+        200
+      ],
+      "cash_role": "Retiro en cajero y entrega a tercero según declaración reseñada; no equivale a cobro presencial a la víctima.",
+      "procedural_status": "Confirmación del rechazo de cesación de prisión preventiva. Responsabilidad penal pendiente de la etapa correspondiente.",
+      "source_ids": [
+        "B04"
+      ],
+      "limitations": [
+        "La nota identifica BCP y Plin como destinos comunicados, pero no permite asignar inequívocamente los 1200 a uno de ellos.",
+        "No se leyó resolución íntegra; declaración resumida no es hecho definitivamente probado.",
+        "No es un caso ocurrido en 2026.",
+        "No permite imputar responsabilidad al banco o plataforma."
+      ]
+    }
+  ],
+  "hypothesis_assessment": [
+    {
+      "hypothesis": "No todo cobro extorsivo es efectivo: se usan bancos y billeteras",
+      "status": "Apoyada como existencia, no como prevalencia",
+      "basis": [
+        "B04",
+        "Casos existentes C001–C005"
+      ],
+      "next_evidence": "Muestra representativa con denominador de casos, fechas, medios y montos."
+    },
+    {
+      "hypothesis": "Los bancos o sus dueños toleran deliberadamente la extorsión",
+      "status": "No determinada",
+      "basis": [
+        "B01",
+        "B02",
+        "B03",
+        "B05"
+      ],
+      "explanation": "Uso de cuentas y deberes de control no prueban tolerancia consciente. Las acciones documentadas contradicen la afirmación absoluta de que no existe ninguna acción, pero no prueban control suficiente.",
+      "next_evidence": "Resoluciones de supervisión, alertas recibidas y tiempos de respuesta, incumplimientos acreditados, conocimiento y conducta de cada responsable."
+    },
+    {
+      "hypothesis": "Cerrar los canales de pago reduce la extorsión",
+      "status": "Mecanismo plausible; efecto causal no determinado en esta búsqueda",
+      "basis": [
+        "B01",
+        "B03",
+        "B05"
+      ],
+      "explanation": "Campañas, normas y convenios permiten estudiar intervenciones; no sustituyen una evaluación del delito tras bloquear cuentas.",
+      "next_evidence": "Bloqueos con fecha, saldo efectivamente inmovilizado, pagos posteriores, cambio a otras cuentas/efectivo y grupo de comparación."
+    },
+    {
+      "hypothesis": "Figurar como titular acredita culpabilidad penal",
+      "status": "No sustentada como regla automática",
+      "basis": [
+        "B04"
+      ],
+      "explanation": "La nota judicial distingue medida cautelar y determinación posterior de responsabilidad. Titularidad y recepción son elementos a investigar, junto con control, conocimiento y participación."
+    }
+  ],
+  "sources": [
+    {
+      "id": "B01",
+      "title": "Campaña Tu cuenta, tu responsabilidad",
+      "publisher": "Ministerio del Interior",
+      "url": "https://www.gob.pe/institucion/mininter/noticias/1390775-mininter-lanza-campana-tu-cuenta-tu-responsabilidad-para-frenar-el-uso-de-cuentas-bancarias-por-el-crimen-organizado",
+      "published_at": "2026-05-12",
+      "event_date": "2026-05-12",
+      "data_cutoff": null,
+      "locator": "Párrafos 1–4 y último; lanzamiento y objetivos de campaña",
+      "verification": "Nota institucional completa leída mediante descarga HTTP; buscador web devolvió HTTP 418.",
+      "limitations": "Anuncia una campaña mayo–julio; sus metas no constituyen resultados de reducción del delito.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "B02",
+      "title": "Capacitación para evitar captación mediante préstamo de cuentas",
+      "publisher": "Ministerio del Interior",
+      "url": "https://www.gob.pe/institucion/mininter/noticias/1402082-mas-de-800-personas-se-capacitaron-con-el-mininter-para-evitar-ser-captadas-por-redes-de-lavado-de-activos-y-extorsion",
+      "published_at": "2026-06-05",
+      "event_date": null,
+      "data_cutoff": null,
+      "locator": "Primer párrafo del cuerpo: 814 participantes; párrafos 3–4: riesgos y modalidades",
+      "verification": "Nota institucional completa leída mediante descarga HTTP.",
+      "limitations": "No identifica fecha exacta del webinar ni publica evaluación de impacto; mezcla extorsión y lavado en una proporción sin denominador verificable, excluida de los indicadores.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "B03",
+      "title": "Convenio Ministerio Público–SBS contra delitos financieros y criminalidad organizada",
+      "publisher": "SBS",
+      "url": "https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3986",
+      "published_at": "2026-08-27",
+      "event_date": "2026-08-27",
+      "data_cutoff": null,
+      "locator": "Cuerpo completo, párrafos 1–6; intercambio de información y vigencia",
+      "verification": "Texto completo de la nota leído en web.",
+      "limitations": "Se verificó el anuncio institucional, no el texto firmado del convenio ni indicadores de uso o resultados.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "B04",
+      "title": "Ucayali: confirmación de decisión sobre prisión preventiva en investigación por extorsión",
+      "publisher": "Corte Superior de Justicia de Ucayali",
+      "url": "https://www.gob.pe/institucion/csjucayali/noticias/1358231-sala-superior-de-emergencia-confirma-prision-preventiva-a-inspectora-de-vivienda-de-la-diresa-por-presunta-extorsion",
+      "published_at": "2026-02-24",
+      "event_date": "2025-06",
+      "data_cutoff": null,
+      "locator": "Párrafos iniciales y sección Hechos investigados",
+      "verification": "Nota judicial completa leída mediante descarga HTTP; no se obtuvo el expediente ni la resolución íntegra.",
+      "procedural_status": "Se confirma rechazo de cesación de prisión preventiva; no es sentencia condenatoria.",
+      "limitations": "El inicio dice 3 de junio sin año; ampliación de denuncia explícita del 12/06/2025. La nota informa una declaración de recepción de fondos, sin establecer definitivamente la responsabilidad ni el total pagado por la víctima.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "B05",
+      "title": "Resolución SBS 01219-2026: identificación y reporte de alertas",
+      "publisher": "SBS",
+      "url": "https://intranet2.sbs.gob.pe/dv_int_cn/2565/v1.0/Adjuntos/RES%20SBS%20N%C2%B0%2001219-2026.pdf",
+      "published_at": "2026-04-24",
+      "event_date": "2026-04-22",
+      "data_cutoff": null,
+      "locator": "PDF, páginas 1–2; artículos Primero a Cuarto",
+      "verification": "Resolución íntegra de dos páginas leída; fecha de publicación contrastada en buscador oficial SBS.",
+      "limitations": "La guía anexa está restringida a oficiales de cumplimiento en Portal PLAFT y no se leyó. No es una estadística de extorsión ni evidencia de cumplimiento individual.",
+      "accessed_at": "2026-10-22"
+    },
+    {
+      "id": "B06",
+      "title": "Directorio de boletines estadísticos mensuales UIF",
+      "publisher": "SBS / UIF-Perú",
+      "url": "https://www.sbs.gob.pe/prevencion-de-lavado-activos/Estadisticas-UIF/Boletin-Estadistico-Mensual",
+      "published_at": null,
+      "event_date": null,
+      "data_cutoff": "2026-08-31",
+      "locator": "Listado indexado: Agosto 2026, 3.1 MB",
+      "verification": "Listado indexado consultado; no se obtuvo el contenido del PDF de agosto.",
+      "limitations": "Acceso directo entrega barrera Incapsula y la vista web no expone enlaces dinámicos. No se extrajeron cifras del boletín ni se presume que todo congelamiento corresponda a extorsión.",
+      "accessed_at": "2026-10-22"
+    }
+  ],
+  "excluded_or_pending": [
+    {
+      "item": "Proporción una de cada cinco personas detenidas",
+      "source_id": "B02",
+      "reason": "No publica universo, periodo ni metodología; mezcla detenciones y resultado procesal. No se transforma en tasa nacional."
+    },
+    {
+      "item": "SBS 01586-2026 y DL 1732",
+      "reason": "Ya estaban en fuente S11 del repositorio; consulta de corroboración, no se duplica como evidencia nueva."
+    },
+    {
+      "item": "Montos de congelamiento en intervención DGCO ante OEA22/01/2026",
+      "url": "https://scm.oas.org/pdfs/2025/CSH_SAscPE.pdf",
+      "reason": "Transcripción presenta errores; caso corresponde a operativo 2025 y distintas fuentes confunden circulación de fondos con saldo congelado. No se integra como indicador 2026."
+    },
+    {
+      "item": "Reportajes sobre consumos no reconocidos y fraude digital",
+      "reason": "No equivalen por sí solos a incumplimientos bancarios vinculados a extorsión."
+    }
+  ]
+}

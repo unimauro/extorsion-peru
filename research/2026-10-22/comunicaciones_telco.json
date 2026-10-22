@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "project": "Extorsión Perú",
+  "topic": "Comunicaciones, operadoras y eSIM",
+  "research_cutoff": "2026-10-22",
+  "created_at": "2026-10-22T18:05:37+00:00",
+  "geography": "Perú",
+  "coverage_note": "Fecha de búsqueda, no cierre estadístico. Última publicación sustantiva nueva incorporada: 26/08/2026; no se encontró una serie exclusiva de extorsión telecom para enero–22/10/2026.",
+  "public_data_policy": "Síntesis y enlaces públicos; sin HTML bruto, identificadores de personas investigadas o víctimas, números telefónicos ni cuentas.",
+  "sources": [
+    {
+      "id": "TEL26-S01",
+      "title": "Informe 028-2026-DAPU: análisis de impacto regulatorio sobre contratación móvil",
+      "publisher": "OSIPTEL",
+      "url": "https://www.osiptel.gob.pe/media/pqso1nas/informe028-2026-dapu.pdf",
+      "published_at": null,
+      "coverage": "Documento 2026; suspensión octubre 2025–enero 2026; antecedentes 2024–2025",
+      "accessed_at": "2026-10-22",
+      "locator": "Páginas 5–8; PDF líneas 173–194 y 316–320",
+      "verification": "PDF completo accesible; pasajes contrastados entre sí",
+      "limitations": "Fecha exacta de emisión no identificada; lenguaje inconsistente entre suspensiones solicitadas y ejecutadas; delitos mezclados."
+    },
+    {
+      "id": "TEL26-S02",
+      "title": "Verificación del tope de siete líneas móviles durante contratación",
+      "publisher": "OSIPTEL",
+      "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-empresas-operadoras-estan-obligadas-a-verificar-tope-de-7-lineas-moviles-de-personas-naturales-durante-contratacion/",
+      "published_at": "2026-07-15",
+      "coverage": "Norma anunciada julio 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos sobre Resolución 000092-2026-CD, sistema centralizado y seis meses; líneas 124–133",
+      "verification": "Texto HTML completo leído",
+      "limitations": "Nota institucional sobre norma; no es evaluación de resultados ni comprobación de despliegue."
+    },
+    {
+      "id": "TEL26-S03",
+      "title": "Multas por venta ambulatoria de chips y faltas al Renteseg",
+      "publisher": "OSIPTEL",
+      "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-impuso-mas-de-s-184-millones-en-multas-a-operadores-por-venta-ambulatoria-de-chips-y-faltas-al-renteseg/",
+      "published_at": "2025-11-14",
+      "coverage": "2020–octubre 2025; antecedente, no dato de 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos de multas firmes; líneas 125–134",
+      "verification": "Texto HTML completo leído",
+      "limitations": "Agregado comunicado por regulador; no se inspeccionaron aquí los expedientes individuales ni sus sentencias judiciales."
+    },
+    {
+      "id": "TEL26-S04",
+      "title": "Venta ambulatoria de chips expone a usuarios a extorsión y robo de datos",
+      "publisher": "Agencia Andina / denuncia de ELEGIR",
+      "url": "https://andina.pe/agencia/noticia-venta-ambulatoria-chips-expone-a-usuarios-a-extorsion-y-robo-datos-1089270.aspx",
+      "published_at": "2026-08-26",
+      "coverage": "Investigación ELEGIR en Lima; multas 2026 sin corte preciso; consultas primer semestre 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos 1–5 y sección Leyes; líneas 164–182",
+      "verification": "Texto HTML completo leído; fecha exacta del artículo corregida frente a etiqueta relativa del buscador",
+      "limitations": "Nota marcada NDP; reproduce afirmaciones de asociación. No sustituye informe de campo, registro de multas o resoluciones; no es corroboración independiente."
+    },
+    {
+      "id": "TEL26-S05",
+      "title": "Operativo policial en San Martín de Porres: incautación reportada de eSIM",
+      "publisher": "Ministerio del Interior",
+      "url": "https://www.gob.pe/institucion/mininter/noticias/1423310-pnp-captura-a-los-r7-de-canta-callao-y-asesta-nuevo-golpe-a-la-criminalidad-en-lima-norte",
+      "published_at": "2026-07-26",
+      "coverage": "Operativo del 26 de julio de 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafo de registro e incautaciones",
+      "verification": "Texto primario indexado completo recuperado en búsqueda; apertura directa HTTP 418; contrastado con nota íntegra de Andina TEL26-S06",
+      "limitations": "Nota policial preliminar, sin peritaje ni expediente. El término eSIM no está explicado técnicamente."
+    },
+    {
+      "id": "TEL26-S06",
+      "title": "Captura de presuntos integrantes de banda en San Martín de Porres",
+      "publisher": "Agencia Andina",
+      "url": "https://andina.pe/agencia/noticia-pnp-captura-a-cuatro-presuntos-integrantes-banda-criminal-los-r7-canta-callao-1085131.aspx",
+      "published_at": "2026-07-26",
+      "coverage": "Operativo del 26 de julio de 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos de objetos incautados y cierre de diligencias",
+      "verification": "Texto HTML completo leído; concordancia con nota primaria indexada",
+      "limitations": "Reproduce Mininter: misma fuente de origen, no segundo testimonio ni confirmación judicial."
+    },
+    {
+      "id": "TEL26-S07",
+      "title": "Decreto Supremo 128-2025-PCM: disposiciones adicionales de Ley 32451",
+      "publisher": "Diario Oficial El Peruano",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2457191-1/",
+      "published_at": "2025-11-11",
+      "coverage": "Marco normativo anterior a 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Considerando sobre artículo 10 DL1338; artículos 5.b, 6 y 7",
+      "verification": "Texto legal completo leído en fuente oficial",
+      "limitations": "Existencia de obligación no demuestra ejecución, condena o aplicación automática a cualquier proveedor extranjero."
+    },
+    {
+      "id": "TEL26-S08",
+      "title": "¿Puedo hacer llamadas o enviar SMS con mi eSIM?",
+      "publisher": "Airalo",
+      "url": "https://www.airalo.com/es-419/help/using-managing-esims/ZSEEHBT5HW6F/can-i-make-phone-calls-or-send-sms-with-my-esim/V9CFOOQYA2DU",
+      "published_at": null,
+      "coverage": "Documentación técnica vigente consultada el 22 de octubre de 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Párrafos sobre planes de datos y llamadas por internet",
+      "verification": "Texto de ayuda indexado completo recuperado",
+      "limitations": "Ejemplo de producto, sin evidencia de participación de Airalo en casos peruanos; no representa todos los proveedores."
+    },
+    {
+      "id": "TEL26-S09",
+      "title": "About reporting and blocking on WhatsApp",
+      "publisher": "WhatsApp Help Center",
+      "url": "https://faq.whatsapp.com/414631957536067",
+      "published_at": null,
+      "coverage": "Documentación de producto consultada el 22 de octubre de 2026",
+      "accessed_at": "2026-10-22",
+      "locator": "Secciones Report a contact, Block a contact, Involve law enforcement",
+      "verification": "Texto de ayuda indexado completo recuperado",
+      "limitations": "Describe funciones y políticas, no resultados peruanos de investigaciones ni tiempos efectivos de respuesta."
+    }
+  ],
+  "findings": [
+    {
+      "id": "TEL26-F01",
+      "title": "La evidencia oficial reconoce fallas de trazabilidad, pero las cifras mezclan delitos",
+      "kind": "diagnostico_regulatorio",
+      "summary": "OSIPTEL vincula fallas de identificación y comercialización con dificultades investigativas. Su informe 2026 reporta 4758 suspensiones para octubre 2025–enero 2026: 4682 requeridas por Interior y 76 por Fiscalía; abarca extorsión y otros delitos.",
+      "sources": [
+        "TEL26-S01"
+      ],
+      "metrics": [
+        {
+          "value": 4758,
+          "unit": "solicitudes de suspensión, lectura conservadora",
+          "period_start": "2025-10-01",
+          "period_end": "2026-01-31",
+          "exclusive_extortion": false,
+          "exclusive_2026": false,
+          "executed_confirmed": false
+        }
+      ],
+      "limitations": "Página 5 dice líneas suspendidas; página 8, solicitudes. No contar como extorsionadores, víctimas, bajas confirmadas ni impacto causal.",
+      "implication": "Apoya investigar controles; no demuestra responsabilidad penal empresarial."
+    },
+    {
+      "id": "TEL26-F02",
+      "title": "En julio de 2026 se reforzó la verificación del límite de líneas",
+      "kind": "obligacion_regulatoria",
+      "summary": "La Resolución 000092-2026-CD contempla sistema centralizado y seis meses de adecuación operadora; exige comprobar el límite de siete líneas y regula bajas y excepciones.",
+      "sources": [
+        "TEL26-S02"
+      ],
+      "limitations": "Al 22/10/2026 no han transcurrido seis meses desde el anuncio. No inferir despliegue completo ni reducción del delito.",
+      "implication": "Separar norma aprobada, implementación comprobada y efecto medido."
+    },
+    {
+      "id": "TEL26-F03",
+      "title": "Existen sanciones administrativas firmes anteriores a 2026",
+      "kind": "sancion_administrativa_agregada",
+      "summary": "OSIPTEL comunicó multas firmes por venta callejera de chips de S/125.10 millones y por Renteseg de S/59.15 millones para Movistar, Entel, Bitel y Claro, acumuladas entre 2020 y octubre 2025.",
+      "sources": [
+        "TEL26-S03"
+      ],
+      "limitations": "No son cifras 2026 ni condenas por extorsión; el agregado no atribuye cada monto a cada empresa.",
+      "implication": "Hay incumplimientos sancionados; falta vincular infracción, línea, caso y responsabilidad individual para cualquier imputación penal."
+    },
+    {
+      "id": "TEL26-F04",
+      "title": "Una alerta de agosto de 2026 denuncia persistencia de venta callejera",
+      "kind": "denuncia_de_tercero",
+      "summary": "Andina recoge observación de ELEGIR sobre venta callejera de chips Claro y Bitel en Lima y cita S/18.9 millones de multas 2026 atribuidas a ambas. Reporta 261244 consultas de titularidad en el primer semestre.",
+      "sources": [
+        "TEL26-S04"
+      ],
+      "limitations": "No se corroboró el detalle sancionador primario ni su firmeza. Las consultas Renteseg son actividad institucional, no víctimas ni casos de extorsión. No sumar a multas 2020–2025.",
+      "implication": "Pista de seguimiento, excluida de indicadores verificados de sanciones 2026."
+    },
+    {
+      "id": "TEL26-F05",
+      "title": "Hay una mención oficial puntual a eSIM en un operativo de 2026",
+      "kind": "indicio_policial_preliminar",
+      "summary": "Mininter informó el 26/07/2026 que en un operativo de San Martín de Porres se hallaron tres eSIM y anotaciones de presunta extorsión. Andina reproduce ese reporte.",
+      "sources": [
+        "TEL26-S05",
+        "TEL26-S06"
+      ],
+      "metrics": [
+        {
+          "value": 3,
+          "unit": "eSIM mencionadas en nota policial",
+          "event_date": "2026-07-26",
+          "national_estimate": false
+        }
+      ],
+      "limitations": "Sin proveedor, aplicación, peritaje ni vínculo demostrado entre esas eSIM y amenazas concretas. Incautación conjunta no prueba uso extorsivo. No sentencia.",
+      "implication": "Justifica investigar eSIM, pero no acusar proveedores ni estimar prevalencia. La repetición periodística no aporta una segunda evidencia independiente."
+    },
+    {
+      "id": "TEL26-F06",
+      "title": "El marco consultado incluye comercialización de SIM físicas y virtuales",
+      "kind": "norma",
+      "summary": "DS128-2025-PCM incluye procesos físicos o virtuales y SIM físicas o virtuales. Prevé acceso institucional a trazabilidad comercial con confidencialidad; recuerda responsabilidad operadora en identificación y registro de abonados y vendedores.",
+      "sources": [
+        "TEL26-S07"
+      ],
+      "limitations": "No prueba alcance efectivo sobre cada servicio extranjero ni cumplimiento de una empresa concreta.",
+      "implication": "No sostener que toda eSIM está automáticamente fuera de regulación; identificar operador, servicio y jurisdicción en cada caso."
+    },
+    {
+      "id": "TEL26-F07",
+      "title": "eSIM, conectividad y cuenta de mensajería son datos distintos",
+      "kind": "distincion_tecnica",
+      "summary": "La ayuda de Airalo distingue planes de datos de servicios con voz/SMS: la conectividad puede permitir mensajería y llamadas por internet sin equivaler al número de la cuenta.",
+      "sources": [
+        "TEL26-S08"
+      ],
+      "limitations": "La documentación no vincula al proveedor con delitos. Un prefijo o uso de WhatsApp no identifica SIM, eSIM, vendedor ni titular real.",
+      "implication": "En los datos de casos, conservar tipo_sim y proveedor como desconocidos salvo evidencia explícita."
+    },
+    {
+      "id": "TEL26-F08",
+      "title": "Bloquear un contacto, suspender una línea y cerrar una cuenta son acciones diferentes",
+      "kind": "politica_de_plataforma",
+      "summary": "WhatsApp permite bloquear contactos y reportarlos. Reportar no bloquea automáticamente la comunicación y no garantiza que la plataforma suspenda la cuenta; la ayuda contempla preservar registros para autoridades.",
+      "sources": [
+        "TEL26-S09"
+      ],
+      "limitations": "No aporta tasas de respuesta, reincidencia o extorsiones evitadas en Perú. No acredita cooperación o incumplimiento en un caso específico.",
+      "implication": "No tratar bloqueo de contacto como cierre universal del canal delictivo ni como resultado penal."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "TEL26-H01",
+      "claim": "Las fallas de control de contratación facilitan comunicaciones extorsivas",
+      "verdict": "apoyo_parcial",
+      "finding_ids": [
+        "TEL26-F01",
+        "TEL26-F03",
+        "TEL26-F04"
+      ],
+      "reason": "Existe diagnóstico regulatorio y sanción administrativa; falta estimación causal y atribución por caso."
+    },
+    {
+      "id": "TEL26-H02",
+      "claim": "Las operadoras o sus dueños son penalmente responsables de la extorsión por esas fallas",
+      "verdict": "no_demostrada",
+      "finding_ids": [
+        "TEL26-F03",
+        "TEL26-F06"
+      ],
+      "reason": "Deber regulatorio e infracción no prueban participación delictiva, conocimiento ni responsabilidad personal."
+    },
+    {
+      "id": "TEL26-H03",
+      "claim": "Aplicaciones eSIM específicas habilitan extorsiones en Perú en 2026",
+      "verdict": "indeterminado",
+      "finding_ids": [
+        "TEL26-F05",
+        "TEL26-F07"
+      ],
+      "reason": "Mención policial eSIM concreta sin proveedor ni peritaje. No permite atribución a aplicaciones ni generalización."
+    },
+    {
+      "id": "TEL26-H04",
+      "claim": "Cerrar canales reduce o termina la extorsión",
+      "verdict": "plausible_sin_efecto_causal_medido",
+      "finding_ids": [
+        "TEL26-F01",
+        "TEL26-F02",
+        "TEL26-F08"
+      ],
+      "reason": "Se verifican instrumentos de intervención, pero no evaluación peruana que mida sustitución de canales, reincidencia o cobros evitados."
+    },
+    {
+      "id": "TEL26-H05",
+      "claim": "No existen medidas contra operadoras o canales de comunicación",
+      "verdict": "contradicha",
+      "finding_ids": [
+        "TEL26-F02",
+        "TEL26-F03",
+        "TEL26-F06",
+        "TEL26-F08"
+      ],
+      "reason": "Hay normas, sanciones y herramientas. Su existencia no demuestra que basten o funcionen oportunamente."
+    }
+  ],
+  "data_gaps": [
+    "Serie 2026 de solicitudes, ejecución y tiempos de suspensión exclusivamente por extorsión y operadora.",
+    "Resoluciones 2026 de sanción individual con infracción, fecha de hechos, estado y firmeza.",
+    "Peritajes que identifiquen SIM/eSIM, proveedor, cuenta de mensajería y vinculación probatoria a cada extorsión.",
+    "Evaluación de efectos: reincidencia, desplazamiento de canales y cobros evitados después de bloqueos."
+  ],
+  "excluded_claims": [
+    "No usar líneas inconsistentes como número de extorsionadores.",
+    "No usar multas como condenas por extorsión ni atribuirlas a dueños personales.",
+    "No tratar publicaciones 2026 con hechos 2025 como incidencia 2026.",
+    "No usar noticias replicadas como fuentes de origen independientes."
+  ]
+}

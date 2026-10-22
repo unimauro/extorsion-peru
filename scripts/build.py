@@ -6,7 +6,7 @@ out=root/'_site'
 if out.exists(): shutil.rmtree(out)
 out.mkdir()
 shutil.copy2(root/'index.html',out/'index.html')
-for folder in ('assets','data','docs'):
+for folder in ('assets','data','docs','research'):
     shutil.copytree(root/folder,out/folder)
 (out/'.nojekyll').touch()
 print('Sitio estático preparado en _site/')

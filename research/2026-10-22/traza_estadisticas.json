@@ -1,0 +1,111 @@
+{
+  "agente": "estadisticas_2026",
+  "tarea": "Buscar estadísticas oficiales Perú2026 y comparar periodos iguales de2025; guardar datos y trazabilidad.",
+  "inicio_observado_utc": "2026-10-22T17:58:54+00:00",
+  "fin_registro_utc": "2026-10-22T18:04:26.649100+00:00",
+  "nota_tiempos": "Los hitos marcados con hora exacta provienen de clock.curr_time. Las acciones agrupadas entre hitos sólo tienen intervalo; no se inventaron horas individuales.",
+  "eventos": [
+    {
+      "intervalo_utc": [
+        "2026-10-22T17:58:54+00:00",
+        "2026-10-22T18:01:30+00:00"
+      ],
+      "accion": "busquedas_iniciales",
+      "consultas": [
+        "site:gob.pe extorsión 2026 denuncias enero septiembre SIDPOL",
+        "site:observatorio.mininter.gob.pe extorsión 2026",
+        "site:inei.gob.pe extorsión 2026",
+        "\"DataSet Denuncias Policiales - Setiembre 2026\"",
+        "\"extorsión\" \"2026\" \"septiembre\" \"denuncias\" Perú",
+        "site:gob.pe/institucion/mininter \"SIDPOL\" \"setiembre\" \"2026\""
+      ],
+      "resultado": "Localizados índice MININTER, PDF julio2026, catálogo septiembre2026 y pistas fiscales. Consulta inicial comenzó ligeramente antes del primer reloj registrado."
+    },
+    {
+      "intervalo_utc": [
+        "2026-10-22T17:58:54+00:00",
+        "2026-10-22T18:01:30+00:00"
+      ],
+      "accion": "lecturas",
+      "urls": [
+        "https://observatorio.mininter.gob.pe/sites/default/files/proyecto/archivos/Reporte_SIDPOL_Julio2026.pdf",
+        "https://observatorio.mininter.gob.pe/node/581",
+        "https://www.datosabiertos.gob.pe/dataset/dataset-denuncias-policiales-setiembre-2026"
+      ],
+      "resultado": "PDF de33p completo accesible por web; índice enlaza julio2026 como último reporte visible. Septiembre sólo metadatos de búsqueda."
+    },
+    {
+      "intervalo_utc": [
+        "2026-10-22T17:58:54+00:00",
+        "2026-10-22T18:01:30+00:00"
+      ],
+      "accion": "bloqueo_acceso",
+      "resultado": "Web catálogo cache miss y recurso403; curl al catálogo HTTP418. No se descargó CSV."
+    },
+    {
+      "hora_exacta_utc": "2026-10-22T18:01:30+00:00",
+      "accion": "hito_reloj_y_verificacion_web",
+      "resultado": "Tabla PDF página23 identifica12174/16202 y nota cifras al31.07.2026."
+    },
+    {
+      "intervalo_utc": [
+        "2026-10-22T18:01:30+00:00",
+        "2026-10-22T18:02:37+00:00"
+      ],
+      "accion": "busquedas_adicionales",
+      "consultas": [
+        "\"DATASET_Denuncias_Policiales_setiembre_2026.csv\"",
+        "\"Reporte\" \"SIDPOL\" \"julio\" \"2026\" \"gob.pe\"",
+        "site:gob.pe/mpfn \"13 892\" \"2026\"",
+        "\"extorsión\" \"2026\" \"13892\" Ministerio Público",
+        "\"SIDPOL\" \"julio 2026\" reporte denuncias",
+        "\"DATASET_Denuncias_Policiales_setiembre_2026\" \"sites/default/files\"",
+        "\"2026\" \"extorsión\" \"exigencia\" \"estadística\" SIDPOL",
+        "\"DataSet Denuncias Policiales\" \"Setiembre 2026\" csv descarga",
+        "site:gob.pe/institucion/mpfn \"extorsión\" \"julio\" \"2026\""
+      ],
+      "resultado": "No se halló fuente fiscal íntegra verificable para13.892; se mantuvo como pista. Catálogo confirma nombre/tamaño del CSV; acceso seguía403."
+    },
+    {
+      "intervalo_utc": [
+        "2026-10-22T18:01:30+00:00",
+        "2026-10-22T18:02:37+00:00"
+      ],
+      "accion": "descarga_y_extraccion_pdf",
+      "resultado": "Descarga oficial con curl exit0 a /tmp/stat2026-julio.pdf; pdftotext páginas18 y23 verificó glosario y26pares regionales. Screenshot web falló; se usó render local pdftoppm."
+    },
+    {
+      "hora_exacta_utc": "2026-10-22T18:02:37+00:00",
+      "accion": "hito_reloj_render",
+      "resultado": "Página23 renderizada localmente; inspección posterior corroboró valores, etiquetas y nota metodológica."
+    },
+    {
+      "intervalo_utc": [
+        "2026-10-22T18:02:37+00:00",
+        "2026-10-22T18:04:26.649100+00:00"
+      ],
+      "accion": "ultima_comprobacion_y_decisiones",
+      "resultado": "Intento de ruta pública de archivos inferida del nombre del CSV devolvió418; no considerada URL de fuente válida. Extracción del PDF completo local halló fecha de elaboración14/08/2026. Seleccionado julio como último conteo verificado; septiembre queda pendiente. No se infiere causalidad bancaria o telecom de estos conteos."
+    },
+    {
+      "hora_exacta_utc": "2026-10-22T18:04:26.649100+00:00",
+      "accion": "guardar_y_validar",
+      "archivos": [
+        "research/2026-10-22/estadisticas_2026.json",
+        "research/2026-10-22/traza_estadisticas.json"
+      ],
+      "resultado": "JSON con fuente/corte/unidad/limitaciones y26filas; sumas2025=16202 y2026=12174 verificadas en Python."
+    }
+  ],
+  "pendientes": [
+    "Acceder al CSV y metadato de septiembre2026, comprobar diccionario/cobertura y reproducir agregados de extorsión.",
+    "Obtener documento oficial íntegro del Ministerio Público con serie2026 y comparable2025."
+  ],
+  "reglas_aplicadas": [
+    "No mezclar denuncias fiscales y policiales.",
+    "No comparar año completo2025 con parcial2026.",
+    "No equiparar fecha de publicación a periodo de hechos.",
+    "No convertir resultados indexados o fuente inaccesible en cifras verificadas.",
+    "No usar disminución de denuncias como demostración causal de éxito o ausencia de extorsión."
+  ]
+}

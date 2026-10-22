@@ -49,3 +49,11 @@ Codificación UTF-8; CSV con BOM para facilitar apertura en hojas de cálculo. J
 ## Responsabilidades
 
 `actor`, `category`, `action`, `source_id`, `locator`, `metric`, `evidence_limit`: actor, naturaleza de la afirmación, deber/actuación, fuente y artículo/apartado, indicador propuesto y lo que la evidencia no demuestra.
+
+## Archivos de la ampliación2026
+
+- `data/actualizacion_2026.json`: fecha de revisión, corte estadístico verificado y hallazgos con URL y límites.
+- `data/hipotesis.json`: seis afirmaciones, evaluación editorial, respaldo, contraevidencia, prueba pendiente y fuentes.
+- `data/traza_tareas.json`: tareas, resultados, archivos y enlaces a trazas detalladas.
+- `research/2026-10-22/estadisticas_2026.json`: `regiones.filas` contiene conteos SIDPOL enero–julio2025/2026; variación porcentual es `(2026/2025-1)*100`. Unidades geográficas según fuente.
+- Dosieres `cobros_banca.json` y `comunicaciones_telco.json`: hallazgos, fechas, fuentes, estado de verificación, límites y exclusiones. Sus IDs de fuentes son propios y no se confunden con los del registro original.

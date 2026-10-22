@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-22",
+  "agent": "cobros_banca",
+  "scope": "Fuentes de 2026 sobre extorsión en Perú y cobros; contraste de hipótesis",
+  "activity_log": [
+    {
+      "order": 1,
+      "action": "Revisión de base existente",
+      "input": "data/casos.json y data/fuentes.json",
+      "result": "Se identificaron cinco casos; no se duplicaron."
+    },
+    {
+      "order": 2,
+      "action": "Búsquedas web",
+      "queries": [
+        "Perú extorsión 2026 bancos UIF cuentas congeladas resultados",
+        "site:gob.pe/institucion/mpfn/noticias 2026 extorsión cuenta banco",
+        "site:sbs.gob.pe extorsión 2026 congelamiento fondos solicitudes",
+        "site:gob.pe/institucion/mpfn/noticias 2026 extorsión depósitos octubre",
+        "site:gob.pe/institucion/mpfn/noticias 2026 extorsión Yape septiembre",
+        "site:ojo-publico.com extorsion bancos cuentas 2026"
+      ],
+      "result": "Se localizaron campañas, notas judiciales y estadísticas de LA/FT; resultados ajenos a Perú o al delito fueron descartados."
+    },
+    {
+      "order": 3,
+      "action": "Búsqueda de cifras 2026",
+      "queries": [
+        "site:sbs.gob.pe/Portals 2026 EXTORSION agosto",
+        "site:sbs.gob.pe/Portals 2026 extorsión CAF",
+        "Al31 de Agosto del 2026 UIF",
+        "site:sbs.gob.pe 2026 extorsión congelamiento millones"
+      ],
+      "result": "Listado UIF muestra boletín con corte 31/08/2026; no se obtuvo su PDF ni serie extorsión separada."
+    },
+    {
+      "order": 4,
+      "action": "Intentos de lectura",
+      "result": "Gob.pe devolvió 418 en navegador de investigación. Lectura HTTP directa completa de B01, B02 y B04 sí funcionó. SBS devolvió una página Incapsula de 212 bytes al descargar el listado; no se extrajeron datos de ella."
+    },
+    {
+      "order": 5,
+      "action": "Lectura y síntesis minimizada",
+      "source_ids": [
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "B05"
+      ],
+      "result": "Se separaron acciones, objetivos, resultados de actividad y hechos judiciales no firmes; se omitieron identidades personales y datos de cuentas."
+    },
+    {
+      "order": 6,
+      "action": "Verificación normativa",
+      "queries": [
+        "Decreto Legislativo 1732 fichero 2026 SBS",
+        "Mecanismo de Identificación de Titularidades Reglamento 2026 SBS",
+        "SBS 01219-2026 alertas extorsión"
+      ],
+      "result": "DL 1732 y SBS 01586-2026 corroborados pero ya estaban en S11. Resolución 01219-2026 leída íntegra en PDF de SBS; guía restringida no consultada."
+    },
+    {
+      "order": 7,
+      "action": "Contraste de evidencia de congelamiento",
+      "queries": [
+        "extorsión50 cuentas millones UIF",
+        "Los Injertos50 cuentas 2026 extorsión"
+      ],
+      "result": "Presentación DGCO22/01/2026 describe operativo previo de 2025. No se sumó como incidencia 2026 ni se equiparó monto circulado y congelado."
+    },
+    {
+      "order": 8,
+      "action": "Evaluación de hipótesis",
+      "result": "Existencia de canales formales apoyada; tolerancia dolosa y efecto causal de cierres no determinados. Evidencia de acciones contradice ninguna acción. Titularidad aislada no se trató como condena."
+    },
+    {
+      "order": 9,
+      "action": "Guardado",
+      "outputs": [
+        "research/2026-10-22/cobros_banca.json",
+        "research/2026-10-22/traza_banca.json"
+      ],
+      "result": "Solo datos minimizados, fuentes, límites y trazabilidad pública; sin HTML ni expedientes brutos."
+    }
+  ],
+  "limitations": [
+    "Búsqueda no exhaustiva; ausencia de hallazgo no prueba inexistencia.",
+    "Sin acceso al anexo reservado de guía de alertas, a expediente judicial completo ni a datos internos bancarios.",
+    "No se produjeron rankings por entidad ni estimaciones de prevalencia a partir de notas de prensa."
+  ]
+}

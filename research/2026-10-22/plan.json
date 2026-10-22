@@ -1,0 +1,35 @@
+{
+  "project": "Extorsión Perú",
+  "repository": "https://github.com/unimauro/extorsion-peru",
+  "requested_cutoff": "2026-10-22",
+  "started_at": "2026-10-22T17:58:16Z",
+  "timezone": "America/Lima",
+  "method": "Tres agentes paralelos más integración y revisión por agente principal. Lecturas de una misma fuente no cuentan como corroboración independiente.",
+  "tasks": [
+    {
+      "id": "T01",
+      "agent": "estadisticas_2026",
+      "scope": "Estadísticas oficiales, período 2026 y comparabilidad",
+      "output": "research/2026-10-22/estadisticas_2026.json"
+    },
+    {
+      "id": "T02",
+      "agent": "cobros_banca",
+      "scope": "Cobros, banca, UIF, responsabilidad y límites",
+      "output": "research/2026-10-22/cobros_banca.json"
+    },
+    {
+      "id": "T03",
+      "agent": "comunicaciones_telco",
+      "scope": "Telecomunicaciones, eSIM, controles y efectos",
+      "output": "research/2026-10-22/comunicaciones_telco.json"
+    },
+    {
+      "id": "T04",
+      "agent": "principal",
+      "scope": "Revisión crítica, JSON consolidados, traza, web, pruebas y publicación",
+      "output": "data/hipotesis.json"
+    }
+  ],
+  "decision_rule": "Contrastar hipótesis; no confirmar por selección sesgada. Registrar apoyo, contraevidencia y lo desconocido."
+}

@@ -1,0 +1,146 @@
+{
+  "reviewed_at": "2026-10-22",
+  "method": "Contraste editorial: respaldo, contraevidencia o límite, y prueba pendiente. No equivale a fallo judicial.",
+  "items": [
+    {
+      "id": "H01",
+      "status_code": "supported",
+      "status_label": "Respaldada: existencia",
+      "statement": "No todo cobro extorsivo se realiza en efectivo.",
+      "assessment": "Hay casos públicos con depósitos, Yape y Plin. No tenemos una distribución nacional por canal.",
+      "support": "Los cinco casos de la base y el dosier bancario documentan distintos mecanismos.",
+      "counterevidence": "Una muestra intencional no estima qué canal concentra más dinero o víctimas.",
+      "required_evidence": "Una muestra representativa con medios, montos, periodos y denominador.",
+      "sources": [
+        {
+          "label": "Puerto Inca: cuenta BCP, retiro y transferencia posterior",
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/1359673-puerto-inca-dictan-9-meses-de-prision-preventiva-a-investigado-por-presunta-extorsion"
+        },
+        {
+          "label": "Sullana: entregas en efectivo y Plin",
+          "url": "https://www.gob.pe/institucion/mpfn/noticias/1416884-fiscalia-de-sullana-logra-condena-de-10-anos-de-prision-para-extorsionador"
+        },
+        {
+          "label": "Ucayali: confirmación de decisión sobre prisión preventiva en investigación por extorsión",
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/1358231-sala-superior-de-emergencia-confirma-prision-preventiva-a-inspectora-de-vivienda-de-la-diresa-por-presunta-extorsion"
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "status_code": "partial",
+      "status_label": "Respaldo parcial",
+      "statement": "Las fallas de identificación dificultan seguir a los extorsionadores.",
+      "assessment": "OSIPTEL documenta problemas de trazabilidad y antecedentes sancionadores. Falta medir el efecto específico en extorsión.",
+      "support": "Diagnóstico regulatorio y sanciones administrativas por contratación y Renteseg.",
+      "counterevidence": "Las cifras mezclan delitos y periodos; no prueban complicidad ni el efecto de cada falla.",
+      "required_evidence": "Vincular infracción, línea, expediente, daño y respuesta, con comparación temporal.",
+      "sources": [
+        {
+          "label": "Informe 028-2026-DAPU: análisis de impacto regulatorio sobre contratación móvil",
+          "url": "https://www.osiptel.gob.pe/media/pqso1nas/informe028-2026-dapu.pdf"
+        },
+        {
+          "label": "Multas por venta ambulatoria de chips y faltas al Renteseg",
+          "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-impuso-mas-de-s-184-millones-en-multas-a-operadores-por-venta-ambulatoria-de-chips-y-faltas-al-renteseg/"
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "status_code": "unknown",
+      "status_label": "No demostrada",
+      "statement": "Los bancos, telcos o sus dueños toleran deliberadamente la extorsión.",
+      "assessment": "El uso de un servicio para delinquir y la existencia de obligaciones no acreditan por sí solos tolerancia consciente o responsabilidad penal.",
+      "support": "Los canales formales aparecen en casos y existen deberes de identificación y prevención.",
+      "counterevidence": "Hay campañas, normas, convenios y sanciones. Contradicen la ausencia absoluta de acción, pero no prueban que la respuesta sea suficiente.",
+      "required_evidence": "Alertas recibidas, decisiones, incumplimientos acreditados, conocimiento y conducta de cada responsable.",
+      "sources": [
+        {
+          "label": "Reglamento de gestión de riesgos de LA/FT · Resolución SBS 2660-2015",
+          "url": "https://intranet2.sbs.gob.pe/dv_int_cn/1540/v2.0/Adjuntos/2660-2015.r.pdf"
+        },
+        {
+          "label": "Campaña Tu cuenta, tu responsabilidad",
+          "url": "https://www.gob.pe/institucion/mininter/noticias/1390775-mininter-lanza-campana-tu-cuenta-tu-responsabilidad-para-frenar-el-uso-de-cuentas-bancarias-por-el-crimen-organizado"
+        },
+        {
+          "label": "Convenio Ministerio Público–SBS contra delitos financieros y criminalidad organizada",
+          "url": "https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3986"
+        },
+        {
+          "label": "Multas por venta ambulatoria de chips y faltas al Renteseg",
+          "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-impuso-mas-de-s-184-millones-en-multas-a-operadores-por-venta-ambulatoria-de-chips-y-faltas-al-renteseg/"
+        }
+      ]
+    },
+    {
+      "id": "H04",
+      "status_code": "unknown",
+      "status_label": "Efecto no medido",
+      "statement": "Cerrar cuentas y líneas reduce o termina la extorsión.",
+      "assessment": "Es una intervención plausible; esta revisión no obtuvo una evaluación causal peruana que demuestre cuánto reduce el delito.",
+      "support": "Existen procedimientos de inmovilización y baja de líneas.",
+      "counterevidence": "Bloqueos, capacitaciones y menos denuncias no prueban por sí solos que cesen amenazas o cobros.",
+      "required_evidence": "Fechas de bloqueo, fondos inmovilizados, reincidencia, sustitución de canales y un grupo de comparación.",
+      "sources": [
+        {
+          "label": "DS 007-2025-JUS · Congelamiento por extorsión",
+          "url": "https://www.sbs.gob.pe/Portals/5/6-Decreto%20Supremo%20N%20007-2025-JUS.pdf"
+        },
+        {
+          "label": "Procedimiento para baja de líneas y bloqueo de celulares",
+          "url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-aprueba-norma-para-acelerar-la-baja-de-lineas-moviles-y-bloquear-celulares-utilizados-en-delitos/"
+        },
+        {
+          "label": "Convenio Ministerio Público–SBS contra delitos financieros y criminalidad organizada",
+          "url": "https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3986"
+        }
+      ]
+    },
+    {
+      "id": "H05",
+      "status_code": "partial",
+      "status_label": "Indicio limitado",
+      "statement": "Aplicaciones de eSIM participan en extorsiones en Perú.",
+      "assessment": "Hay una mención policial puntual a eSIM; no permite atribuir participación a una aplicación o proveedor.",
+      "support": "El operativo de julio de 2026 menciona tres eSIM.",
+      "counterevidence": "No hay identificación del proveedor, peritaje ni vínculo demostrado con mensajes. Republicar la misma nota no es corroboración independiente.",
+      "required_evidence": "Peritaje, servicio contratado, proveedor, uso concreto y respuesta a requerimientos.",
+      "sources": [
+        {
+          "label": "Operativo policial en San Martín de Porres: incautación reportada de eSIM",
+          "url": "https://www.gob.pe/institucion/mininter/noticias/1423310-pnp-captura-a-los-r7-de-canta-callao-y-asesta-nuevo-golpe-a-la-criminalidad-en-lima-norte"
+        },
+        {
+          "label": "Captura de presuntos integrantes de banda en San Martín de Porres",
+          "url": "https://andina.pe/agencia/noticia-pnp-captura-a-cuatro-presuntos-integrantes-banda-criminal-los-r7-canta-callao-1085131.aspx"
+        },
+        {
+          "label": "¿Puedo hacer llamadas o enviar SMS con mi eSIM?",
+          "url": "https://www.airalo.com/es-419/help/using-managing-esims/ZSEEHBT5HW6F/can-i-make-phone-calls-or-send-sms-with-my-esim/V9CFOOQYA2DU"
+        }
+      ]
+    },
+    {
+      "id": "H06",
+      "status_code": "unknown",
+      "status_label": "No es prueba automática",
+      "statement": "El titular de la cuenta es necesariamente el autor de la extorsión.",
+      "assessment": "Titularidad, control efectivo, conocimiento y participación deben distinguirse en cada investigación.",
+      "support": "La recepción de dinero puede ser un elemento de investigación.",
+      "counterevidence": "Las notas describen cuentas de terceros y decisiones cautelares distintas; una medida preventiva no es una sentencia.",
+      "required_evidence": "Evidencia de control, comunicaciones, destino de fondos y resolución judicial pertinente.",
+      "sources": [
+        {
+          "label": "Puerto Inca: cuenta BCP, retiro y transferencia posterior",
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/1359673-puerto-inca-dictan-9-meses-de-prision-preventiva-a-investigado-por-presunta-extorsion"
+        },
+        {
+          "label": "Ucayali: confirmación de decisión sobre prisión preventiva en investigación por extorsión",
+          "url": "https://www.gob.pe/institucion/csjucayali/noticias/1358231-sala-superior-de-emergencia-confirma-prision-preventiva-a-inspectora-de-vivienda-de-la-diresa-por-presunta-extorsion"
+        }
+      ]
+    }
+  ]
+}

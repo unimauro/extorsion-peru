@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "agent": "comunicaciones_telco",
+  "project": "Extorsión Perú",
+  "started_at": "2026-10-22T17:59:18Z",
+  "completed_at": "2026-10-22T18:05:37+00:00",
+  "timestamp_note": "Hitos de reloj reales. Las acciones sin hora individual se agrupan en intervalos; no se reconstruyen marcas exactas.",
+  "actions": [
+    {
+      "interval_start": "2026-10-22T17:59:18Z",
+      "interval_end": "2026-10-22T18:01:32Z",
+      "action": "Revisión inicial y búsquedas",
+      "details": [
+        "Revisión del inventario previo de fuentes y telecomunicaciones para distinguir actualización de repetición.",
+        "Búsquedas OSIPTEL extorsión 2026 líneas suspendidas; sanción identidad; eSIM Perú 2026; sanciones Bitel/Entel.",
+        "Lectura de informe028-2026-DAPU, exposición de motivos Res024-2026 y nota de julio2026 sobre límite de líneas."
+      ],
+      "decision": "No trasladar cifras acumuladas 2025–2026 a un indicador exclusivo de extorsión 2026."
+    },
+    {
+      "interval_start": "2026-10-22T18:01:32Z",
+      "interval_end": "2026-10-22T18:02:51Z",
+      "action": "Contraste de novedades y fuentes originales",
+      "details": [
+        "Lectura íntegra de Andina 26/08/2026; búsqueda del registro primario de multas.",
+        "Lectura oficial DS128-2025-PCM y comunicado de sanciones 14/11/2025.",
+        "Búsqueda Perú extorsión eSIM2026 recuperó operativo Mininter26/07/2026; contraste con Andina y resultados de Correo.",
+        "Comparación de páginas5 y8 del informe028: discrepancia solicitudes versus ejecutadas."
+      ],
+      "decision": "Separar falla de control, sanción administrativa, indicio policial y prueba de extorsión; no inferir culpa ni proveedor eSIM."
+    },
+    {
+      "interval_start": "2026-10-22T18:02:51Z",
+      "interval_end": "2026-10-22T18:05:37+00:00",
+      "action": "Documentación técnica y preparación de JSON público",
+      "details": [
+        "Búsqueda y lectura de ayuda oficial Airalo sobre datos/voz/SMS y WhatsApp sobre bloqueo/reporte.",
+        "Consulta del catálogo local data/fuentes.json para no atribuir proveedores a casos sin prueba.",
+        "Redacción de ocho hallazgos, cinco hipótesis, limitaciones y vacíos de evidencia.",
+        "Generación de los dos archivos asignados y comprobación JSON."
+      ],
+      "decision": "Conservar evidencia parcial eSIM y ausencia de atribución empresarial; no copiar nombres de investigados, teléfonos, cuentas ni documentos brutos."
+    }
+  ],
+  "blockers": [
+    {
+      "resource": "Registro OSIPTEL de multas impuestas",
+      "url": "https://www.osiptel.gob.pe/portal-de-operadoras/supervisiones-y-sanciones/multas-impuestas/",
+      "issue": "La apertura devolvió cero líneas extraíbles.",
+      "effect": "Cifra Andina/ELEGIR2026 quedó secundaria, no verificada a nivel de resolución."
+    },
+    {
+      "resource": "Nota primaria Mininter26/07/2026",
+      "url": "https://www.gob.pe/institucion/mininter/noticias/1423310-pnp-captura-a-los-r7-de-canta-callao-y-asesta-nuevo-golpe-a-la-criminalidad-en-lima-norte",
+      "issue": "Apertura directa HTTP418.",
+      "effect": "Se conservó verificación por texto primario indexado completo y réplica Andina abierta, explicitando el límite."
+    },
+    {
+      "resource": "Nota gob.pe sobre medidas temporales OSIPTEL y nota MPFN06/02/2026",
+      "issue": "Aperturas HTTP418.",
+      "effect": "No se incorporaron como hallazgos independientes; documentación OSIPTEL PDF sí accesible."
+    },
+    {
+      "resource": "Lectura local data/sources.json",
+      "issue": "Ruta inexistente.",
+      "effect": "Se revisó inventario y se leyó la ruta real data/fuentes.json."
+    }
+  ],
+  "outputs": [
+    "research/2026-10-22/comunicaciones_telco.json",
+    "research/2026-10-22/traza_telecom.json"
+  ]
+}

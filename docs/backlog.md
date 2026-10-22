@@ -14,3 +14,10 @@
 | P2 | Evaluar cambios entre canales | Diseño que controle cambios de registro, subregistro y desplazamiento |
 
 Procedimiento sugerido: revisión mensual manual de fuentes y estados; cada actualización debe registrar fecha, cambio y validaciones. No hay automatización programada. No contactar a víctimas ni publicar datos de cuentas recibidos como denuncias. El sitio no recibe denuncias.
+
+## Pendientes tras ampliación2026
+
+- Acceder y validar CSV del catálogo septiembre2026; hasta entonces mantener julio como último conteo verificado.
+- Obtener series exclusivas de extorsión: tiempos de congelamiento, saldos inmovilizados/restituidos, bajas de líneas y reincidencia.
+- Contrastar resoluciones individuales de sanciones2026 y peritaje del operativo que menciona eSIM.
+- No convertir anuncios, campañas o menos denuncias en pruebas de impacto causal.

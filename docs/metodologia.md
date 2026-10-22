@@ -45,3 +45,9 @@ La matriz distingue obligación normativa, procedimiento legal, problema de cont
 No se publican teléfonos, cuentas, domicilios, nombres de víctimas ni de investigados. Las fuentes enlazadas pueden contenerlos; aquí no se reproducen. No hay analítica, formulario de denuncia ni envío de datos del visitante. Los filtros funcionan localmente. El número de Yape visible es del autor, ya publicado en su repositorio y expresamente solicitado por él.
 
 Para cada cambio: actualizar fuente y fecha de consulta, explicar la corrección, ejecutar validaciones y revisar móvil y escritorio. Si un caso cambia de estado, conservar el historial en Git y corregir la ficha visible. Ante una suplantación o atribución equivocada, retirar primero el dato cuestionado mientras se revisa. Las contribuciones económicas no compran conclusiones.
+
+## Ampliación del 22 de octubre de 2026
+
+La revisión en tres frentes paralelos se conserva en `research/2026-10-22/`, con trazas de consultas, exclusiones y limitaciones. Los agentes no son fuentes independientes. El reporte SIDPOL de julio de 2026 (página23, glosario18) aporta una comparación enero–julio2025/2026, con26unidades regionales y totales16.202/12.174. Elaborado14/08/2026, actualizado31/07/2026; fecha exacta de publicación no identificada. El catálogo septiembre no se pudo descargar y no aporta cifras a la web. Se preservan separadas las series anuales, fiscales, conteos parciales y tasas. La disminución de denuncias no se interpreta causalmente.
+
+`consolidate_research.py` reproduce la selección editorial a partir de los dosieres. Las fuentes adicionales están en dichos dosieres; las seis hipótesis están en `data/hipotesis.json`. La mención policial eSIM carece de atribución a proveedor o peritaje; no modifica los campos desconocidos de los cinco casos originales.

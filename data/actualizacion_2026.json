@@ -1,0 +1,56 @@
+{
+  "reviewed_at": "2026-10-22",
+  "country": "Perú",
+  "verified_statistical_cutoff": "2026-07-31",
+  "cutoff_explanation": "Revisión al 22 de octubre de 2026. El último conteo policial verificado llega al 31 de julio: 12.174 denuncias. Localizamos un catálogo de septiembre, pero no pudimos validar su archivo; no presentamos cifras hasta octubre como si estuvieran completas.",
+  "findings": [
+    {
+      "category": "ESTADÍSTICAS · ENERO–JULIO",
+      "title": "12.174 denuncias policiales en 2026",
+      "summary": "El mismo reporte SIDPOL registra 16.202 en enero–julio de 2025: una variación de −24,86%. Incluye extorsión y extorsión agravada.",
+      "limitation": "Cifras provisionales. Menos denuncias no prueba menor victimización ni eficacia causal de bancos o telcos.",
+      "source_url": "https://observatorio.mininter.gob.pe/sites/default/files/proyecto/archivos/Reporte_SIDPOL_Julio2026.pdf",
+      "source_label": "Reporte — Denuncias registradas en el SIDPOL a julio 2026"
+    },
+    {
+      "category": "BANCA · MAYO 2026",
+      "title": "Campaña contra el préstamo de cuentas",
+      "summary": "Mininter y gremios financieros anunciaron una campaña para prevenir que terceros presten cuentas y billeteras al crimen organizado.",
+      "limitation": "La campaña prueba una acción anunciada; no mide pagos evitados ni tiempos de congelamiento.",
+      "source_url": "https://www.gob.pe/institucion/mininter/noticias/1390775-mininter-lanza-campana-tu-cuenta-tu-responsabilidad-para-frenar-el-uso-de-cuentas-bancarias-por-el-crimen-organizado",
+      "source_label": "Campaña Tu cuenta, tu responsabilidad"
+    },
+    {
+      "category": "BANCA · AGOSTO 2026",
+      "title": "Convenio SBS–Ministerio Público",
+      "summary": "Se anunció cooperación para investigaciones, intercambio de información y capacitación, incluyendo la extorsión.",
+      "limitation": "Se verificó el anuncio, no resultados concretos ni acceso irrestricto a movimientos.",
+      "source_url": "https://www.sbs.gob.pe/noticia/detallenoticia/idnoticia/3986",
+      "source_label": "Convenio Ministerio Público–SBS contra delitos financieros y criminalidad organizada"
+    },
+    {
+      "category": "TELECOM · JULIO 2026",
+      "title": "Verificación del límite de siete líneas",
+      "summary": "OSIPTEL anunció una norma con sistema centralizado y seis meses de adecuación para operadoras.",
+      "limitation": "Al 22 de octubre no habían transcurrido seis meses desde el anuncio; no se infiere implementación completa.",
+      "source_url": "https://www.osiptel.gob.pe/portal-del-usuario/noticias/osiptel-empresas-operadoras-estan-obligadas-a-verificar-tope-de-7-lineas-moviles-de-personas-naturales-durante-contratacion/",
+      "source_label": "Verificación del tope de siete líneas móviles durante contratación"
+    },
+    {
+      "category": "eSIM · JULIO 2026",
+      "title": "Una mención policial que exige más pruebas",
+      "summary": "Mininter mencionó tres eSIM junto a anotaciones de presunta extorsión en un operativo en San Martín de Porres.",
+      "limitation": "Sin proveedor, aplicación, peritaje ni vínculo probado con amenazas. La propia nota no explica técnicamente el término eSIM.",
+      "source_url": "https://www.gob.pe/institucion/mininter/noticias/1423310-pnp-captura-a-los-r7-de-canta-callao-y-asesta-nuevo-golpe-a-la-criminalidad-en-lima-norte",
+      "source_label": "Operativo policial en San Martín de Porres: incautación reportada de eSIM"
+    },
+    {
+      "category": "COBROS · PUBLICADO EN FEBRERO 2026",
+      "title": "Publicación de 2026, hechos de 2025",
+      "summary": "Una nota judicial de Ucayali describe cuentas bancarias, Plin y retiro en cajero según una declaración investigada.",
+      "limitation": "No se incorpora a un conteo de hechos de 2026. Es una medida cautelar, no una condena ni prueba contra el banco.",
+      "source_url": "https://www.gob.pe/institucion/csjucayali/noticias/1358231-sala-superior-de-emergencia-confirma-prision-preventiva-a-inspectora-de-vivienda-de-la-diresa-por-presunta-extorsion",
+      "source_label": "Ucayali: confirmación de decisión sobre prisión preventiva en investigación por extorsión"
+    }
+  ]
+}

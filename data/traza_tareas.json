@@ -1,0 +1,40 @@
+{
+  "reviewed_at": "2026-10-22",
+  "requested_through": "2026-10-22",
+  "method": "Tres agentes investigaron en paralelo estadísticas, cobros y comunicaciones. La integración editorial distingue hechos, anuncios, normas e hipótesis. Una fuente repetida no se cuenta como evidencia independiente. Las trazas detalladas incluyen búsquedas y accesos fallidos.",
+  "tasks": [
+    {
+      "id": "T01",
+      "title": "Estadísticas oficiales 2026",
+      "status": "Verificada hasta julio",
+      "result": "Lectura del PDF SIDPOL y control de las 26 filas: 16.202 / 12.174. Catálogo septiembre localizado, archivo pendiente de acceso.",
+      "output": "research/2026-10-22/estadisticas_2026.json",
+      "trace": "research/2026-10-22/traza_estadisticas.json"
+    },
+    {
+      "id": "T02",
+      "title": "Cobros, banca y billeteras",
+      "status": "Investigación completada",
+      "result": "Seis fuentes y seis hallazgos; caso adicional de hechos 2025 publicado2026. Se distinguen actividades institucionales de impacto.",
+      "output": "research/2026-10-22/cobros_banca.json",
+      "trace": "research/2026-10-22/traza_banca.json"
+    },
+    {
+      "id": "T03",
+      "title": "Comunicaciones, telcos y eSIM",
+      "status": "Investigación completada",
+      "result": "Nueve fuentes y ocho hallazgos. Se separan diagnóstico, norma, sanción, denuncia de tercero e indicio policial.",
+      "output": "research/2026-10-22/comunicaciones_telco.json",
+      "trace": "research/2026-10-22/traza_telecom.json"
+    },
+    {
+      "id": "T04",
+      "title": "Contraste e integración editorial",
+      "status": "Integrado",
+      "result": "Seis hipótesis evaluadas, fechas y límites visibles, datos y trazas descargables. Publicación y comprobaciones técnicas registradas en GitHub Actions.",
+      "output": "data/hipotesis.json"
+    }
+  ],
+  "publication_audit_url": "https://github.com/unimauro/extorsion-peru/actions",
+  "plan": "research/2026-10-22/plan.json"
+}

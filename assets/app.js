@@ -46,4 +46,4 @@ async function main(){
   window.addEventListener('hashchange',revealSource);revealSource();
   $('#copy-yape').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('940584307');$('#copy-status').textContent='Número copiado: 940 584 307.';}catch{$('#copy-status').textContent='Puedes copiar manualmente: 940 584 307.';}});
 }
-main().catch(e=>{console.error(e);const el=$('#load-error');el.hidden=false;el.innerHTML='No se pudieron cargar los datos. Recarga la página o consulta los <a href="https://github.com/unimauro/observatorio-extorsion-peru/tree/main/data">archivos públicos en GitHub</a>.';});
+main().catch(e=>{console.error(e);const el=$('#load-error');el.hidden=false;el.innerHTML='No se pudieron cargar los datos. Recarga la página o consulta los <a href="https://github.com/unimauro/extorsion-peru/tree/main/data">archivos públicos en GitHub</a>.';});

@@ -1,0 +1,285 @@
+{
+  "titulo": "Extorsión Perú — estadísticas verificadas de 2026",
+  "fecha_consulta": "2026-10-22",
+  "actualizado_en_utc": "2026-10-22T18:04:26.649100+00:00",
+  "alcance": "Perú. Fuentes disponibles al 22 de octubre de 2026. El corte de los datos no equivale a la fecha de consulta.",
+  "ultimo_corte_con_conteo_verificado": "2026-07-31",
+  "ultimo_catalogo_encontrado": {
+    "periodo_rotulado": "setiembre de 2026",
+    "publicacion_segun_indice": "2026-10-20",
+    "estado": "pendiente_descarga_y_verificacion",
+    "conteo_extorsion": null
+  },
+  "hallazgos": [
+    {
+      "id": "STAT2026-H01",
+      "fuente_id": "STAT2026-S01",
+      "variable": "denuncias por extorsión",
+      "unidad": "denuncias policiales SIDPOL",
+      "universo": "Perú; modalidades extorsión y extorsión agravada según glosario del reporte",
+      "periodo_inicio": "2026-01-01",
+      "periodo_fin": "2026-07-31",
+      "fecha_actualizacion_datos": "2026-07-31",
+      "conteo": 12174,
+      "comparacion": {
+        "periodo_inicio": "2025-01-01",
+        "periodo_fin": "2025-07-31",
+        "conteo": 16202,
+        "fuente_id": "STAT2026-S01",
+        "diferencia": -4028,
+        "variacion_porcentual_calculada": -24.8611,
+        "variacion_porcentual_publicada": -25,
+        "formula": "(12174 / 16202 - 1) * 100"
+      },
+      "localizador": "Página 23 (índice PDF 22), sección IV.6, fila Total general; definición en página 18; elaboración/actualización en página 2.",
+      "verificacion": "Documento completo descargado; lectura textual de tabla y glosario; inspección visual de página 23; suma independiente de 26 filas reproduce ambos totales.",
+      "comparabilidad": "Mismos meses, modalidad, fuente y edición del reporte. Comparación administrativa descriptiva; no mide directamente incidencia real, causalidad ni victimización no denunciada.",
+      "limitaciones": [
+        "Cifras provisionales sujetas a actualización cuando ingresan nuevas denuncias de hechos del periodo.",
+        "No corresponde al año 2026 completo ni al 22 de octubre.",
+        "No identifica banco, billetera, efectivo, telco, eSIM ni canal de contacto.",
+        "No debe sumarse a denuncias fiscales: son registros institucionales diferentes potencialmente superpuestos.",
+        "El glosario agrupa extorsión y extorsión agravada; no ofrece aquí una cuantificación separada de exigencia o requerimiento extorsivo ni demuestra equivalencia de clasificación entre años.",
+        "Menos denuncias registradas no demuestra por sí solo menos extorsiones, eficacia de una política ni responsabilidad institucional."
+      ]
+    }
+  ],
+  "regiones": {
+    "fuente_id": "STAT2026-S01",
+    "localizador": "Página 23, sección IV.6",
+    "periodos": [
+      "enero-julio 2025",
+      "enero-julio 2026"
+    ],
+    "unidad": "denuncias policiales SIDPOL",
+    "nota_geografica": "Se preservan por separado Lima Metropolitana y Región Lima tal como aparecen en la fuente. Callao figura como Provincia Constitucional del Callao. No combinar con un mapa departamental sin tratar estas unidades explícitamente.",
+    "filas": [
+      {
+        "region": "Lima Metropolitana",
+        "enero_julio_2025": 6707,
+        "enero_julio_2026": 4961,
+        "variacion_porcentual_calculada": -26.0325
+      },
+      {
+        "region": "La Libertad",
+        "enero_julio_2025": 2750,
+        "enero_julio_2026": 1834,
+        "variacion_porcentual_calculada": -33.3091
+      },
+      {
+        "region": "Región Lima",
+        "enero_julio_2025": 855,
+        "enero_julio_2026": 956,
+        "variacion_porcentual_calculada": 11.8129
+      },
+      {
+        "region": "Piura",
+        "enero_julio_2025": 1795,
+        "enero_julio_2026": 752,
+        "variacion_porcentual_calculada": -58.1058
+      },
+      {
+        "region": "Callao",
+        "enero_julio_2025": 543,
+        "enero_julio_2026": 462,
+        "variacion_porcentual_calculada": -14.9171
+      },
+      {
+        "region": "Tumbes",
+        "enero_julio_2025": 291,
+        "enero_julio_2026": 439,
+        "variacion_porcentual_calculada": 50.8591
+      },
+      {
+        "region": "Ica",
+        "enero_julio_2025": 442,
+        "enero_julio_2026": 419,
+        "variacion_porcentual_calculada": -5.2036
+      },
+      {
+        "region": "Áncash",
+        "enero_julio_2025": 496,
+        "enero_julio_2026": 415,
+        "variacion_porcentual_calculada": -16.3306
+      },
+      {
+        "region": "Lambayeque",
+        "enero_julio_2025": 616,
+        "enero_julio_2026": 352,
+        "variacion_porcentual_calculada": -42.8571
+      },
+      {
+        "region": "Cajamarca",
+        "enero_julio_2025": 307,
+        "enero_julio_2026": 285,
+        "variacion_porcentual_calculada": -7.1661
+      },
+      {
+        "region": "Arequipa",
+        "enero_julio_2025": 287,
+        "enero_julio_2026": 268,
+        "variacion_porcentual_calculada": -6.6202
+      },
+      {
+        "region": "Huánuco",
+        "enero_julio_2025": 145,
+        "enero_julio_2026": 153,
+        "variacion_porcentual_calculada": 5.5172
+      },
+      {
+        "region": "Madre de Dios",
+        "enero_julio_2025": 54,
+        "enero_julio_2026": 118,
+        "variacion_porcentual_calculada": 118.5185
+      },
+      {
+        "region": "San Martín",
+        "enero_julio_2025": 108,
+        "enero_julio_2026": 114,
+        "variacion_porcentual_calculada": 5.5556
+      },
+      {
+        "region": "Ucayali",
+        "enero_julio_2025": 98,
+        "enero_julio_2026": 95,
+        "variacion_porcentual_calculada": -3.0612
+      },
+      {
+        "region": "Loreto",
+        "enero_julio_2025": 109,
+        "enero_julio_2026": 91,
+        "variacion_porcentual_calculada": -16.5138
+      },
+      {
+        "region": "Cusco",
+        "enero_julio_2025": 113,
+        "enero_julio_2026": 88,
+        "variacion_porcentual_calculada": -22.1239
+      },
+      {
+        "region": "Tacna",
+        "enero_julio_2025": 50,
+        "enero_julio_2026": 74,
+        "variacion_porcentual_calculada": 48.0
+      },
+      {
+        "region": "Junín",
+        "enero_julio_2025": 128,
+        "enero_julio_2026": 68,
+        "variacion_porcentual_calculada": -46.875
+      },
+      {
+        "region": "Amazonas",
+        "enero_julio_2025": 51,
+        "enero_julio_2026": 50,
+        "variacion_porcentual_calculada": -1.9608
+      },
+      {
+        "region": "Puno",
+        "enero_julio_2025": 67,
+        "enero_julio_2026": 46,
+        "variacion_porcentual_calculada": -31.3433
+      },
+      {
+        "region": "Moquegua",
+        "enero_julio_2025": 22,
+        "enero_julio_2026": 40,
+        "variacion_porcentual_calculada": 81.8182
+      },
+      {
+        "region": "Ayacucho",
+        "enero_julio_2025": 88,
+        "enero_julio_2026": 36,
+        "variacion_porcentual_calculada": -59.0909
+      },
+      {
+        "region": "Apurímac",
+        "enero_julio_2025": 32,
+        "enero_julio_2026": 24,
+        "variacion_porcentual_calculada": -25.0
+      },
+      {
+        "region": "Pasco",
+        "enero_julio_2025": 37,
+        "enero_julio_2026": 21,
+        "variacion_porcentual_calculada": -43.2432
+      },
+      {
+        "region": "Huancavelica",
+        "enero_julio_2025": 11,
+        "enero_julio_2026": 13,
+        "variacion_porcentual_calculada": 18.1818
+      }
+    ],
+    "verificacion_sumas": {
+      "2025": 16202,
+      "2026": 12174,
+      "correcto": true
+    }
+  },
+  "fuentes": [
+    {
+      "id": "STAT2026-S01",
+      "titulo": "Reporte — Denuncias registradas en el SIDPOL a julio 2026",
+      "editor": "MININTER / Observatorio Nacional de Seguridad Ciudadana",
+      "url": "https://observatorio.mininter.gob.pe/sites/default/files/proyecto/archivos/Reporte_SIDPOL_Julio2026.pdf",
+      "indice_url": "https://observatorio.mininter.gob.pe/proyectos/hechos-delictivos",
+      "tipo": "primaria oficial, PDF íntegro",
+      "fecha_publicacion": null,
+      "fecha_elaboracion": "2026-08-14",
+      "nota_fecha_publicacion": "El PDF indica fecha de elaboración. El índice conserva una fecha de nodo de marzo 2025; no se usó como fecha de publicación del archivo.",
+      "corte": "2026-07-31",
+      "fecha_consulta": "2026-10-22",
+      "paginas": 33,
+      "sha256_archivo_descargado": "e1582d2a49f211a2fb32eac624d8142e30f574e7ebaa58d67841bfbce60dc350",
+      "estado": "verificado_contenido_completo"
+    },
+    {
+      "id": "STAT2026-S02",
+      "titulo": "DataSet Denuncias Policiales - Setiembre 2026",
+      "editor": "MININTER / Plataforma Nacional de Datos Abiertos",
+      "url": "https://www.datosabiertos.gob.pe/dataset/dataset-denuncias-policiales-setiembre-2026",
+      "recurso_url": "https://www.datosabiertos.gob.pe/dataset/dataset-denuncias-policiales-setiembre-2026/resource/64ed317a-6fb2-4f49-9c9e-47fdbbbeaaf8",
+      "nombre_archivo_indexado": "DATASET_Denuncias_Policiales_setiembre_2026.csv",
+      "tamano_indexado": "26.71 MB",
+      "fecha_publicacion": "2026-10-20",
+      "fecha_consulta": "2026-10-22",
+      "corte": null,
+      "corte_sugerido_por_titulo": "2026-09",
+      "tipo": "catálogo oficial localizado en índice de búsqueda",
+      "estado": "metadatos_indexados_sin_verificacion_de_archivo",
+      "limitaciones": [
+        "Página y recurso devolvieron 403 o cache miss; curl devolvió 418.",
+        "No se descargó el CSV, no se verificó cobertura temporal, diccionario, filas ni conteo de extorsión.",
+        "El título del catálogo no basta para inferir si contiene enero-septiembre o sólo septiembre.",
+        "No se publicó una cifra de septiembre a partir de estos metadatos."
+      ]
+    },
+    {
+      "id": "STAT2026-S03",
+      "titulo": "Criminalidad Común - Extorsión",
+      "editor": "Ministerio Público / Observatorio de Criminalidad",
+      "url": "https://www.gob.pe/institucion/mpfn/colecciones/75690-criminalidad-comun-extorsion",
+      "tipo": "compendio oficial consultado mediante resultado indexado",
+      "fecha_publicacion": null,
+      "fecha_consulta": "2026-10-22",
+      "estado": "sin_serie_nacional_2026_verificada",
+      "limitaciones": [
+        "El resultado muestra una publicación de víctimas de atentados de transporte fechada 9/2/2026 y reportes históricos; no se obtuvo allí una serie nacional de denuncias fiscales enero-julio2026."
+      ]
+    }
+  ],
+  "pistas_no_incorporadas": [
+    {
+      "tema": "13.892 denuncias fiscales enero-julio de 2026",
+      "url": "https://forbes.pe/actualidad/2026-09-02/el-peru-registro-mas-de-13-000-denuncias-por-extorsion-entre-enero-y-julio-de-2026/",
+      "motivo": "Cifra de fuente periodística atribuida al Ministerio Público; no se obtuvo documento oficial nacional íntegro para homologar definición y fecha. No usada como cifra verificada ni sumada a SIDPOL."
+    },
+    {
+      "tema": "Reporte interinstitucional de extorsión presentado en julio de 2026",
+      "url": "https://www.gob.pe/institucion/minjus/noticias/1423202-minjusdh-y-mininter-presentan-el-primer-reporte-interinstitucional-sobre-la-extorsion-en-el-peru",
+      "motivo": "Publicación de 2026 que cubre 2019–2025; no constituye una cifra de hechos de 2026."
+    }
+  ],
+  "conclusion_para_interfaz": "Datos policiales verificados hasta julio de 2026. Se localizaron metadatos oficiales de septiembre, pendientes de acceso y validación. Mostrar por separado la fecha de consulta y el corte de cada indicador."
+}
