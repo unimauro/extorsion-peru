@@ -310,6 +310,38 @@ thead th{font-size:12px;color:var(--muted);font-weight:600}td.n,th.n{text-align:
 .loading{color:var(--night-muted)}
 .empty{padding:20px;color:var(--muted)}
 
+/* Bancos y billeteras */
+.money-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:20px;align-items:stretch}
+.money-verdict{background:var(--night);color:var(--night-ink);border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:14px}
+.mv-q{margin:0;font-family:var(--display);font-weight:800;font-variation-settings:"wdth" 85;font-size:clamp(24px,2.4vw,34px);line-height:1.05;letter-spacing:-.02em}
+.mv-a{margin:0;font-size:16.5px;line-height:1.5;color:#c9d5e2;max-width:58ch;border-left:4px solid var(--tape);padding-left:14px}
+.mv-figs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;margin-top:auto;background:var(--night-3);border:1px solid var(--night-3);border-radius:12px;overflow:hidden}
+.mv-fig{display:flex;flex-direction:column;gap:4px;padding:16px;background:var(--night);color:inherit;text-decoration:none}
+.mv-fig:hover,.mv-fig:focus-visible{background:var(--night-2)}
+.mv-fig .v{font-family:var(--display);font-weight:800;font-size:34px;line-height:1;color:var(--tape);font-variant-numeric:tabular-nums}
+.mv-fig:first-child .v{color:#ff8a80}
+.mv-fig .l{font-weight:700;font-size:14px;line-height:1.3}
+.mv-fig .d{font-size:12.5px;color:var(--night-muted);line-height:1.4}
+.money-scale{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-2)}
+.money-scale p{margin:0 0 6px}
+.scorecard{min-width:760px}
+.scorecard th,.scorecard td{padding:14px 16px;font-size:14.5px;vertical-align:top;text-align:left}
+.scorecard thead th{font-size:13px;color:var(--muted)}
+.scorecard td.ent{font-weight:700;white-space:nowrap}
+.st,.pub{display:inline-block;font-size:12px;font-weight:700;border-radius:6px;padding:3px 8px;white-space:nowrap}
+.st.medida{background:var(--resolved);color:#fff}.st.parcial{background:var(--tape);color:var(--tape-ink)}.st.nada{background:var(--na-bg);color:var(--ink-2)}
+.pub.no{color:var(--alert);border:1.5px solid currentColor}.pub.yes{color:var(--resolved);border:1.5px solid currentColor}
+.money-bottom{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:20px}
+.mb-col{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.mb-col h3{margin:0 0 10px;font-size:17px}
+.mb-col ul{margin:0;padding-left:18px;display:grid;gap:8px;font-size:14.5px;color:var(--ink-2)}
+.mb-col.gap{border-top:6px solid var(--alert)}
+.mb-col.ask{background:var(--tape);color:var(--tape-ink);border-color:var(--tape)}
+.mb-col.ask p{font-size:16px;font-weight:600;line-height:1.45;margin:0 0 16px}
+.mb-col.ask .btn{background:var(--tape-ink);color:var(--tape)}
+@media (max-width:1100px){.money-grid,.money-bottom{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:760px){.scorecard{min-width:0}.scorecard thead{display:none}.scorecard,.scorecard tbody,.scorecard tr,.scorecard td{display:block}.scorecard tr{padding:14px 16px;border-top:1px solid var(--line)}.scorecard tr:first-child{border-top:0}.scorecard td{padding:0 0 8px;border:0}.scorecard td.ent{white-space:normal;font-size:16px}.scorecard td:nth-child(3),.scorecard td:nth-child(4){display:inline-block;padding-right:8px}.money-verdict{padding:20px}}
+@media (max-width:520px){.mv-figs{grid-template-columns:1fr}}
 @media (max-width:1280px){.hero{grid-template-columns:1fr}.hero-compare{max-width:620px}.charts{grid-template-columns:repeat(2,minmax(0,1fr))}.charts .map-panel{grid-row:auto}.charts .wide{grid-column:1/-1}}
 @media (max-width:1100px){
   .clock{grid-template-columns:1fr}

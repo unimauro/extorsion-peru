@@ -44,3 +44,8 @@ assert all(r['tier'] in ('administrativo', 'reglamento', 'ley') for r in d['refo
 assert (root / d['bill']).exists()
 for p in d['dossiers']: json.loads((root / p).read_text(encoding='utf-8'))
 print(f"OK: dashboard reproducible; {len(d['cases'])} casos, {len(laws)} normas, {len(d['roles'])} roles, {len(d['tech'])} cadenas con fuentes.")
+b = d['banks']
+assert b['ranking_exists'] is False or b['ranking_exists'] is True
+assert set(p for c in d['cases'] for p in c['payment_methods']) <= set(b['entity_of'])
+assert all(x['url'].startswith('https://') for x in b['figures'] + b['scale'] + b['scorecard'])
+assert all(x['state'] in ('medida', 'parcial', 'nada') for x in b['scorecard'])

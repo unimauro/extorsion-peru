@@ -1131,8 +1131,123 @@
    "instrument": "Ley nueva (la Constitución exige ley para restringir la propiedad)",
    "who": "Congreso",
    "tier": "ley"
+  },
+  {
+   "id": "R9",
+   "step": "Transparencia por banco y billetera",
+   "today": "Nadie publica cuántas cuentas de cada entidad se denunciaron, congelaron o cerraron por extorsión",
+   "proposed": "Reporte trimestral por entidad: cuentas reportadas, congeladas, cerradas y horas hasta ejecutar la orden",
+   "instrument": "Resolución SBS (Reglamento de Gestión de Riesgos LA/FT)",
+   "who": "SBS",
+   "tier": "administrativo"
   }
  ],
+ "banks": {
+  "ranking_exists": false,
+  "verdict": "Hay leyes que obligan a los bancos y algunas medidas anunciadas, pero ninguna entidad publica cuántas cuentas de extorsión detectó, congeló o cerró. Con datos públicos no se puede probar que no hagan nada; sí que no rinden cuentas.",
+  "figures": [
+   {
+    "v": "0",
+    "l": "rankings oficiales de extorsión por banco o billetera",
+    "d": "Ni PNP, Fiscalía, UIF, SBS, Indecopi ni Congreso publican datos por entidad.",
+    "url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf"
+   },
+   {
+    "v": "S/ 1,39 M",
+    "l": "congelados por la UIF con la PNP en casos de extorsión, sicariato y secuestro",
+    "d": "Más US$ 73 171, 87 bienes y 14 billeteras cripto, acumulado al 31/05/2026. Sin decir en qué bancos.",
+    "url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf"
+   },
+   {
+    "v": "8 de 144",
+    "l": "congelamientos convalidados desde 2016 los pidió la Policía",
+    "d": "Todos los delitos, enero 2016 a mayo 2026.",
+    "url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf"
+   },
+   {
+    "v": "453",
+    "l": "cuentas intervenidas en casos de extorsión y sicariato",
+    "d": "Declaración de la UIF, octubre 2025. Sin desglose por entidad.",
+    "url": "https://gestion.pe/tu-dinero/uif-empieza-a-congelar-bienes-de-personas-y-empresas-por-lavado-de-dinero-de-extorsiones-3-claves-lavado-de-dinero-de-extorsiones-lavado-de-activos-uif-congela-bienes-por-extorsiones-sbs-bancos-noticia/"
+   }
+  ],
+  "entity_of": {
+   "Yape": "Yape (BCP)",
+   "Plin": "Plin (BBVA, Interbank y otros)",
+   "Cuenta bancaria": "Banco no informado",
+   "Efectivo": "Efectivo",
+   "No informado": "Medio no informado",
+   "Sin pago (tentativa)": "Sin pago (tentativa)"
+  },
+  "scale": [
+   {
+    "entity": "Yape (BCP)",
+    "metric": "16,4 millones de usuarios activos al mes (1T2026)",
+    "url": "https://grupocredicorp.com/yape-alcanzo-16-4-millones-de-usuarios-activos-mensuales-consolidando-su-cobertura-a-nivel-nacional/"
+   },
+   {
+    "entity": "Yape frente a Plin",
+    "metric": "284 frente a 44 millones de operaciones en setiembre 2023 (BCRP, vía prensa)",
+    "url": "https://www.peru-retail.com/plin-alcanza-a-yape-en-numero-de-usuarios-como-van-las-operaciones-y-transacciones-diarias/"
+   }
+  ],
+  "scale_note": "Yape mueve la gran mayoría de las operaciones con billetera, así que aparecer más en casos no prueba por sí solo que sea más riesgoso.",
+  "scorecard": [
+   {
+    "entity": "Yape (BCP)",
+    "action": "Puede cerrar cuentas por extorsión y vetar la reafiliación (oct. 2025). Botón anónimo «Reportar extorsión» en la app (nov. 2025).",
+    "publishes": false,
+    "state": "medida",
+    "url": "https://www.infobae.com/peru/2025/11/21/yape-habilita-funcionalidad-para-reportar-a-extorsionadores-podran-cerrar-cuentas/"
+   },
+   {
+    "entity": "BCP, BBVA, Interbank, Scotiabank",
+    "action": "Integran el mecanismo de intercambio de información con UIF, PNP y Fiscalía (desde 2024). La guía de alertas de extorsión seguía en desarrollo a junio 2026.",
+    "publishes": false,
+    "state": "parcial",
+    "url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf"
+   },
+   {
+    "entity": "Plin",
+    "action": "No se encontraron medidas públicas específicas contra cobros extorsivos.",
+    "publishes": false,
+    "state": "nada",
+    "url": "https://plin.pe/"
+   },
+   {
+    "entity": "Banco de la Nación, cajas, Bim",
+    "action": "No se encontraron medidas públicas específicas. Asbanc, cajas y microfinancieras se sumaron a una campaña del Mininter contra el préstamo de cuentas (mayo 2026).",
+    "publishes": false,
+    "state": "nada",
+    "url": "https://www.gob.pe/institucion/mininter/noticias/1390775-mininter-lanza-campana-tu-cuenta-tu-responsabilidad-para-frenar-el-uso-de-cuentas-bancarias-por-el-crimen-organizado"
+   }
+  ],
+  "obligations": [
+   {
+    "t": "Congelar a pedido de la Policía",
+    "d": "Ley 32209 y DS 007-2025-JUS: el banco ejecuta la orden de la UIF sin avisar al titular. No fija horas para ejecutarla.",
+    "law": "Ley 32209"
+   },
+   {
+    "t": "Decir quién es el titular",
+    "d": "DL 1732 y Res. SBS 01586-2026: responder en máximo 3 días hábiles; adecuación hasta octubre 2026.",
+    "law": "Res. SBS 01586-2026"
+   },
+   {
+    "t": "Reportar operaciones sospechosas",
+    "d": "Los bancos envían el 71% de los reportes a la UIF, pero no se publica cuántos son por extorsión.",
+    "law": "Ley 27693"
+   }
+  ],
+  "gaps": [
+   "Cuántas cuentas de cada banco o billetera recibieron pagos extorsivos",
+   "Cuántas cerró Yape o cualquier otra entidad",
+   "Cuántas horas tarda un banco en ejecutar un congelamiento",
+   "Multas de la SBS a bancos por fallas antilavado ligadas a extorsión: ninguna encontrada"
+  ],
+  "ask": "Que la SBS obligue a publicar cada trimestre, por entidad, las cuentas reportadas, congeladas y cerradas por extorsión, y las horas hasta ejecutar cada orden (reforma R9).",
+  "caveat": "Los casos documentados son una muestra intencional: sirven para ver qué medios aparecen, no para calcular cuotas por banco."
+ },
  "bill": "docs/propuesta_ley_4_horas.md",
  "route_note": "Plazos propuestos por el proyecto, no vigentes. El control judicial corre después sin frenar la intervención.",
  "capabilities": [
@@ -2804,6 +2919,7 @@
   "research/2026-10-22/casos_resueltos.json",
   "research/2026-10-22/rastreo_tecnico.json",
   "research/2026-10-22/verificacion_4_horas.json",
-  "research/2026-10-22/hipotesis_respuestas.json"
+  "research/2026-10-22/hipotesis_respuestas.json",
+  "research/2026-10-22/bancos_billeteras.json"
  ]
 }

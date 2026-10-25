@@ -9,6 +9,7 @@ load = lambda p: json.loads(p.read_text(encoding='utf-8'))
 legal = load(research / 'mapa_legal.json')
 resolved = load(research / 'casos_resueltos.json')
 tracing = load(research / 'rastreo_tecnico.json')
+banks_dossier = load(research / 'bancos_billeteras.json')
 base_cases = load(root / 'data/casos.json')
 update = load(root / 'data/actualizacion_2026.json')
 
@@ -160,6 +161,7 @@ REFORMS = [
     {'id': 'R6', 'step': 'Consultar por número de celular (Yape, Plin)', 'today': 'La consulta no acepta números de celular y deja fuera a emisores de dinero electrónico; solo para lavado y delitos precedentes', 'proposed': 'Aceptar el número de la billetera y cubrir a todos los emisores en casos de extorsión', 'instrument': 'DL 1732, arts. 3 y 5', 'who': 'Congreso o Ejecutivo con facultades delegadas', 'tier': 'ley'},
     {'id': 'R7', 'step': 'Plazo total y garantías', 'today': 'No existe un plazo total', 'proposed': '4 h desde la denuncia; registro de tiempos; liberación en el día si el juez revoca; sanción por denuncia falsa (CP art. 402)', 'instrument': 'Ley nueva de plazos de respuesta en extorsión', 'who': 'Congreso', 'tier': 'ley'},
     {'id': 'R8', 'step': 'Retención automática del monto denunciado (opcional)', 'today': 'No existe: ninguna norma permite al banco retener por una denuncia de extorsión', 'proposed': 'Retener solo el monto denunciado por máximo 4 h tras la validación policial; se libera sola si la UIF no confirma', 'instrument': 'Ley nueva (la Constitución exige ley para restringir la propiedad)', 'who': 'Congreso', 'tier': 'ley'},
+    {'id': 'R9', 'step': 'Transparencia por banco y billetera', 'today': 'Nadie publica cuántas cuentas de cada entidad se denunciaron, congelaron o cerraron por extorsión', 'proposed': 'Reporte trimestral por entidad: cuentas reportadas, congeladas, cerradas y horas hasta ejecutar la orden', 'instrument': 'Resolución SBS (Reglamento de Gestión de Riesgos LA/FT)', 'who': 'SBS', 'tier': 'administrativo'},
 ]
 
 # Sin estas condiciones, un máximo de 4 horas se incumpliría desde el primer día.
@@ -191,6 +193,41 @@ LIMITS = [
     {'title': 'Sin vigilancia masiva ni listas públicas', 'text': 'El proyecto no propone puntuar personas por antecedentes ni publicar sospechosos. Las medidas se piden caso por caso, con competencia y autorización.'},
 ]
 
+
+# Bancos y billeteras: solo datos con fuente; lo que no se publica se muestra como vacío, no como cero.
+UIF_REPORT = 'https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf'
+BANKS = {
+    'ranking_exists': banks_dossier['official_ranking_exists'],
+    'verdict': 'Hay leyes que obligan a los bancos y algunas medidas anunciadas, pero ninguna entidad publica cuántas cuentas de extorsión detectó, congeló o cerró. Con datos públicos no se puede probar que no hagan nada; sí que no rinden cuentas.',
+    'figures': [
+        {'v': '0', 'l': 'rankings oficiales de extorsión por banco o billetera', 'd': 'Ni PNP, Fiscalía, UIF, SBS, Indecopi ni Congreso publican datos por entidad.', 'url': UIF_REPORT},
+        {'v': 'S/ 1,39 M', 'l': 'congelados por la UIF con la PNP en casos de extorsión, sicariato y secuestro', 'd': 'Más US$ 73 171, 87 bienes y 14 billeteras cripto, acumulado al 31/05/2026. Sin decir en qué bancos.', 'url': UIF_REPORT},
+        {'v': '8 de 144', 'l': 'congelamientos convalidados desde 2016 los pidió la Policía', 'd': 'Todos los delitos, enero 2016 a mayo 2026.', 'url': UIF_REPORT},
+        {'v': '453', 'l': 'cuentas intervenidas en casos de extorsión y sicariato', 'd': 'Declaración de la UIF, octubre 2025. Sin desglose por entidad.', 'url': 'https://gestion.pe/tu-dinero/uif-empieza-a-congelar-bienes-de-personas-y-empresas-por-lavado-de-dinero-de-extorsiones-3-claves-lavado-de-dinero-de-extorsiones-lavado-de-activos-uif-congela-bienes-por-extorsiones-sbs-bancos-noticia/'},
+    ],
+    # Agrupa el medio de pago de cada caso documentado por la entidad que lo opera.
+    'entity_of': {'Yape': 'Yape (BCP)', 'Plin': 'Plin (BBVA, Interbank y otros)', 'Cuenta bancaria': 'Banco no informado', 'Efectivo': 'Efectivo', 'No informado': 'Medio no informado', 'Sin pago (tentativa)': 'Sin pago (tentativa)'},
+    'scale': [
+        {'entity': 'Yape (BCP)', 'metric': '16,4 millones de usuarios activos al mes (1T2026)', 'url': 'https://grupocredicorp.com/yape-alcanzo-16-4-millones-de-usuarios-activos-mensuales-consolidando-su-cobertura-a-nivel-nacional/'},
+        {'entity': 'Yape frente a Plin', 'metric': '284 frente a 44 millones de operaciones en setiembre 2023 (BCRP, vía prensa)', 'url': 'https://www.peru-retail.com/plin-alcanza-a-yape-en-numero-de-usuarios-como-van-las-operaciones-y-transacciones-diarias/'},
+    ],
+    'scale_note': 'Yape mueve la gran mayoría de las operaciones con billetera, así que aparecer más en casos no prueba por sí solo que sea más riesgoso.',
+    'scorecard': [
+        {'entity': 'Yape (BCP)', 'action': 'Puede cerrar cuentas por extorsión y vetar la reafiliación (oct. 2025). Botón anónimo «Reportar extorsión» en la app (nov. 2025).', 'publishes': False, 'state': 'medida', 'url': 'https://www.infobae.com/peru/2025/11/21/yape-habilita-funcionalidad-para-reportar-a-extorsionadores-podran-cerrar-cuentas/'},
+        {'entity': 'BCP, BBVA, Interbank, Scotiabank', 'action': 'Integran el mecanismo de intercambio de información con UIF, PNP y Fiscalía (desde 2024). La guía de alertas de extorsión seguía en desarrollo a junio 2026.', 'publishes': False, 'state': 'parcial', 'url': UIF_REPORT},
+        {'entity': 'Plin', 'action': 'No se encontraron medidas públicas específicas contra cobros extorsivos.', 'publishes': False, 'state': 'nada', 'url': 'https://plin.pe/'},
+        {'entity': 'Banco de la Nación, cajas, Bim', 'action': 'No se encontraron medidas públicas específicas. Asbanc, cajas y microfinancieras se sumaron a una campaña del Mininter contra el préstamo de cuentas (mayo 2026).', 'publishes': False, 'state': 'nada', 'url': 'https://www.gob.pe/institucion/mininter/noticias/1390775-mininter-lanza-campana-tu-cuenta-tu-responsabilidad-para-frenar-el-uso-de-cuentas-bancarias-por-el-crimen-organizado'},
+    ],
+    'obligations': [
+        {'t': 'Congelar a pedido de la Policía', 'd': 'Ley 32209 y DS 007-2025-JUS: el banco ejecuta la orden de la UIF sin avisar al titular. No fija horas para ejecutarla.', 'law': 'Ley 32209'},
+        {'t': 'Decir quién es el titular', 'd': 'DL 1732 y Res. SBS 01586-2026: responder en máximo 3 días hábiles; adecuación hasta octubre 2026.', 'law': 'Res. SBS 01586-2026'},
+        {'t': 'Reportar operaciones sospechosas', 'd': 'Los bancos envían el 71% de los reportes a la UIF, pero no se publica cuántos son por extorsión.', 'law': 'Ley 27693'},
+    ],
+    'gaps': ['Cuántas cuentas de cada banco o billetera recibieron pagos extorsivos', 'Cuántas cerró Yape o cualquier otra entidad', 'Cuántas horas tarda un banco en ejecutar un congelamiento', 'Multas de la SBS a bancos por fallas antilavado ligadas a extorsión: ninguna encontrada'],
+    'ask': 'Que la SBS obligue a publicar cada trimestre, por entidad, las cuentas reportadas, congeladas y cerradas por extorsión, y las horas hasta ejecutar cada orden (reforma R9).',
+    'caveat': 'Los casos documentados son una muestra intencional: sirven para ver qué medios aparecen, no para calcular cuotas por banco.',
+}
+
 # Código INEI del departamento donde la fuente sitúa el caso, para marcarlo en el mapa.
 REGION_CODE = [('Lima', '15'), ('Callao', '07'), ('Piura', '20'), ('Tumbes', '24'), ('Junín', '12'), ('Tacna', '23'), ('La Libertad', '13'), ('Arequipa', '04'), ('Huánuco', '10')]
 def region_code(region):
@@ -203,11 +240,11 @@ out = {
     'payment_groups': {'Transferencia bancaria': 'Cuenta bancaria', 'Depósito bancario': 'Cuenta bancaria', 'Retiro en efectivo': 'Efectivo'},
     'cases': [{**c, 'region_code': region_code(c['region'])} for c in [base_case(c) for c in base_cases] + resolved['cases']],
     'aggregates': resolved['aggregates'],
-    'target_h': TARGET_H, 'route': ROUTE, 'tape': TAPE, 'requirements': REQUIREMENTS, 'automation': AUTOMATION, 'reforms': REFORMS, 'bill': 'docs/propuesta_ley_4_horas.md',
+    'target_h': TARGET_H, 'route': ROUTE, 'tape': TAPE, 'requirements': REQUIREMENTS, 'automation': AUTOMATION, 'reforms': REFORMS, 'banks': BANKS, 'bill': 'docs/propuesta_ley_4_horas.md',
     'route_note': 'Plazos propuestos por el proyecto, no vigentes. El control judicial corre después sin frenar la intervención.',
     'capabilities': CAPABILITIES, 'roles': roles, 'laws': laws,
     'tech': tracing['chains'], 'sources': tracing['sources'], 'limits': LIMITS,
-    'dossiers': ['research/2026-10-22/mapa_legal.json', 'research/2026-10-22/casos_resueltos.json', 'research/2026-10-22/rastreo_tecnico.json', 'research/2026-10-22/verificacion_4_horas.json', 'research/2026-10-22/hipotesis_respuestas.json'],
+    'dossiers': ['research/2026-10-22/mapa_legal.json', 'research/2026-10-22/casos_resueltos.json', 'research/2026-10-22/rastreo_tecnico.json', 'research/2026-10-22/verificacion_4_horas.json', 'research/2026-10-22/hipotesis_respuestas.json', 'research/2026-10-22/bancos_billeteras.json'],
 }
 (root / 'data/dashboard.json').write_text(json.dumps(out, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 print(f"data/dashboard.json: {len(out['cases'])} casos, {len(laws)} normas, {len(roles)} roles, {len(out['tech'])} cadenas")

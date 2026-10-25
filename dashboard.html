@@ -8,8 +8,8 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=Schibsted+Grotesk:wght@400..800&display=swap">
-  <link rel="stylesheet" href="assets/dashboard.css?v=3.4">
-  <script defer src="assets/dashboard.js?v=3.4"></script>
+  <link rel="stylesheet" href="assets/dashboard.css?v=3.5">
+  <script defer src="assets/dashboard.js?v=3.5"></script>
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -20,6 +20,7 @@
   <nav class="side-nav" id="side-nav">
     <p class="side-group">La propuesta</p>
     <a href="#inicio">Inicio</a>
+    <a href="#dinero">Bancos y billeteras</a>
     <a href="#graficos">Datos y gráficos</a>
     <a href="#reloj">Plan de 4 horas</a>
     <a href="#reformas">Qué norma cambiar</a>
@@ -47,12 +48,24 @@
   <h1 id="hero-title">De la denuncia a la intervención en 4 horas.</h1>
   <p class="lede">Proponemos que sea ley: en 4 horas como máximo, celular ubicado, dinero congelado, videos asegurados y titular de la cuenta identificado. Hoy cada paso puede tardar hasta 24 horas. Un sistema automatiza el papeleo y los envíos; las personas competentes deciden.</p>
   <div class="figures" id="hero-figures"><p class="loading">Cargando datos…</p></div>
-  <div class="cta"><a class="btn primary" href="#reloj">Ver el plan de 4 horas</a><a class="btn ghost" href="#reformas">Ver qué norma cambiar</a></div>
+  <div class="cta"><a class="btn primary" href="#reloj">Ver el plan de 4 horas</a><a class="btn ghost" href="#dinero">¿Qué hacen los bancos?</a></div>
   </div>
   <aside class="hero-compare" id="hero-compare" aria-label="Plazos de hoy frente a la propuesta"></aside>
 </section>
 
 <div class="tape" role="note" aria-label="Plazos propuestos frente a plazos vigentes"><ul id="tape"></ul></div>
+
+<section class="section" id="dinero" aria-labelledby="h-dinero">
+  <div class="section-head"><h2 id="h-dinero">¿Por qué banco pasa el dinero?</h2>
+  <p>Toda extorsión cobrada deja una cuenta o una billetera. Buscamos qué entidades reciben esos pagos y qué hacen para frenarlos. Esto es lo que se puede probar con fuentes públicas, y lo que nadie publica.</p></div>
+  <div class="money-grid">
+    <div class="money-verdict" id="money-verdict"></div>
+    <article class="panel"><h3>Medio de pago en los casos documentados</h3><p class="sub">Entidad que opera el medio de pago en cada caso; un caso puede tener varios</p><div class="chart" id="chart-entities"></div><div class="money-scale" id="money-scale"></div></article>
+  </div>
+  <h3 class="sub-head">Qué hace cada entidad, según lo que ha hecho público</h3>
+  <div class="table-wrap"><table class="scorecard" id="scorecard"></table></div>
+  <div class="money-bottom" id="money-bottom"></div>
+</section>
 
 <section class="section" id="graficos" aria-labelledby="h-graf">
   <div class="section-head"><h2 id="h-graf">Los datos</h2>

@@ -1,0 +1,312 @@
+{
+  "reviewed_at": "2026-10-24",
+  "question": "¿Qué bancos, billeteras digitales y cajas reciben el dinero de las extorsiones en Perú, y qué están haciendo (o no) para frenarlo?",
+  "official_ranking_exists": false,
+  "ranking_note": "No se encontró ningún ranking oficial (PNP, Ministerio Público, UIF-SBS, SBS, Indecopi, INEI, Defensoría ni Congreso) de denuncias o casos de extorsión por entidad financiera o billetera (Yape, Plin, Banco de la Nación, cajas, Bim, Agora, etc.). El informe semestral de la UIF al Congreso (Informe N° 00001-2026-UIF-SBS, 24/06/2026) da datos agregados de extorsión (montos y bienes congelados) pero no por banco ni billetera. Lo más cercano a un desglose por sector son: (a) la participación de ROS por tipo de sujeto obligado (bancos 71% en los últimos 12 meses a mayo 2026), que mide quién reporta, no quién recibe el dinero extorsivo; y (b) la participación de sectores en 158 casos con sentencia por lavado (bancario nacional 35.4%, cajas 5.7%), que no es específica de extorsión. Las menciones a Yape o Plin en casos policiales son anecdóticas y no permiten estimar cuotas. Cualquier 'ranking' debe presentarse como inexistente hasta que una autoridad publique datos por entidad (posible vía: solicitud de acceso a la información a PNP/DIVINEXT, Ministerio Público y UIF).",
+  "entity_figures": [
+    {
+      "entity": "Sector bancario (todos los bancos, sin desglose por entidad)",
+      "metric": "Participación en Reportes de Operaciones Sospechosas (ROS) recibidos por la UIF",
+      "value": "71% de los ROS (últimos 12 meses); 47% del acumulado ene-2016 a may-2026 (172 427 ROS en total)",
+      "period": "Junio 2025 - mayo 2026 (12 meses) y enero 2016 - mayo 2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "Mide qué sector REPORTA operaciones sospechosas de cualquier delito, no qué entidad recibe pagos extorsivos. No hay desglose por banco ni por delito precedente (extorsión)."
+    },
+    {
+      "entity": "UIF-Perú (todos los sujetos obligados)",
+      "metric": "ROS recibidos y comunicaciones de inteligencia financiera emitidas",
+      "value": "13 072 ROS y 1 416 comunicaciones de inteligencia",
+      "period": "1 nov 2025 - 31 may 2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "Cifra total, no específica de extorsión ni por entidad."
+    },
+    {
+      "entity": "UIF-Perú / PNP (investigación conjunta extorsión, sicariato y secuestro)",
+      "metric": "Solicitudes, casos, personas involucradas y comunicaciones de inteligencia",
+      "value": "243 solicitudes; 152 casos; 987 personas naturales y 21 jurídicas; 270 comunicaciones de inteligencia",
+      "period": "Noviembre 2025 - mayo 2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "Agrega extorsión, sicariato y secuestro; no indica en qué bancos o billeteras estaban las cuentas."
+    },
+    {
+      "entity": "Sector bancario nacional, cajas y empresas de transferencia de fondos",
+      "metric": "Sectores utilizados en 158 casos con sentencia condenatoria por lavado de activos (conversión/transferencia/ocultamiento)",
+      "value": "Bancario nacional 35.4% (56 casos); empresas de transferencia de fondos 7.6% (12); bancario internacional 5.7% (9); cajas 5.7% (9); inmobiliario 52.5% y vehicular 51.9%",
+      "period": "Sentencias analizadas en el informe de la UIF (periodo del estudio no precisado en el extracto)",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "Lavado de activos en general (delitos precedentes: salud pública 33.9%, patrimonio 21.4%, etc.), no extorsión específicamente. Un caso puede usar varios sectores."
+    },
+    {
+      "entity": "Yape (BCP) - casos individuales",
+      "metric": "Menciones en casos policiales/judiciales de cobro extorsivo",
+      "value": "Casos aislados: pago de S/ 200 por Yape a extorsionadores de músicos (oct 2026); prisión preventiva a mujer que habría prestado su Yape a extorsionadores (mar 2026)",
+      "period": "2026",
+      "source_url": "https://www.infobae.com/peru/2026/10/11/pnp-captura-a-extorsionadores-de-cantantes-de-salsa-y-cumbia-pedian-cupos-de-s-20-mil-para-no-atentar-contra-familiares/",
+      "verification": "indexado",
+      "caveat": "Evidencia anecdótica; no permite calcular proporción. Otra fuente: https://www.infobae.com/peru/2026/03/19/poder-judicial-ordena-prision-preventiva-para-una-mujer-que-habria-prestado-su-yape-a-extorsionadores/ (indexado). Yape tiene la mayor base de usuarios, por lo que su sobrerrepresentación en noticias es esperable."
+    },
+    {
+      "entity": "Cuentas y billeteras prestadas (todas las entidades)",
+      "metric": "Proporción de detenidos por extorsión y lavado que lo están por prestar cuentas/billeteras",
+      "value": "Aprox. 1 de cada 5 detenidos (según DIVINEXT PNP citada por prensa)",
+      "period": "Nota publicada 05/06/2026",
+      "source_url": "https://larepublica.pe/sociedad/2026/06/05/prestar-tu-cuenta-bancaria-o-billetera-digital-te-puede-llevar-hasta-15-anos-de-prision-estafa-hnews-124870",
+      "verification": "indexado",
+      "caveat": "Sin universo, periodo ni metodología publicados; no se halló comunicado oficial. No usar como tasa nacional."
+    }
+  ],
+  "freezes": [
+    {
+      "entity": "UIF-Perú (sistema financiero, sin desglose)",
+      "metric": "Cuentas intervenidas en casos de extorsión y sicariato",
+      "value": "453 cuentas en el sistema financiero (además de billeteras de criptoactivos); 71 casos; 1 090 involucrados (1 049 personas y 41 empresas); bienes congelados a 108 personas y 15 empresas",
+      "period": "Declaración de la Superintendenta Adjunta de la UIF, publicada 28/10/2025",
+      "source_url": "https://gestion.pe/tu-dinero/uif-empieza-a-congelar-bienes-de-personas-y-empresas-por-lavado-de-dinero-de-extorsiones-3-claves-lavado-de-dinero-de-extorsiones-lavado-de-activos-uif-congela-bienes-por-extorsiones-sbs-bancos-noticia/",
+      "verification": "verificado",
+      "caveat": "Cifra declarada en evento y recogida por prensa; no nombra bancos ni billeteras. 'Intervenidas' no equivale necesariamente a 'congeladas por Ley 32209'."
+    },
+    {
+      "entity": "UIF-Perú (investigación conjunta con PNP)",
+      "metric": "Montos y bienes afectados por congelamiento administrativo convalidado judicialmente",
+      "value": "S/ 1 391 060 y US$ 73 171; 87 bienes (inmuebles y vehículos); 14 billeteras de activos virtuales",
+      "period": "Acumulado al 31 de mayo de 2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "Investigación de extorsión, sicariato y secuestro; el informe NO da el número de cuentas bancarias congeladas ni en qué entidades estaban. Monto pequeño frente a la magnitud de denuncias (13 892 denuncias de extorsión ene-jul 2026 según Ministerio Público, cifra de prensa)."
+    },
+    {
+      "entity": "UIF-Perú (todos los delitos)",
+      "metric": "Casos de congelamiento convalidados judicialmente",
+      "value": "144 casos por US$ 87 194 952 (ene 2016 - may 2026); 14 casos revocados por el PJ (US$ 9 776 064)",
+      "period": "Enero 2016 - mayo 2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "La tabla por delito precedente no tiene fila 'extorsión' (aparece 'Delitos contra el patrimonio': 26 casos, US$ 25.9 M, que incluye la extorsión pero también otros). Solo 8 de los 144 casos fueron iniciados por la PNP."
+    },
+    {
+      "entity": "Yape (BCP)",
+      "metric": "Cuentas cerradas por extorsión",
+      "value": "No publicado",
+      "period": "Oct 2025 - oct 2026",
+      "source_url": "https://www.infobae.com/peru/2025/11/21/yape-habilita-funcionalidad-para-reportar-a-extorsionadores-podran-cerrar-cuentas/",
+      "verification": "verificado",
+      "caveat": "Yape anunció la facultad de cerrar cuentas y un botón de reporte, pero no se encontró ninguna cifra pública de cuentas cerradas ni de reportes recibidos."
+    },
+    {
+      "entity": "Asbanc / SBS",
+      "metric": "Cuentas bloqueadas o cerradas por extorsión en el sistema bancario",
+      "value": "No encontrado",
+      "period": "2025-2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "Ausencia de dato público. Las cifras de '24 622 cuentas bloqueadas' y '1 443 por extorsión' que circulan en buscadores son de la UIF de MÉXICO, no de Perú (https://elceo.com/politica/uif-bloquea-24622-cuentas-bancarias-por-combate-al-crimen-huachicol-y-extorsion/, verificado)."
+    }
+  ],
+  "obligations": [
+    {
+      "instrument": "Ley N° 32209 (incorpora art. 3-B a la Ley 27693, UIF)",
+      "status": "vigente",
+      "what": "Unidades especializadas de la PNP, tras una o más denuncias de extorsión y ante urgencia o peligro en la demora, pueden requerir a la UIF el congelamiento administrativo de fondos o activos, con pruebas y poniéndolo en conocimiento del Ministerio Público.",
+      "deadline": "Publicada 20/12/2024; reglamento en 60 días calendario",
+      "source_url": "https://leyes.congreso.gob.pe/Documentos/2021_2026/ADLP/Texto_Consolidado/32209-TXM.pdf",
+      "verification": "verificado"
+    },
+    {
+      "instrument": "Decreto Supremo N° 007-2025-JUS (reglamento del congelamiento por extorsión)",
+      "status": "vigente",
+      "what": "Procedimiento del congelamiento administrativo nacional por extorsión. Los sujetos obligados (bancos, cajas, emisores de dinero electrónico) que reciben la orden tienen prohibido comunicarla al afectado; deben liberar fondos en 24 horas si el juez revoca la medida. El Ministerio Público puede disponer devolución de fondos a víctimas. La convalidación judicial se tramita en plazos de 24 horas según la norma y prensa.",
+      "deadline": "Publicado 26/03/2025",
+      "source_url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Decreto-Supremo-007-2025-JUS-LPDerecho.pdf",
+      "verification": "verificado"
+    },
+    {
+      "instrument": "Decreto Legislativo N° 1732 (Mecanismo de Identificación de Titularidades Financieras)",
+      "status": "vigente",
+      "what": "Crea un mecanismo centralizado para que PNP, Ministerio Público y UIF confirmen si una persona tiene o no cuentas en empresas del sistema financiero que captan depósitos, Banco de la Nación y COOPAC, sin acceso a saldos ni movimientos (no levanta el secreto bancario). Menciona la extorsión como delito precedente a investigar.",
+      "deadline": "Publicado 12/02/2026; SBS debía reglamentar en 120 días calendario",
+      "source_url": "https://busquedas.elperuano.pe/dispositivo/NL/2486266-6",
+      "verification": "verificado"
+    },
+    {
+      "instrument": "Resolución SBS N° 01586-2026 (reglamento del Mecanismo de Titularidades)",
+      "status": "vigente",
+      "what": "Bancos, financieras, cajas y Banco de la Nación deben responder las consultas de titularidad de forma inmediata, nunca más de 3 días hábiles; incorpora infracción grave (no atender en plazo) y muy grave (no suministrar información) en el Reglamento de Infracciones y Sanciones.",
+      "deadline": "Emitida 09/06/2026, vigente al día siguiente de su publicación; adecuación de empresas (salvo COOPAC) en 120 días calendario (aprox. octubre 2026); COOPAC con plazos progresivos",
+      "source_url": "https://intranet2.sbs.gob.pe/dv_int_cn/2584/v1.0/Adjuntos/R%2001586-2026.pdf",
+      "verification": "verificado"
+    },
+    {
+      "instrument": "Ley N° 32490 (medidas extraordinarias contra extorsión y sicariato en transporte) y DS 009-2026-PCM",
+      "status": "vigente",
+      "what": "La UIF accede en línea a la base de datos de personas denunciadas por extorsión y sicariato de la PNP y participa en el Grupo Interinstitucional contra la Extorsión y el Sicariato (GIES).",
+      "deadline": "Ley publicada 03/11/2025; reglamento 18/01/2026; a junio 2026 el acceso a la base de datos aún se gestionaba con el Mininter",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado"
+    },
+    {
+      "instrument": "Resolución SBS N° 01219-2026 (Guía de identificación y reporte de alertas)",
+      "status": "vigente",
+      "what": "Habilita a los sujetos obligados a enviar 'alertas' a la UIF con información útil aunque no llegue a ser operación sospechosa (63 alertas recibidas a mayo 2026 según la UIF).",
+      "deadline": "Envío de alertas habilitado desde mayo 2026",
+      "source_url": "https://intranet2.sbs.gob.pe/dv_int_cn/2565/v1.0/Adjuntos/RES%20SBS%20N%C2%B0%2001219-2026.pdf",
+      "verification": "indexado"
+    },
+    {
+      "instrument": "Oficio N° 05425-2026-SBS e Informe Conjunto N° 010-2026-SBS (opinión sobre PL 12984/2025-CR)",
+      "status": "proyecto",
+      "what": "Opinión de la SBS (28/01/2026) al Congreso: NO conviene imponer por ley la biometría exclusiva y obligatoria para abrir cuentas/billeteras; SÍ conviene tipificar el préstamo de cuentas para fines extorsivos, ubicándolo en el capítulo de Extorsión del Código Penal. La pena de 10-15 años (15-25 con agravante por extorsión) e inhabilitación de 10 años es la del PROYECTO 12984, no una propuesta propia de la SBS.",
+      "deadline": "Sin plazo; es opinión técnica, no norma",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/OFICIO%20N%2005425%20-%202026%20-%20SBS-PRI.pdf",
+      "verification": "verificado"
+    },
+    {
+      "instrument": "Proyecto de Ley 12984/2025-CR (préstamo de cuentas para fines delictivos, biometría obligatoria)",
+      "status": "proyecto",
+      "what": "Propone art. 196-B del Código Penal (10-15 años; 15-25 si la cuenta se usa para extorsión u otros delitos graves; inhabilitación hasta 10 años) y verificación biométrica obligatoria para abrir cuentas o billeteras.",
+      "deadline": "No se halló evidencia de aprobación; estado actual no verificado (el periodo legislativo 2021-2026 concluyó en julio 2026)",
+      "source_url": "https://www.americatv.com.pe/noticias/actualidad/plantean-delito-prestamo-cuentas-usadas-extorsion-n512361",
+      "verification": "indexado"
+    },
+    {
+      "instrument": "Proyecto de Ley 13240/2025-CR (aceptar o rechazar transferencias en billeteras)",
+      "status": "proyecto",
+      "what": "Obligaría a billeteras supervisadas por la SBS (Yape, Plin, etc.) a ofrecer una función opcional para aceptar o rechazar transferencias entrantes antes de acreditarse, con autorización automática a contactos preseleccionados y visualización de datos del remitente; sanciones SBS por incumplir.",
+      "deadline": "Presentado nov 2025; entraría en vigor 60 días después de publicada si se aprueba; no se halló dictamen ni aprobación (estado no verificado en el SPL)",
+      "source_url": "https://larepublica.pe/economia/2025/11/19/proponen-que-usuarios-de-yape-y-plin-puedan-aceptar-o-rechazar-transferencias-para-frenar-extorsiones-hnews-1296218",
+      "verification": "verificado"
+    }
+  ],
+  "bank_actions": [
+    {
+      "entity": "Yape (BCP)",
+      "action": "Cambio de términos y condiciones: BCP puede cancelar o suspender cuentas ante fraude, estafa, operaciones sospechosas, acoso o extorsión, e impedir que el usuario vuelva a afiliarse",
+      "date": "Octubre 2025 (nota del 24/10/2025)",
+      "source_url": "https://www.infobae.com/peru/2025/10/23/yape-podran-cerrar-cuentas-si-detectan-extorsion-estafa-acoso-e-impedirian-nueva-afiliacion/",
+      "verification": "verificado",
+      "caveat": "Facultad contractual, no obligación legal; no hay cifras públicas de aplicación. Términos oficiales: https://www.yape.com.pe/terminos-y-condiciones/yape-persona (indexado)."
+    },
+    {
+      "entity": "Yape (BCP)",
+      "action": "Botón 'Reportar extorsión' anónimo dentro de la app (movimiento > Necesito ayuda > Reportar extorsión); cada reporte se evalúa y puede llevar al cierre de la cuenta",
+      "date": "21-22/11/2025",
+      "source_url": "https://www.infobae.com/peru/2025/11/21/yape-habilita-funcionalidad-para-reportar-a-extorsionadores-podran-cerrar-cuentas/",
+      "verification": "verificado",
+      "caveat": "El cierre no es automático; Yape no publica número de reportes ni de cuentas cerradas ni tiempos de respuesta."
+    },
+    {
+      "entity": "BBVA, Interbank, Scotiabank, BCP (miembros fundadores del MEPIF)",
+      "action": "Mecanismo Público-Privado de Intercambio de Información Financiera (MEPIF) con UIF, PNP y Ministerio Público, enfocado en extorsión y lavado; en desarrollo un catálogo de tipologías y guía de señales de alerta de flujos de extorsión",
+      "date": "Desde setiembre 2024; sesiones 15/12/2025 y 26/03/2026",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado",
+      "caveat": "A junio 2026 la guía de extorsión seguía 'en desarrollo'; no hay resultados medibles publicados."
+    },
+    {
+      "entity": "Asbanc, Fepcmac (cajas municipales), Asomif con Mininter",
+      "action": "Campaña 'Tu cuenta, tu responsabilidad' para prevenir el préstamo de cuentas y billeteras a redes criminales",
+      "date": "12/05/2026",
+      "source_url": "https://www.gob.pe/institucion/mininter/noticias/1390775-mininter-lanza-campana-tu-cuenta-tu-responsabilidad-para-frenar-el-uso-de-cuentas-bancarias-por-el-crimen-organizado",
+      "verification": "indexado",
+      "caveat": "Campaña preventiva; sin indicadores de impacto. Verificada en research previo del repo (cobros_banca.json), no releída hoy."
+    },
+    {
+      "entity": "Plin (BBVA, Interbank, Scotiabank), Banco de la Nación, cajas municipales, Bim, Agora",
+      "action": "No se encontraron medidas públicas específicas contra cobros extorsivos (botón de reporte, cierre anunciado, cifras)",
+      "date": "Búsqueda al 24/10/2026",
+      "source_url": "https://plin.pe/",
+      "verification": "indexado",
+      "caveat": "Ausencia de hallazgo en buscadores no prueba inexistencia de medidas internas; requiere consulta directa a cada entidad."
+    }
+  ],
+  "gaps": [
+    {
+      "gap": "No existe estadística oficial pública de extorsión por medio de pago o entidad receptora",
+      "evidence": "El informe semestral de la UIF al Congreso (64 páginas) no desglosa congelamientos de extorsión por banco ni billetera; PNP y Ministerio Público publican denuncias totales, no canal de pago.",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado"
+    },
+    {
+      "gap": "Los congelamientos por extorsión son escasos en monto frente al volumen de denuncias",
+      "evidence": "A mayo 2026 la investigación conjunta UIF-PNP afectó S/ 1.39 M y US$ 73 mil; en el acumulado 2016-2026 solo 8 de 144 congelamientos convalidados fueron iniciados por la PNP. No se publica cuántas solicitudes de la PNP por Ley 32209 se rechazaron ni el tiempo promedio de ejecución por los bancos.",
+      "source_url": "https://www.sbs.gob.pe/Portals/0/INFORME%20N%2000001%20%202026%20%20UIFSBSPRI.pdf",
+      "verification": "verificado"
+    },
+    {
+      "gap": "Yape no publica cuántas cuentas cerró por extorsión ni cuántos reportes recibió",
+      "evidence": "Las notas del anuncio (oct y nov 2025) no incluyen cifras; no se encontró reporte posterior con resultados.",
+      "source_url": "https://www.infobae.com/peru/2025/11/21/yape-habilita-funcionalidad-para-reportar-a-extorsionadores-podran-cerrar-cuentas/",
+      "verification": "verificado"
+    },
+    {
+      "gap": "No se halló caso documentado en prensa seria de víctima que denunció y cuya cuenta receptora siguió activa, ni datos sobre demoras de bancos peruanos en responder a fiscalía/PNP",
+      "evidence": "Búsquedas específicas solo devolvieron casos de Chile (demoras bancarias señaladas por el fiscal nacional chileno). El propio DL 1732 / Res. SBS 01586-2026 fija un plazo máximo de 3 días hábiles solo para confirmar titularidad, lo que indica que antes no había plazo estandarizado; no hay estadística pública de tiempos de respuesta.",
+      "source_url": "https://intranet2.sbs.gob.pe/dv_int_cn/2584/v1.0/Adjuntos/R%2001586-2026.pdf",
+      "verification": "verificado"
+    },
+    {
+      "gap": "No se hallaron multas de la SBS a bancos por incumplir prevención de lavado vinculadas a extorsión en 2025-2026",
+      "evidence": "Nota de mayo 2026 reporta más de 222 UIT en multas a bancos en 2026, la mayor a Interbank por incidente de seguridad informática; no menciona PLAFT. Los PAS de la UIF (1 918 iniciados 2016-2026) corresponden a sujetos obligados bajo supervisión de la UIF (inmobiliarias, notarios, etc.), no a bancos, cuya supervisión PLAFT recae en otras áreas de la SBS.",
+      "source_url": "https://masfinanzas.com.pe/actualidad/sbs-impone-mas-de-222-uit-en-multas-a-bancos-y-entidades-financieras-en-lo-que-va-del-2026/",
+      "verification": "verificado"
+    },
+    {
+      "gap": "Indecopi no publica reclamos desagregados por billetera vinculados a extorsión",
+      "evidence": "Solo se encontraron referencias genéricas a 'miles de reclamos' por operaciones no reconocidas, sin cifra ni periodo.",
+      "source_url": "https://www.peru-retail.com/?p=392203",
+      "verification": "indexado"
+    },
+    {
+      "gap": "Estado de los proyectos PL 12984 y PL 13240 no confirmado",
+      "evidence": "Las fuentes son de nov-dic 2025 y solo reportan su presentación; la consulta al sistema de seguimiento del Congreso no devolvió datos.",
+      "source_url": "https://andina.pe/agencia/noticia-usuarios-billeteras-digitales-tendran-opcion-aceptar-o-rechazar-transferencias-1052687.aspx",
+      "verification": "verificado"
+    }
+  ],
+  "market_share": [
+    {
+      "entity": "Yape (BCP / Credicorp)",
+      "metric": "Usuarios activos mensuales",
+      "value": "16.4 millones (aprox. 82% de la PEA); 67 transacciones mensuales por usuario activo",
+      "period": "1T2026 (nota del 15/05/2026)",
+      "source_url": "https://grupocredicorp.com/yape-alcanzo-16-4-millones-de-usuarios-activos-mensuales-consolidando-su-cobertura-a-nivel-nacional/",
+      "verification": "verificado"
+    },
+    {
+      "entity": "Plin (BBVA, Interbank, Scotiabank y otras entidades)",
+      "metric": "Usuarios",
+      "value": "13 millones (registrados, según IFS) a fines de setiembre 2023; no se halló cifra oficial reciente de usuarios activos",
+      "period": "Setiembre 2023",
+      "source_url": "https://www.peru-retail.com/plin-alcanza-a-yape-en-numero-de-usuarios-como-van-las-operaciones-y-transacciones-diarias/",
+      "verification": "verificado"
+    },
+    {
+      "entity": "Yape vs Plin",
+      "metric": "Volumen y valor transaccionado (BCRP citado por prensa)",
+      "value": "Yape: 284 millones de operaciones y S/ 12 839 millones; Plin: 44 millones de operaciones y S/ 3 115 millones",
+      "period": "Setiembre 2023",
+      "source_url": "https://www.peru-retail.com/plin-alcanza-a-yape-en-numero-de-usuarios-como-van-las-operaciones-y-transacciones-diarias/",
+      "verification": "verificado"
+    },
+    {
+      "entity": "Yape vs Plin",
+      "metric": "Ticket promedio (BCRP citado por prensa)",
+      "value": "Yape S/ 44 (intrabancarias); Plin S/ 71 (interbancarias)",
+      "period": "Cierre 2024",
+      "source_url": "https://gestion.pe/tu-dinero/billeteras-digitales-ticket-promedio-tarjeta-de-debito-bcrp-noticia/",
+      "verification": "verificado"
+    },
+    {
+      "entity": "Yape vs Plin",
+      "metric": "Participación en transferencias (Reporte del Sistema Nacional de Pagos BCRP)",
+      "value": "Según extracto de buscador, Yape ~98.8% en número y ~97.7% en valor de transferencias intrabancarias vía billetera; Plin ~1.1% y ~2.3%",
+      "period": "Marzo 2026",
+      "source_url": "https://www.bcrp.gob.pe/docs/Publicaciones/reporte-del-sistema-nacional-de-pagos/2026/marzo/rspf-marzo-2026.pdf",
+      "verification": "indexado"
+    }
+  ],
+  "summary": "No existe un ranking oficial público de bancos, billeteras o cajas que reciben dinero de extorsiones en Perú: ni la PNP, el Ministerio Público, la UIF-SBS, Indecopi ni el Congreso publican denuncias o congelamientos por entidad. El dato oficial más reciente es el informe de la UIF al Congreso (24/06/2026): la investigación conjunta UIF-PNP sobre extorsión, sicariato y secuestro afectó al 31/05/2026 unos S/ 1.39 millones, US$ 73 mil, 87 bienes y 14 billeteras cripto, sin decir en qué bancos estaban las cuentas; la cifra de 453 cuentas intervenidas (oct 2025) tampoco desglosa entidades. Los bancos generan el 71% de los ROS, pero eso mide quién reporta, no quién recibe el dinero extorsivo. En normas vigentes destacan la Ley 32209 y el DS 007-2025-JUS (congelamiento a pedido de la PNP), el DL 1732 y la Res. SBS 01586-2026 (consulta centralizada de titularidad con respuesta máxima de 3 días hábiles y adecuación en 120 días), y la Ley 32490; el préstamo de cuentas aún no es delito autónomo (PL 12984, con opinión favorable de la SBS en el Oficio 05425-2026) y la opción de aceptar/rechazar transferencias es solo un proyecto (PL 13240). Yape (BCP) es la única entidad con medidas públicas específicas (cierre de cuentas por extorsión en sus términos desde oct 2025 y botón de reporte anónimo desde nov 2025), pero no publica cuántas cuentas cerró; no se hallaron medidas equivalentes de Plin, Banco de la Nación ni cajas. No se encontraron multas SBS a bancos por fallas antilavado ligadas a extorsión ni casos documentados de cuentas denunciadas que siguieran activas, lo que es una brecha de transparencia, no prueba de cumplimiento. Para normalizar, Yape tiene 16.4 millones de usuarios activos (1T2026) y domina el volumen de operaciones, por lo que su mayor presencia en casos policiales no implica por sí misma mayor riesgo relativo."
+}

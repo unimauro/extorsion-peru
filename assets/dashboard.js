@@ -99,6 +99,22 @@ async function main(){
     $('#requirements').innerHTML = d.requirements.map((r, i) => `<article class="req-col lvl${i}"><h3>${esc(r.level)}</h3><p class="micro">${esc(r.who)}</p><ul>${r.items.map(x => `<li>${esc(x)}</li>`).join('')}</ul></article>`).join('');
   }
 
+
+  // Bancos y billeteras: el vacío de datos se muestra como hallazgo, nunca como cero.
+  function banks(){
+    const b = d.banks;
+    $('#money-verdict').innerHTML = `<p class="mv-q">¿Los bancos no hacen nada para frenar la extorsión?</p><p class="mv-a">${esc(b.verdict)}</p><div class="mv-figs">${b.figures.map(f => `<a class="mv-fig" href="${esc(f.url)}" target="_blank" rel="noopener noreferrer"><span class="v">${esc(f.v)}</span><span class="l">${esc(f.l)}</span><span class="d">${esc(f.d)}</span></a>`).join('')}</div>`;
+    const counts = {}; cases.forEach(c => new Set(c.payment_methods.map(p => b.entity_of[p])).forEach(e => counts[e] = (counts[e]||0) + 1));
+    const named = e => /Yape|Plin/.test(e);
+    const box = $('#chart-entities'); box.dataset.label = 'Entidad del medio de pago en casos';
+    bars(box, Object.entries(counts).sort((a,c) => (named(c[0]) - named(a[0])) || c[1] - a[1]).map(([k,v]) => ({k, v, color: css(named(k) ? '--alert' : '--steel'), tip:`${k}: ${v} de ${cases.length} casos`})), {labelW:230});
+    box.insertAdjacentHTML('beforeend', `<p class="note">${esc(b.caveat)}</p>` + tableFor(['Entidad','Casos'], Object.entries(counts).map(([k,v]) => [k, v])));
+    $('#money-scale').innerHTML = `<p>${b.scale.map(x => `<b>${esc(x.entity)}:</b> ${link(x.url, x.metric)}`).join('<br>')}</p><p class="micro">${esc(b.scale_note)}</p>`;
+    const state = {medida:'Medida pública', parcial:'En desarrollo', nada:'Sin medida pública encontrada'};
+    $('#scorecard').innerHTML = `<thead><tr><th>Entidad</th><th>Qué ha hecho público</th><th>Estado</th><th>¿Publica resultados?</th></tr></thead><tbody>${b.scorecard.map(r => `<tr><td class="ent">${esc(r.entity)}</td><td>${esc(r.action)} <span class="micro">${link(r.url, 'fuente')}</span></td><td><span class="st ${r.state}">${state[r.state]}</span></td><td><span class="pub ${r.publishes ? 'yes' : 'no'}">${r.publishes ? 'Sí' : 'No publica cifras'}</span></td></tr>`).join('')}</tbody>`;
+    $('#money-bottom').innerHTML = `<article class="mb-col"><h3>Lo que la ley ya les exige</h3><ul>${b.obligations.map(o => `<li><b>${esc(o.t)}.</b> ${esc(o.d)}</li>`).join('')}</ul></article><article class="mb-col gap"><h3>Lo que nadie publica</h3><ul>${b.gaps.map(g => `<li>${esc(g)}</li>`).join('')}</ul></article><article class="mb-col ask"><h3>Lo que pedimos</h3><p>${esc(b.ask)}</p><a class="btn primary" href="#reformas">Ver la reforma R9</a></article>`;
+  }
+
   // Mapa: proyección equirectangular local de la geometría oficial simplificada, como en la investigación.
   function map(){
     const pts = geo.features.flatMap(f => (f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates).flat(1).flat(1));
@@ -234,7 +250,7 @@ async function main(){
     links.forEach(a => { const t = document.querySelector(a.getAttribute('href')); if(t) obs.observe(t); });
   }
 
-  const paint = () => { map(); gantt(); charts(); tech(); };
+  const paint = () => { banks(); map(); gantt(); charts(); tech(); };
   let lastW = innerWidth, timer;
   addEventListener('resize', () => { if(Math.abs(innerWidth - lastW) < 40) return; lastW = innerWidth; clearTimeout(timer); timer = setTimeout(charts, 150); });
   sidebar();
